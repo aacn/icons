@@ -34,7 +34,9 @@ jobs:
         run: yarn build
 
       - name: Update npm
-        run: npm install -g npm@latest
+        run: |
+          - npm install -g npm@~11.10.0
+          - npm install -g npm@latest
 
       - name: Publish to NPM
         run: npm publish --access public
