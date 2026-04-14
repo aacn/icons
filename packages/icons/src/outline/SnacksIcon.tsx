@@ -1,6 +1,6 @@
 import type { SVGProps } from 'react';
 
-const SnacksIcon = (props: SVGProps<SVGSVGElement>) => (
+export const SnacksIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
     <path d="M14.2574 10.7886C14.5332 10.7889 14.7572 11.0128 14.7574 11.2886C14.7574 11.5646 14.5333 11.7883 14.2574 11.7886H4.14996C3.87382 11.7886 3.64996 11.5648 3.64996 11.2886C3.65014 11.0126 3.87393 10.7886 4.14996 10.7886H14.2574Z" fill="currentColor"/>
     <path d="M5.16559 6.84038C5.51544 6.84038 5.79937 7.12432 5.79938 7.47416C5.79938 7.82402 5.51544 8.10795 5.16559 8.10795C4.81583 8.10784 4.53277 7.82395 4.53277 7.47416C4.53278 7.12439 4.81583 6.84049 5.16559 6.84038Z" fill="currentColor"/>
@@ -10,4 +10,3 @@ const SnacksIcon = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default SnacksIcon;

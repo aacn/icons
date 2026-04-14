@@ -1,6 +1,6 @@
 import type { SVGProps } from 'react';
 
-const DocumentsIcon = (props: SVGProps<SVGSVGElement>) => (
+export const DocumentsIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
     <path d="M8.49609 11.3633C8.77224 11.3633 8.99609 11.5871 8.99609 11.8633C8.99609 12.1394 8.77224 12.3633 8.49609 12.3633H6.20312C5.92698 12.3633 5.70312 12.1394 5.70312 11.8633C5.70312 11.5871 5.92698 11.3633 6.20312 11.3633H8.49609Z" fill="currentColor"/>
     <path d="M10.4609 9.55371C10.7371 9.55371 10.9609 9.77757 10.9609 10.0537C10.9609 10.3299 10.7371 10.5537 10.4609 10.5537H6.20312C5.92698 10.5537 5.70312 10.3299 5.70312 10.0537C5.70312 9.77757 5.92698 9.55371 6.20312 9.55371H10.4609Z" fill="currentColor"/>
@@ -11,4 +11,3 @@ const DocumentsIcon = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default DocumentsIcon;

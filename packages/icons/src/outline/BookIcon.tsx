@@ -1,6 +1,6 @@
 import type { SVGProps } from 'react';
 
-const BookIcon = (props: SVGProps<SVGSVGElement>) => (
+export const BookIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
     <path d="M4.84473 9.42279C5.33581 9.46053 5.76336 9.52167 6.13574 9.6015C6.40563 9.65938 6.57819 9.92537 6.52051 10.1953C6.46261 10.4651 6.19659 10.6376 5.92676 10.58C5.60376 10.5108 5.22037 10.4537 4.76758 10.4189C4.49253 10.3975 4.28663 10.1578 4.30762 9.88275C4.32877 9.60742 4.5694 9.40164 4.84473 9.42279Z" fill="currentColor"/>
     <path d="M4.84766 7.37885C6.09086 7.47435 6.93291 7.72455 7.50488 8.03607C7.74711 8.16817 7.83688 8.47143 7.70508 8.71381C7.57299 8.95627 7.26885 9.04606 7.02637 8.914C6.6157 8.69035 5.92336 8.46344 4.77148 8.37494C4.49623 8.3538 4.29051 8.11404 4.31152 7.83881C4.33267 7.56355 4.57241 7.35782 4.84766 7.37885Z" fill="currentColor"/>
@@ -9,4 +9,3 @@ const BookIcon = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default BookIcon;

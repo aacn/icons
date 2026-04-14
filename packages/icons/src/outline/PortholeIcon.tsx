@@ -1,6 +1,6 @@
 import type { SVGProps } from 'react';
 
-const PortholeIcon = (props: SVGProps<SVGSVGElement>) => (
+export const PortholeIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
     <g clipPath="url(#clip0_4785_4177)">
     <path d="M11.0098 11.7617C11.6243 11.0798 12.5533 10.8657 13.3633 11.1221C13.2061 11.444 13.0136 11.7454 12.792 12.0225C12.4164 11.9895 12.0278 12.1257 11.7529 12.4307C10.9154 13.3596 9.49596 13.4186 8.58594 12.6055L8.31445 12.334C7.84262 11.9127 7.12402 11.9124 6.65234 12.334L6.38086 12.6055C6.27916 12.6963 6.16953 12.7737 6.05664 12.8428C5.77493 12.6262 5.51695 12.3797 5.28906 12.1074C5.4428 12.0552 5.58832 11.9722 5.71582 11.8584L5.9873 11.5869C6.89736 10.7738 8.31678 10.8327 9.1543 11.7617C9.65018 12.3118 10.5136 12.3114 11.0098 11.7617Z" fill="currentColor"/>
@@ -15,4 +15,3 @@ const PortholeIcon = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default PortholeIcon;
