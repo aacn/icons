@@ -14,8 +14,7 @@
     "yarn": "1.x"
   },
   "scripts": {
-    "ui:build": "yarn workspace @native-systems/ui build",
-    "fe:dev": "yarn workspace @components/frontend dev",
+    "build": "yarn workspace @native-systems/icons build",
     "clean": "rm -rf node_modules **/node_modules && rm -rf yarn.lock **/yarn.lock && yarn cache clean",
     "prepare": "husky"
   },
@@ -41,7 +40,7 @@
     "@next/eslint-plugin-next": "15.2.5",
     "@typescript-eslint/eslint-plugin": "^8.43.0",
     "@typescript-eslint/parser": "^8.43.0",
-    "eslint": "8.48.0",
+    "eslint": "9.26.0",
     "eslint-config-next": "15.2.5",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-import": "^2.32.0",

@@ -50,7 +50,7 @@
     "typescript",
     "react",
     "next",
-    "ui"
+    "icons"
   ],
   "release": {
     "branches": [
