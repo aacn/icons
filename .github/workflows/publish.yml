@@ -31,11 +31,11 @@ jobs:
         run: yarn install --frozen-lockfile
 
       - name: Build
-        run: yarn ui:build
+        run: yarn build
 
       - name: Update npm
         run: npm install -g npm@latest
 
       - name: Publish to NPM
         run: npm publish --access public
-        working-directory: packages/ui
+        working-directory: packages/icons
