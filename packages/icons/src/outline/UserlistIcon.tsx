@@ -1,6 +1,6 @@
 import type { SVGProps } from 'react';
 
-export const UserlistIcon = (props: SVGProps<SVGSVGElement>) => (
+const UserlistIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
     <g clipPath="url(#clip0_4785_3553)">
     <path d="M4.80957 16.3281C5.36213 16.3283 5.81391 16.752 5.8623 17.292C5.53974 17.439 5.18233 17.5244 4.80469 17.5244C4.43007 17.5244 4.07542 17.4408 3.75488 17.2959C3.80148 16.7539 4.25552 16.3281 4.80957 16.3281Z" fill="currentColor"/>
@@ -24,3 +24,4 @@ export const UserlistIcon = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
+export default UserlistIcon;

@@ -1,6 +1,6 @@
 import type { SVGProps } from 'react';
 
-export const SunIcon = (props: SVGProps<SVGSVGElement>) => (
+const SunIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
     <path d="M8.99219 13.25C9.26833 13.25 9.49219 13.4739 9.49219 13.75V16.1533C9.49219 16.4295 9.26833 16.6533 8.99219 16.6533C8.71605 16.6533 8.49219 16.4295 8.49219 16.1533V13.75C8.49219 13.4739 8.71605 13.25 8.99219 13.25Z" fill="currentColor"/>
     <path d="M5.28516 12.0088C5.48044 11.8138 5.79701 11.8136 5.99219 12.0088C6.18737 12.204 6.1872 12.5205 5.99219 12.7158L5.14258 13.5654C4.94732 13.7607 4.63081 13.7607 4.43555 13.5654C4.24028 13.3702 4.24028 13.0537 4.43555 12.8584L5.28516 12.0088Z" fill="currentColor"/>
@@ -14,3 +14,4 @@ export const SunIcon = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
+export default SunIcon;

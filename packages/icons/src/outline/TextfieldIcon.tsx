@@ -1,6 +1,6 @@
 import type { SVGProps } from 'react';
 
-export const TextfieldIcon = (props: SVGProps<SVGSVGElement>) => (
+const TextfieldIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
     <path d="M3 12.25C3.27614 12.25 3.5 12.4739 3.5 12.75V14C3.5 14.2761 3.72386 14.5 4 14.5H5.25C5.52614 14.5 5.75 14.7239 5.75 15C5.75 15.2761 5.52614 15.5 5.25 15.5H4C3.17157 15.5 2.5 14.8284 2.5 14V12.75C2.5 12.4739 2.72386 12.25 3 12.25Z" fill="currentColor"/>
     <path d="M10.25 14.5C10.5261 14.5 10.75 14.7239 10.75 15C10.75 15.2761 10.5261 15.5 10.25 15.5H7.75C7.47386 15.5 7.25 15.2761 7.25 15C7.25 14.7239 7.47386 14.5 7.75 14.5H10.25Z" fill="currentColor"/>
@@ -14,3 +14,4 @@ export const TextfieldIcon = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
+export default TextfieldIcon;

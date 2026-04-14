@@ -1,6 +1,6 @@
 import type { SVGProps } from 'react';
 
-export const MultiplyChoiceIcon = (props: SVGProps<SVGSVGElement>) => (
+const MultiplyChoiceIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
     <path fillRule="evenodd" clipRule="evenodd" d="M6.87988 12.7061C7.38401 12.7574 7.77734 13.1835 7.77734 13.7012V16.166L7.77246 16.2686C7.72456 16.739 7.35031 17.1132 6.87988 17.1611L6.77734 17.166H4.3125C3.79482 17.166 3.36871 16.7727 3.31738 16.2686L3.3125 16.166V13.7012C3.3125 13.1489 3.76022 12.7012 4.3125 12.7012H6.77734L6.87988 12.7061ZM4.3125 16.166H6.77734V13.7012H4.3125V16.166Z" fill="currentColor"/>
     <path d="M14.6875 14.1836C15.1017 14.1836 15.4375 14.5194 15.4375 14.9336C15.4375 15.3478 15.1017 15.6836 14.6875 15.6836H9.85938C9.44516 15.6836 9.10937 15.3478 9.10938 14.9336C9.10938 14.5194 9.44516 14.1836 9.85938 14.1836H14.6875Z" fill="currentColor"/>
@@ -11,3 +11,4 @@ export const MultiplyChoiceIcon = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
+export default MultiplyChoiceIcon;

@@ -1,6 +1,6 @@
 import type { SVGProps } from 'react';
 
-export const DateIcon = (props: SVGProps<SVGSVGElement>) => (
+const DateIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
     <path d="M5.92578 11.4346C6.37628 11.4348 6.74121 11.8004 6.74121 12.251C6.741 12.7014 6.37615 13.0662 5.92578 13.0664C5.47523 13.0664 5.10958 12.7015 5.10938 12.251C5.10938 11.8003 5.4751 11.4346 5.92578 11.4346Z" fill="currentColor"/>
     <path d="M8.99609 11.4346C9.4466 11.4348 9.81152 11.8004 9.81152 12.251C9.81132 12.7014 9.44647 13.0662 8.99609 13.0664C8.54554 13.0664 8.17989 12.7015 8.17969 12.251C8.17969 11.8003 8.54542 11.4346 8.99609 11.4346Z" fill="currentColor"/>
@@ -12,3 +12,4 @@ export const DateIcon = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
+export default DateIcon;

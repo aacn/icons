@@ -1,6 +1,6 @@
 import type { SVGProps } from 'react';
 
-export const LivemodusOnIcon = (props: SVGProps<SVGSVGElement>) => (
+const LivemodusOnIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
     <path d="M3.80778 3.85051C4.00294 3.65549 4.31956 3.65562 4.51481 3.85051C4.70997 4.04578 4.71004 4.36329 4.51481 4.55851C2.07866 6.99516 2.07841 10.9453 4.51481 13.3818C4.71007 13.577 4.71007 13.8935 4.51481 14.0888C4.31954 14.2839 4.003 14.284 3.80778 14.0888C0.980732 11.2617 0.980748 6.67765 3.80778 3.85051Z" fill="currentColor"/>
     <path d="M13.4797 3.70891C13.6749 3.51367 13.9914 3.51373 14.1867 3.70891C17.0138 6.536 17.0136 11.119 14.1867 13.9462C13.9914 14.1415 13.6749 14.1415 13.4797 13.9462C13.2848 13.7509 13.2845 13.4343 13.4797 13.2392C15.9161 10.8025 15.9162 6.8525 13.4797 4.41594C13.2845 4.22071 13.2845 3.90415 13.4797 3.70891Z" fill="currentColor"/>
@@ -9,3 +9,4 @@ export const LivemodusOnIcon = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
+export default LivemodusOnIcon;

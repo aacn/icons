@@ -1,6 +1,6 @@
 import type { SVGProps } from 'react';
 
-export const Programm3Icon = (props: SVGProps<SVGSVGElement>) => (
+const Programm3Icon = (props: SVGProps<SVGSVGElement>) => (
   <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
     <path d="M7.41895 11.8115C7.97163 11.8116 8.42418 12.2353 8.47266 12.7754C8.15002 12.9226 7.79281 13.0077 7.41504 13.0078C7.04019 13.0078 6.68497 12.9243 6.36426 12.7793C6.41084 12.2372 6.86482 11.8115 7.41895 11.8115Z" fill="currentColor"/>
     <path d="M12.1377 10.8105C12.7445 10.8105 13.2363 11.3024 13.2363 11.9092C13.2363 12.5159 12.7445 13.0078 12.1377 13.0078C11.5309 13.0078 11.0391 12.5159 11.0391 11.9092C11.0391 11.3024 11.5309 10.8105 12.1377 10.8105Z" fill="currentColor"/>
@@ -11,3 +11,4 @@ export const Programm3Icon = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
+export default Programm3Icon;

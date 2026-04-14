@@ -1,6 +1,6 @@
 import type { SVGProps } from 'react';
 
-export const MelonIcon = (props: SVGProps<SVGSVGElement>) => (
+const MelonIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
     <path d="M8.43486 11.3564C8.71077 11.3463 8.94318 11.562 8.95341 11.8379L8.99638 13.0137C9.00628 13.2894 8.79065 13.521 8.51494 13.5312C8.2392 13.5412 8.0076 13.3256 7.99736 13.0498L7.95341 11.875C7.94324 11.5991 8.15896 11.3667 8.43486 11.3564Z" fill="currentColor"/>
     <path d="M10.9847 10.4854C11.2036 10.3172 11.5176 10.3582 11.6858 10.5771L12.4026 11.5098C12.5707 11.7287 12.5287 12.0427 12.3099 12.2109C12.091 12.3788 11.7779 12.3377 11.6097 12.1191L10.8929 11.1865C10.7247 10.9676 10.7658 10.6536 10.9847 10.4854Z" fill="currentColor"/>
@@ -12,3 +12,4 @@ export const MelonIcon = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
+export default MelonIcon;

@@ -1,6 +1,6 @@
 import type { SVGProps } from 'react';
 
-export const CabinIcon = (props: SVGProps<SVGSVGElement>) => (
+const CabinIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
     <path d="M4.10254 7.53323C4.13751 7.58736 4.17375 7.67919 4.17383 7.80374C4.17375 7.92807 4.13746 8.02008 4.10254 8.07424C4.06764 8.02007 4.03133 7.92801 4.03125 7.80374C4.03132 7.67925 4.06758 7.58737 4.10254 7.53323Z" fill="currentColor"/>
     <path d="M7.29004 6.40041C7.32501 6.45454 7.36125 6.54638 7.36133 6.67092C7.36125 6.79526 7.32496 6.88727 7.29004 6.94143C7.25514 6.88726 7.21883 6.7952 7.21875 6.67092C7.21882 6.54644 7.25508 6.45455 7.29004 6.40041Z" fill="currentColor"/>
@@ -8,3 +8,4 @@ export const CabinIcon = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
+export default CabinIcon;

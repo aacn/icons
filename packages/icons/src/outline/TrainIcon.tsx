@@ -1,6 +1,6 @@
 import type { SVGProps } from 'react';
 
-export const TrainIcon = (props: SVGProps<SVGSVGElement>) => (
+const TrainIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
     <rect x="5.72198" y="9.79034" width="0.850206" height="0.850206" rx="0.425103" stroke="currentColor" strokeWidth="0.850206"/>
     <rect x="11.3939" y="9.79034" width="0.850206" height="0.850206" rx="0.425103" stroke="currentColor" strokeWidth="0.850206"/>
@@ -15,3 +15,4 @@ export const TrainIcon = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
+export default TrainIcon;

@@ -1,6 +1,6 @@
 import type { SVGProps } from 'react';
 
-export const EconomyIcon = (props: SVGProps<SVGSVGElement>) => (
+const EconomyIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
     <ellipse cx="4.32221" cy="10.1569" rx="2.36909" ry="1.24769" stroke="currentColor"/>
     <ellipse cx="9.05659" cy="13.275" rx="2.36909" ry="1.24769" stroke="currentColor"/>
@@ -13,3 +13,4 @@ export const EconomyIcon = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
+export default EconomyIcon;

@@ -1,6 +1,6 @@
 import type { SVGProps } from 'react';
 
-export const TravelIcon = (props: SVGProps<SVGSVGElement>) => (
+const TravelIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
     <path d="M13.9241 6.72572C14.8982 7.86087 15.4868 9.33654 15.4868 10.9497C15.4868 14.5337 12.5814 17.4392 8.99731 17.4392C5.41326 17.4392 2.50781 14.5337 2.50781 10.9497C2.50781 8.05138 4.4078 5.59684 7.03018 4.76367" stroke="currentColor" strokeLinecap="round"/>
     <path d="M12.3906 10.7861L13.4035 11.1509" stroke="currentColor" strokeLinecap="round"/>
@@ -10,3 +10,4 @@ export const TravelIcon = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
+export default TravelIcon;

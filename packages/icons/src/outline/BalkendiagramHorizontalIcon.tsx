@@ -1,6 +1,6 @@
 import type { SVGProps } from 'react';
 
-export const BalkendiagramHorizontalIcon = (props: SVGProps<SVGSVGElement>) => (
+const BalkendiagramHorizontalIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
     <path d="M14.9453 13.7891C15.2215 13.7891 15.4453 14.0129 15.4453 14.2891C15.4453 14.5652 15.2215 14.7891 14.9453 14.7891H3.04688C2.77073 14.7891 2.54687 14.5652 2.54688 14.2891C2.54688 14.0129 2.77073 13.7891 3.04688 13.7891H14.9453Z" fill="currentColor"/>
     <path d="M4.69727 5.53125C5.52548 5.53151 6.19727 6.20298 6.19727 7.03125V11.2314C6.19711 12.0596 5.52538 12.7312 4.69727 12.7314H4.04688C3.21854 12.7314 2.54703 12.0597 2.54688 11.2314V7.03125C2.54688 6.20282 3.21845 5.53125 4.04688 5.53125H4.69727Z" fill="currentColor"/>
@@ -9,3 +9,4 @@ export const BalkendiagramHorizontalIcon = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
+export default BalkendiagramHorizontalIcon;

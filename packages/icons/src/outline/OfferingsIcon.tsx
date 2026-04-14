@@ -1,6 +1,6 @@
 import type { SVGProps } from 'react';
 
-export const OfferingsIcon = (props: SVGProps<SVGSVGElement>) => (
+const OfferingsIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
     <path fillRule="evenodd" clipRule="evenodd" d="M5.76146 13.7373C6.51232 13.814 7.09836 14.4486 7.09837 15.2198L7.09056 15.3721C7.0141 16.1229 6.38 16.7086 5.60911 16.709L5.45677 16.7012C4.75557 16.6301 4.19809 16.0732 4.12669 15.3721L4.11888 15.2198C4.11889 14.3969 4.7863 13.7295 5.60911 13.7295L5.76146 13.7373ZM5.60911 14.7295C5.33858 14.7295 5.11889 14.9492 5.11888 15.2198C5.11908 15.4901 5.3387 15.709 5.60911 15.709C5.87915 15.7086 6.09817 15.4898 6.09837 15.2198C6.09836 14.9495 5.87927 14.73 5.60911 14.7295Z" fill="currentColor"/>
     <path d="M16.1452 14.4688C16.5592 14.4691 16.8952 14.8048 16.8952 15.2188C16.8952 15.6328 16.5592 15.9685 16.1452 15.9688H9.36888C8.95467 15.9688 8.61888 15.633 8.61888 15.2188C8.61889 14.8046 8.95467 14.4688 9.36888 14.4688H16.1452Z" fill="currentColor"/>
@@ -11,3 +11,4 @@ export const OfferingsIcon = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
+export default OfferingsIcon;

@@ -1,6 +1,6 @@
 import type { SVGProps } from 'react';
 
-export const PaperplaneIcon2 = (props: SVGProps<SVGSVGElement>) => (
+const PaperplaneIcon2 = (props: SVGProps<SVGSVGElement>) => (
   <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
     <g clipPath="url(#clip0_4785_3933)">
     <path d="M1.2042 13.6473C1.43049 13.4894 1.74234 13.5452 1.90049 13.7714C2.0581 13.9975 2.00312 14.3085 1.77744 14.4667L1.40342 14.7284C1.17708 14.8864 0.865251 14.8306 0.707129 14.6044C0.549456 14.3782 0.604437 14.0672 0.830176 13.909L1.2042 13.6473Z" fill="currentColor"/>
@@ -16,3 +16,4 @@ export const PaperplaneIcon2 = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
+export default PaperplaneIcon2;
