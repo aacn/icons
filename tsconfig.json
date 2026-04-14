@@ -1,12 +1,19 @@
 {
-  "files": [],
-  "references": [
-    { "path": "packages/icons"}
-  ],
   "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "@native-systems/icons": ["packages/icons/src"]
-    }
-  }
+    "outDir": "dist",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "composite": true,
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "target": "ES2018",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true
+  },
+  "include": ["src"],
+  "exclude": ["dist", "node_modules", "**/*.test.ts", "**/*.spec.ts"]
 }
