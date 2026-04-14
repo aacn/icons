@@ -1,6 +1,6 @@
 import type { SVGProps } from 'react';
 
-const LiveausgabeOffIcon = (props: SVGProps<SVGSVGElement>) => (
+export const LiveausgabeOffIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
     <path d="M4.83887 7.38477C4.62132 7.87871 4.50005 8.42466 4.5 8.99902C4.5 11.2136 6.2952 13.0096 8.50977 13.0098C9.08469 13.0098 9.6306 12.8869 10.125 12.6689L10.873 13.416C10.1688 13.7937 9.36477 14.0098 8.50977 14.0098L8.25195 14.0029C5.60492 13.8686 3.5 11.6794 3.5 8.99902C3.50006 8.14481 3.71379 7.34047 4.09082 6.63672L4.83887 7.38477Z" fill="currentColor"/>
     <path d="M3.80273 4.32422C3.99797 4.12899 4.31449 4.12902 4.50977 4.32422L13.1504 12.9619C13.3455 13.1572 13.3455 13.4737 13.1504 13.6689C12.9552 13.864 12.6386 13.864 12.4434 13.6689L3.80273 5.03125C3.6075 4.83602 3.60753 4.5195 3.80273 4.32422Z" fill="currentColor"/>
@@ -10,4 +10,3 @@ const LiveausgabeOffIcon = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default LiveausgabeOffIcon;

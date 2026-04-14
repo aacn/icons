@@ -1,6 +1,6 @@
 import type { SVGProps } from 'react';
 
-const CocktailIcon = (props: SVGProps<SVGSVGElement>) => (
+export const CocktailIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
     <path d="M8.48039 9.52972L13.0731 5.04191C13.2655 4.85395 13.1324 4.52734 12.8635 4.52734H3.66173C3.38616 4.52734 3.25638 4.86769 3.46197 5.05117L8.48039 9.52972ZM8.48039 9.52972V14.8841" stroke="currentColor" strokeLinecap="round"/>
     <path d="M10.4531 4.52817C10.4531 3.05316 11.6489 1.85742 13.1239 1.85742C14.5989 1.85742 15.7946 3.05316 15.7946 4.52817C15.7946 6.00319 14.5989 7.19892 13.1239 7.19892C12.6945 7.19892 11.9879 7.08038 11.4546 6.39263" stroke="currentColor"/>
@@ -9,4 +9,3 @@ const CocktailIcon = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default CocktailIcon;

@@ -1,6 +1,6 @@
 import type { SVGProps } from 'react';
 
-const BalkendiagramVertikalIcon = (props: SVGProps<SVGSVGElement>) => (
+export const BalkendiagramVertikalIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
     <path d="M9.14844 11.7998C9.97686 11.7998 10.6484 12.4714 10.6484 13.2998V13.9502C10.6482 14.7784 9.97671 15.4502 9.14844 15.4502H6.34375C5.51569 15.45 4.84401 14.7783 4.84375 13.9502V13.2998C4.84375 12.4715 5.51553 11.8 6.34375 11.7998H9.14844Z" fill="currentColor"/>
     <path d="M3.29688 2.5498C3.57302 2.5498 3.79688 2.77366 3.79688 3.0498V14.9482C3.79687 15.2244 3.57302 15.4482 3.29688 15.4482C3.02073 15.4482 2.79687 15.2244 2.79688 14.9482V3.0498C2.79688 2.77366 3.02073 2.5498 3.29688 2.5498Z" fill="currentColor"/>
@@ -9,4 +9,3 @@ const BalkendiagramVertikalIcon = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default BalkendiagramVertikalIcon;
