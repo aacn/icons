@@ -1,0 +1,13 @@
+{
+  "files": [],
+  "references": [
+    { "path": "packages/icons"},
+    { "path": "packages/frontend" }
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@native-systems/ui": ["packages/ui/src"]
+    }
+  }
+}

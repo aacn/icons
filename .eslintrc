@@ -1,0 +1,66 @@
+{
+  "root": true,
+  "extends": ["next/core-web-vitals"],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@aacn.eu/tailwind-classname-order", "unused-imports", "import"],
+  "rules": {
+    "@aacn.eu/tailwind-classname-order/order": 1,
+    "@next/next/no-img-element": 0,
+    "react-hooks/exhaustive-deps": 0,
+    "unused-imports/no-unused-imports": "warn",
+    "import/newline-after-import": [
+      "error",
+      {
+        "count": 1
+      }
+    ],
+    "import/order": [
+      "warn",
+      {
+        "groups": [
+          "builtin",
+          "external",
+          "internal",
+          "parent",
+          "sibling",
+          "index",
+          "object",
+          "type"
+        ],
+        "pathGroups": [
+          {
+            "pattern": "react",
+            "group": "builtin",
+            "position": "after"
+          },
+          {
+            "pattern": "next",
+            "group": "builtin",
+            "position": "after"
+          }
+        ],
+        "pathGroupsExcludedImportTypes": [],
+        "newlines-between": "always",
+        "alphabetize": {
+          "order": "asc",
+          "caseInsensitive": true
+        }
+      }
+    ],
+    "no-restricted-imports": [
+      "error",
+      {
+        "patterns": [
+          {
+            "group": ["@components/frontend/**/*"],
+            "message": "Cross importing from the playground package is forbidden."
+          }
+        ]
+      }
+    ]
+  },
+  "ignorePatterns": [
+    "node_modules",
+    "dist"
+  ]
+}

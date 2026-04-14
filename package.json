@@ -1,0 +1,53 @@
+{
+  "name": "@native-systems/icons",
+  "version": "1.0.0",
+  "private": true,
+  "author": "AACN Software- und Systementwicklung GmbH",
+  "homepage": "https://github.com/aacn/components#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/aacn/components.git"
+  },
+  "engines": {
+    "node": "22.x",
+    "npm": "please-use-yarn",
+    "yarn": "1.x"
+  },
+  "scripts": {
+    "ui:build": "yarn workspace @native-systems/ui build",
+    "fe:dev": "yarn workspace @components/frontend dev",
+    "clean": "rm -rf node_modules **/node_modules && rm -rf yarn.lock **/yarn.lock && yarn cache clean",
+    "prepare": "husky"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**react**",
+      "**next**"
+    ]
+  },
+  "dependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.2",
+    "yarn": "^1.22.22"
+  },
+  "devDependencies": {
+    "@aacn.eu/eslint-plugin-tailwind-classname-order": "^0.4.4",
+    "@babel/core": "^7.28.3",
+    "@babel/eslint-parser": "^7.28.0",
+    "@babel/eslint-plugin": "^7.27.1",
+    "@next/eslint-plugin-next": "15.2.5",
+    "@typescript-eslint/eslint-plugin": "^8.43.0",
+    "@typescript-eslint/parser": "^8.43.0",
+    "eslint": "8.48.0",
+    "eslint-config-next": "15.2.5",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-unused-imports": "^4.2.0",
+    "prettier": "^3.6.2"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}
