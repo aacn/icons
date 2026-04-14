@@ -1,7 +1,7 @@
 {
   "name": "@native-systems/icons",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "author": "AACN Software- und Systementwicklung GmbH",
   "homepage": "https://github.com/aacn/components#readme",
   "repository": {
