@@ -2,11 +2,11 @@ import type { SVGProps } from 'react';
 
 export const BathIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
+    xmlns="http://www.w3.org/2000/svg"
     width="18"
     height="18"
     viewBox="0 0 18 18"
     fill="none"
-    xmlns="http://www.w3.org/2000/svg"
     {...props}
   >
     <g clipPath="url(#clip0_4727_3153)">
