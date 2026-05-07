@@ -5,12 +5,12 @@
   "homepage": "https://github.com/aacn/icons#readme",
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com:aacn/icons.git"
+    "url": "git+ssh://git@github.com/aacn/icons.git"
   },
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.0.1",
+  "version": "1.1.0",
   "license": "MIT",
   "private": false,
   "engines": {
