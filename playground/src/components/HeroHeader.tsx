@@ -38,6 +38,7 @@ export function HeroHeader({
               }
             >
               <option value="latest">latest</option>
+              <option value="2.0.0">v2.0.0</option>
               <option value="1.2.1">v1.2.1</option>
             </select>
           </label>

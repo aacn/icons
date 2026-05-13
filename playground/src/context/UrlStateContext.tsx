@@ -20,7 +20,9 @@ function parseInitialUrlState() {
   const categoryParam = params.get('category');
 
   const version: VersionOption =
-    versionParam === '1.2.1' || versionParam === 'latest'
+    versionParam === '1.2.1' ||
+    versionParam === '2.0.0' ||
+    versionParam === 'latest'
       ? versionParam
       : 'latest';
 

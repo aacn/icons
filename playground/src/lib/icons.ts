@@ -1,6 +1,7 @@
 import type { ComponentType, SVGProps } from 'react';
 import * as IconsLatest from '@native-systems/icons';
 import IconsV121 from 'icons-v121';
+import * as IconsV200 from 'icons-v200';
 
 export type IconComponent = ComponentType<SVGProps<SVGSVGElement>>;
 
@@ -20,13 +21,13 @@ export type Category = {
   icons: Array<IconEntry>;
 };
 
-export type VersionOption = 'latest' | '1.2.1';
+export type VersionOption = 'latest' | '2.0.0' | '1.2.1';
 
 type IconModule = {
   Outline?: Record<string, unknown>;
   Filled?: Record<string, unknown>;
   Chars?: Record<string, unknown>;
-  default?: Record<string, unknown>;
+  default?: unknown;
 };
 
 function toKebabLabel(iconName: string): string {
@@ -57,7 +58,11 @@ function toIconEntries(iconModule: Record<string, unknown>): Array<IconEntry> {
     .sort((a, b) => a.name.localeCompare(b.name));
 }
 
-function emptyCategory(id: CategoryId, title: string, subtitle: string): Category {
+function emptyCategory(
+  id: CategoryId,
+  title: string,
+  subtitle: string
+): Category {
   return { id, title, subtitle, icons: [] };
 }
 
@@ -84,7 +89,26 @@ function buildLatestCategories(iconModule: IconModule): Array<Category> {
   ];
 }
 
-function buildLegacyCategories(iconModule: Record<string, unknown>): Array<Category> {
+function resolveModernIconModule(maybeModule: unknown): IconModule {
+  const module = maybeModule as IconModule;
+  if (module.Outline || module.Filled || module.Chars) {
+    return module;
+  }
+
+  const defaultModule = module.default as IconModule | undefined;
+  if (
+    defaultModule &&
+    (defaultModule.Outline || defaultModule.Filled || defaultModule.Chars)
+  ) {
+    return defaultModule;
+  }
+
+  return module;
+}
+
+function buildLegacyCategories(
+  iconModule: Record<string, unknown>
+): Array<Category> {
   return [
     {
       id: 'outline',
@@ -99,9 +123,14 @@ function buildLegacyCategories(iconModule: Record<string, unknown>): Array<Categ
 
 export function buildCategories(version: VersionOption): Array<Category> {
   if (version === 'latest') {
-    return buildLatestCategories(IconsLatest as IconModule);
+    return buildLatestCategories(resolveModernIconModule(IconsLatest));
   }
 
-  const legacyIcons = (IconsV121 as IconModule).default ?? (IconsV121 as Record<string, unknown>);
+  if (version === '2.0.0') {
+    return buildLatestCategories(resolveModernIconModule(IconsV200));
+  }
+
+  const legacyIcons = ((IconsV121 as IconModule).default ??
+    IconsV121) as Record<string, unknown>;
   return buildLegacyCategories(legacyIcons);
 }
