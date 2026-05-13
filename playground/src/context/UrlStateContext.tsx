@@ -24,7 +24,9 @@ function parseInitialUrlState() {
       ? versionParam
       : 'latest';
 
-  const category: CategoryId = CATEGORY_ORDER.includes(categoryParam as CategoryId)
+  const category: CategoryId = CATEGORY_ORDER.includes(
+    categoryParam as CategoryId
+  )
     ? (categoryParam as CategoryId)
     : 'outline';
 
@@ -46,7 +48,7 @@ export function UrlStateProvider({ children }: { children: React.ReactNode }) {
     initial.category
   );
   const [query, setQuery] = useState<string>(initial.query);
-  const [selectedIconName, setSelectedIconName] = useState<string | null>(
+  const [selectedIconName, _setSelectedIconName] = useState<string | null>(
     initial.icon
   );
 
@@ -68,6 +70,15 @@ export function UrlStateProvider({ children }: { children: React.ReactNode }) {
     window.history.replaceState(null, '', nextUrl);
   }, [version, selectedCategoryId, query, selectedIconName]);
 
+  function setSelectedIconName(icon: string | null) {
+    if (selectedIconName === icon) {
+      _setSelectedIconName(null);
+      return;
+    }
+
+    _setSelectedIconName(icon);
+  }
+
   const value = useMemo<UrlStateContextValue>(() => {
     return {
       version,
@@ -82,7 +93,9 @@ export function UrlStateProvider({ children }: { children: React.ReactNode }) {
   }, [version, selectedCategoryId, query, selectedIconName]);
 
   return (
-    <UrlStateContext.Provider value={value}>{children}</UrlStateContext.Provider>
+    <UrlStateContext.Provider value={value}>
+      {children}
+    </UrlStateContext.Provider>
   );
 }
 

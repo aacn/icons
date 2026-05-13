@@ -22,6 +22,7 @@ function AppContent() {
   const [showToTop, setShowToTop] = useState<boolean>(false);
   const [isStickyActive, setIsStickyActive] = useState<boolean>(false);
   const shellRef = useRef<HTMLElement | null>(null);
+  const hasScrolledToPreselectedRef = useRef<boolean>(false);
 
   useEffect(() => {
     const onScroll = () => {
@@ -88,6 +89,20 @@ function AppContent() {
 
   const selectedCategory = categories[selectedIndex] ?? categories[0];
   const selectedCategoryIcons = filteredByCategory[selectedIndex] ?? [];
+
+  useEffect(() => {
+    if (!selectedIconName || hasScrolledToPreselectedRef.current) {
+      return;
+    }
+
+    const selector = `[data-icon-name="${CSS.escape(selectedIconName)}"]`;
+    const element = document.querySelector<HTMLElement>(selector);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      hasScrolledToPreselectedRef.current = true;
+    }
+  }, [selectedIconName, filteredByCategory, selectedIndex]);
+
 
   return (
     <div className="min-h-screen bg-[radial-gradient(circle_at_92%_5%,#ece9ff_0%,transparent_34%),radial-gradient(circle_at_12%_15%,#e6f6ff_0%,transparent_28%),#f8fafc] text-slate-900">
