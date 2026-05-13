@@ -22,7 +22,7 @@ export function IOSPushPreviewIcon({
     >
       <path
         d="M0.992188 90.9999V187.988H581.338V91C581.338 41.8467 541.492 2 492.338 2H89.9922C40.8389 2 0.992188 41.8466 0.992188 90.9999Z"
-        fill="white"
+        fill="currentColor"
       />
       <path
         d="M2 187.988V90.9999C2 41.8466 41.8467 2 91 2H493.346C542.499 2 582.346 41.8467 582.346 91V187.988"
@@ -60,7 +60,7 @@ export function IOSPushPreviewIcon({
             y="187.988"
             width="580.3458"
             height={extension}
-            fill="white"
+            fill="currentColor"
           />
           <line
             x1="2"

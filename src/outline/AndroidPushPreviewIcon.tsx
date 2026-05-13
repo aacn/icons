@@ -22,7 +22,7 @@ export function AndroidPushPreviewIcon({
     >
       <path
         d="M2 76.0001V187.988H582.346V76.0001C582.346 35.1311 549.258 2.00019 508.389 2.00015L292.173 2L75.9573 2.00015C35.0882 2.00019 2 35.1311 2 76.0001Z"
-        fill="white"
+        fill="currentColor"
       />
       <path
         d="M2 187.988V75.9999C2 35.1309 35.1309 2 76 2H508.346C549.215 2 582.346 35.1309 582.346 76V187.988"
@@ -59,7 +59,7 @@ export function AndroidPushPreviewIcon({
             y="187.988"
             width="580.346"
             height={extension}
-            fill="white"
+            fill="currentColor"
           />
           <line
             x1="2"

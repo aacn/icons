@@ -16,7 +16,7 @@ const HorizontalBarChartIcon = (props: SVGProps<SVGSVGElement>) => (
       height="6.802"
       rx="1"
       transform="rotate(90 12.1562 3.0498)"
-      stroke="white"
+      stroke="currentColor"
     />
     <rect
       x="10.1484"
@@ -25,8 +25,8 @@ const HorizontalBarChartIcon = (props: SVGProps<SVGSVGElement>) => (
       height="4.80424"
       rx="1"
       transform="rotate(90 10.1484 12.2998)"
-      fill="white"
-      stroke="white"
+      fill="currentColor"
+      stroke="currentColor"
     />
     <rect
       x="14.7031"
@@ -35,11 +35,11 @@ const HorizontalBarChartIcon = (props: SVGProps<SVGSVGElement>) => (
       height="9.34903"
       rx="1"
       transform="rotate(90 14.7031 7.6748)"
-      stroke="white"
+      stroke="currentColor"
     />
     <path
       d="M3.29688 3.0498L3.29687 14.9482"
-      stroke="white"
+      stroke="currentColor"
       strokeLinecap="round"
     />
   </svg>

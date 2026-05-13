@@ -15,16 +15,16 @@ const DecimalPlacesZeroIcon = (props: SVGProps<SVGSVGElement>) => (
       width="16.043"
       height="16.04"
       rx="2"
-      stroke="white"
+      stroke="currentColor"
     />
     <path
       d="M7.14844 6.41211L10.852 11.5898"
-      stroke="white"
+      stroke="currentColor"
       strokeLinecap="round"
     />
     <path
       d="M10.8438 6.41211L7.1402 11.5898"
-      stroke="white"
+      stroke="currentColor"
       strokeLinecap="round"
     />
   </svg>

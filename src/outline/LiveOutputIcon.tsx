@@ -10,8 +10,8 @@ function LiveOutputIcon(props: SVGProps<SVGSVGElement>) {
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
-      <circle cx="8.96882" cy="8.99812" r="2.65632" fill="white" />
-      <circle cx="8.99447" cy="8.99936" r="4.5101" stroke="white" />
+      <circle cx="8.96882" cy="8.99812" r="2.65632" fill="currentColor" />
+      <circle cx="8.99447" cy="8.99936" r="4.5101" stroke="currentColor" />
     </svg>
   );
 }
