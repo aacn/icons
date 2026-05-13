@@ -1,6 +1,6 @@
 import type { SVGProps } from 'react';
 
-export const Attention2Icon = (props: SVGProps<SVGSVGElement>) => (
+export const CheckCircleIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="18"

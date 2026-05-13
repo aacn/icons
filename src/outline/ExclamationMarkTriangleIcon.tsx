@@ -1,6 +1,6 @@
 import type { SVGProps } from 'react';
 
-export const AttentionIcon = (props: SVGProps<SVGSVGElement>) => (
+export const ExclamationMarkTriangleIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="18"
