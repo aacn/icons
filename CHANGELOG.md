@@ -4,6 +4,48 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.2.0] - 2026-05-13
+
+This release continues the icon naming standardization, especially around compound
+English names and chart-related icons. It also removes several deprecated or duplicated
+animation and chart icons.
+
+## Changed
+
+### Renamed Icons
+
+#### Chars
+
+- `CharacterExclamationmarkIcon` → `CharacterExclamationMarkIcon`
+- `CharacterQuestionmarkIcon` → `CharacterQuestionMarkIcon`
+- `QuestionmarkExclamationmarkIcon` → `QuestionExclamationMarkIcon`
+
+#### Outline
+
+- `AnimationAltIcon` → `AnimationAltOnIcon`
+- `AnimationOffAltIcon` → `AnimationAltOffIcon`
+- `Animation2OffIcon` → `AnimationOffIcon`
+- `Animation2OnIcon` → `AnimationOnIcon`
+- `BalkendiagramHorizontalIcon` → `BarChartHorizontalIcon`
+- `BalkendiagramVertikalIcon` → `BarChartVerticalIcon`
+- `Attention2Icon` → `CheckCircleIcon`
+- `Kreis1Icon` → `Circle1Icon`
+- `Kreis2Icon` → `Circle2Icon`
+- `TimeIcon` → `ClockIcon`
+- `Attention1Icon` → `ExclamationMarkCircleIcon`
+- `AttentionIcon` → `ExclamationMarkTriangleIcon`
+- `PointDiagramIcon` → `PointChartIcon`
+
+## Removed
+
+- `AnimationIcon`
+- `CallIcon`
+- `HalbkreisdiagramIcon`
+- `HorizontalBarChartIcon`
+- `KeyAltIcon`
+- `KreisdiagramIcon`
+- `VerticalBarChartIcon`
+
 ## [2.1.0] - 2026-05-13
 
 This release introduces a broad icon naming standardization across the library,
@@ -16,11 +58,11 @@ deprecated icon removals and new additions to the playground and icon set.
 
 #### Chars
 
-- `CharacterAusrufezeichenIcon` → `CharacterExclamationmarkIcon`
+- `CharacterAusrufezeichenIcon` → `CharacterExclamationMarkIcon`
 - `CharacterProzentIcon` → `CharacterPercentIcon`
 - `CharacterPfundIcon` → `CharacterPoundIcon`
-- `CharacterFragezeichenIcon` → `CharacterQuestionmarkIcon`
-- `FragezeichenAusrufezeichenIcon` → `QuestionmarkExclamationmarkIcon`
+- `CharacterFragezeichenIcon` → `CharacterQuestionMarkIcon`
+- `FragezeichenAusrufezeichenIcon` → `QuestionExclamationMarkIcon`
 
 #### Filled
 
@@ -62,7 +104,7 @@ deprecated icon removals and new additions to the playground and icon set.
 - `PaypalPpIcon` → `PaypalSmallIcon`
 - `SmartphonesettingsIcon` → `PhoneSettingsIcon`
 - `Navigation2Icon` → `PinIcon`
-- `PunktdiagramIcon` → `PointDiagramIcon`
+- `PunktdiagramIcon` → `PointChartIcon`
 - `Programm2Icon` → `Program2Icon`
 - `Programm3Icon` → `Program3Icon`
 - `ProgrammIcon` → `ProgramIcon`

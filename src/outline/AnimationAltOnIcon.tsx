@@ -1,6 +1,6 @@
 import type { SVGProps } from 'react';
 
-function AnimationAltIcon(props: SVGProps<SVGSVGElement>) {
+function AnimationAltOnIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       width="18"
@@ -22,4 +22,4 @@ function AnimationAltIcon(props: SVGProps<SVGSVGElement>) {
   );
 }
 
-export { AnimationAltIcon };
+export { AnimationAltOnIcon };

@@ -1,6 +1,6 @@
 import type { SVGProps } from 'react';
 
-export const CharacterExclamationmarkIcon = (
+export const CharacterExclamationMarkIcon = (
   props: SVGProps<SVGSVGElement>
 ) => (
   <svg
