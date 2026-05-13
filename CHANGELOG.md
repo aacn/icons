@@ -1,14 +1,113 @@
-
 # Changelog
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.1.0] - 2026-05-13
+
+This release introduces a broad icon naming standardization across the library,
+improving consistency, readability, and discoverability. It also includes several
+deprecated icon removals and new additions to the playground and icon set.
+
+## Changed
+
+### Renamed Icons
+
+#### Chars
+
+- `CharacterAusrufezeichenIcon` → `CharacterExclamationmarkIcon`
+- `CharacterProzentIcon` → `CharacterPercentIcon`
+- `CharacterPfundIcon` → `CharacterPoundIcon`
+- `CharacterFragezeichenIcon` → `CharacterQuestionmarkIcon`
+- `FragezeichenAusrufezeichenIcon` → `QuestionmarkExclamationmarkIcon`
+
+#### Filled
+
+- `outline/HouseIcon` → `filled/HouseIcon`
+
+#### Outline
+
+- `BatteryincludedIcon` → `BatteryIncludedIcon`
+- `CarEstatecarIcon` → `CarEstateCarIcon`
+- `CardIcon` → `CartIcon`
+- `DownIcon` → `ChevronDownIcon`
+- `SideIcon` → `ChevronRightIcon`
+- `ToothwheelIcon` → `CogwheelIcon`
+- `RestaurantIcon` → `Cutlery2Icon`
+- `CultureIcon` → `EarthIcon`
+- `FamilieIcon` → `FamilyIcon`
+- `LiniendiagramIcon` → `LineChart2Icon`
+- `LiveModeOffAltIcon` → `LiveModeOffXIcon`
+- `LiveModeAltIcon` → `LiveModeOnCheckIcon`
+- `LiveModeIcon` → `LiveModeOnIcon`
+- `LiveausgabeOffIcon` → `LiveOffIcon`
+- `LiveOutputAltIcon` → `LiveOnCheckIcon`
+- `LiveausgabeOnIcon` → `LiveOnIcon`
+- `LiveOutputOffAltIcon` → `LiveOnXIcon`
+- `FrameLockAltIcon` → `LockCheckIcon`
+- `FrameLockIcon` → `LockIcon`
+- `FrameLockOffIcon` → `LockOpenIcon`
+- `FrameLockOffAltIcon` → `LockOpenXIcon`
+- `Map3Icon` → `MapPencilIcon`
+- `Map1Icon` → `MapStarIcon`
+- `MotorbikeLeightweight2Icon` → `MotorbikeLightweight2Icon`
+- `MultiplyPollIcon` → `MultiplePollIcon`
+- `MusicHandyIcon` → `MusicPhoneIcon`
+- `ParralelHorizontal1Icon` → `ParallelHorizontal1Icon`
+- `ParralelHorizontalIcon` → `ParallelHorizontalIcon`
+- `ParralelVerticalIcon` → `ParallelVerticalIcon`
+- `Parkingassistent1Icon` → `ParkingAssistent1Icon`
+- `Parkingassistent2Icon` → `ParkingAssistent2Icon`
+- `PaypalPpIcon` → `PaypalSmallIcon`
+- `SmartphonesettingsIcon` → `PhoneSettingsIcon`
+- `Navigation2Icon` → `PinIcon`
+- `PunktdiagramIcon` → `PointDiagramIcon`
+- `Programm2Icon` → `Program2Icon`
+- `Programm3Icon` → `Program3Icon`
+- `ProgrammIcon` → `ProgramIcon`
+- `QrcodeIcon` → `QrCodeIcon`
+- `DynamicIcon` → `RefreshIcon`
+- `ComputerIcon` → `ServerIcon`
+- `SleepdetectionIcon` → `SleepDetectionIcon`
+- `SlidedoorIcon` → `SlidingDoorIcon`
+- `SteeringwheelIcon` → `SteeringWheelIcon`
+- `Streetsign30Icon` → `StreetSign30Icon`
+- `Streetsign50Icon` → `StreetSign50Icon`
+- `Streetsign60Icon` → `StreetSign60Icon`
+- `Streetsign90Icon` → `StreetSign90Icon`
+- `OtherIcon` → `TripleDotsIcon`
+- `Userlist2Icon` → `UserList2Icon`
+- `UserlistIcon` → `UserListIcon`
+- `MicroIcon` → `MicrophoneIcon`
+- `MicrophoneIcon` → `SpeakerIcon`
+
+## Removed
+
+Those were duplicates of the same, already existing icon.
+
+- `ContextIcon`
+- `ExclamationTriangleIcon`
+- `FramesperreOffIcon`
+- `FramesperreOnIcon`
+- `LeadList2Icon`
+- `LeadListIcon`
+- `LifestyleIcon`
+- `LiveOutputIcon`
+- `LiveOutputOffIcon`
+- `LivemodusOffIcon`
+- `LivemodusOnIcon`
+- `Map2Icon`
+- `MicroIcon`
+- `MultiplyChoiceIcon`
+- `NumberIcon`
+- `ScanlyIcon`
+- `SliderPollIcon`
+
 ## [2.0.0] - 2026-05-13
 
 This version contains breaking import changes, as icons have been renamed and recategorized,
-requiering that the import of those icons has to be adjusted going forward unsing v.2.0.0.
+requiring that imports of those icons are adjusted when upgrading to v2.0.0.
 
 ## Added
 
@@ -20,11 +119,11 @@ requiering that the import of those icons has to be adjusted going forward unsin
 
 ## Changed
 
-- Moved XIcon and CheckIcon to a new category called "filled"
+- Moved `XIcon` and `CheckIcon` to a new category called `filled`
 
 ## Fixed
 
-- Fixed inconsistent naming of the LeadList2Icon
+- Fixed inconsistent naming of the `LeadList2Icon`
 
 ## [1.2.1] - 2026-05-13
 
@@ -34,9 +133,9 @@ requiering that the import of those icons has to be adjusted going forward unsin
 
 ### Changed
 
-- Renamed PaperplaneIcon2.tsx -> Paperplane2Icon.tsx with export Paperplane2Icon
-- Renamed PaperplaneIcon2Icon.tsx -> Paperplane3Icon.tsx with export Paperplane3Icon
-- Renamed PaperplaneIcon3Icon.tsx -> Paperplane4Icon.tsx with export Paperplane4Icon
+- Renamed `PaperplaneIcon2.tsx` → `Paperplane2Icon.tsx` with export `Paperplane2Icon`
+- Renamed `PaperplaneIcon2Icon.tsx` → `Paperplane3Icon.tsx` with export `Paperplane3Icon`
+- Renamed `PaperplaneIcon3Icon.tsx` → `Paperplane4Icon.tsx` with export `Paperplane4Icon`
 
 ## [1.2.0] - 2026-05-13
 
@@ -44,15 +143,16 @@ requiering that the import of those icons has to be adjusted going forward unsin
 
 - Fifty-seven new outline icons added
 
-## [1.1.0]  - 2026-05-07
+## [1.1.0] - 2026-05-07
 
 ### Updated
 
 - Updated icon paths and added new icons
 
-## [1.0.1]  - 2026-04-14
+## [1.0.1] - 2026-04-14
 
 ### Fixed
+
 - Adjusted icon exports
 
 ## [1.0.0] - 2026-04-14

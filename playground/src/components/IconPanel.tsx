@@ -20,7 +20,9 @@ export function IconPanel({
   return (
     <TabPanel className="mt-2">
       <div className="mb-5 flex items-baseline justify-end gap-2.5 text-[0.92rem] text-slate-500">
-        <strong className="text-[1.05rem] text-slate-900">{category.title}</strong>
+        <strong className="text-[1.05rem] text-slate-900">
+          {category.title}
+        </strong>
         <span>{category.subtitle}</span>
       </div>
 
@@ -42,13 +44,14 @@ export function IconPanel({
               type="button"
               key={`${version}-${name}`}
               title={name}
+              data-icon-name={name}
               onClick={() => onSelectIcon(name)}
-              className={`rounded-[14px] border bg-white p-3 text-left transition ${
+              className={`rounded-[14px] cursor-pointer border bg-white p-3 text-left transition duration-75 ${
                 selected
                   ? 'border-indigo-300 ring-2 ring-indigo-200'
                   : 'border-slate-200 hover:border-slate-300'
               }`}
-              whileHover={{ y: -2 }}
+              whileHover={{ y: -2, transition: { duration: 0.08 } }}
             >
               <div className="mb-2 grid h-[108px] place-items-center rounded-xl border border-slate-200 bg-slate-50 text-black">
                 <Component width={28} height={28} />
