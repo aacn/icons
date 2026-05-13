@@ -15,17 +15,17 @@ const DecimalPlacesOneIcon = (props: SVGProps<SVGSVGElement>) => (
       width="16.043"
       height="16.04"
       rx="2"
-      stroke="white"
+      stroke="currentColor"
     />
-    <circle cx="5.26416" cy="11.3052" r="0.79541" fill="white" />
+    <circle cx="5.26416" cy="11.3052" r="0.79541" fill="currentColor" />
     <path
       d="M7.14844 6.41211L10.852 11.5898"
-      stroke="white"
+      stroke="currentColor"
       strokeLinecap="round"
     />
     <path
       d="M10.8516 6.41211L7.14802 11.5898"
-      stroke="white"
+      stroke="currentColor"
       strokeLinecap="round"
     />
   </svg>

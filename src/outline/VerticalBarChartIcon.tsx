@@ -15,8 +15,8 @@ const VerticalBarChartIcon = (props: SVGProps<SVGSVGElement>) => (
       width="2.64992"
       height="6.19991"
       rx="1"
-      fill="white"
-      stroke="white"
+      fill="currentColor"
+      stroke="currentColor"
     />
     <rect
       x="12.2969"
@@ -24,7 +24,7 @@ const VerticalBarChartIcon = (props: SVGProps<SVGSVGElement>) => (
       width="2.64992"
       height="4.37898"
       rx="1"
-      stroke="white"
+      stroke="currentColor"
     />
     <rect
       x="7.67188"
@@ -32,11 +32,11 @@ const VerticalBarChartIcon = (props: SVGProps<SVGSVGElement>) => (
       width="2.64992"
       height="8.52148"
       rx="1"
-      stroke="white"
+      stroke="currentColor"
     />
     <path
       d="M3.04688 14.2891L14.9453 14.2891"
-      stroke="white"
+      stroke="currentColor"
       strokeLinecap="round"
     />
   </svg>

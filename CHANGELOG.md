@@ -5,6 +5,27 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.0.0] - 2026-05-13
+
+This version contains breaking import changes, as icons have been renamed and recategorized,
+requiering that the import of those icons has to be adjusted going forward unsing v.2.0.0.
+
+## Added
+
+- Added a new category "Chars" where numbers, letters, and char-symbols are moved to.
+- Added a playground for better icon overview and searchability, this includes:
+  - Category selection
+  - Name searching
+  - Check out older released package versions
+
+## Changed
+
+- Moved XIcon and CheckIcon to a new category called "filled"
+
+## Fixed
+
+- Fixed inconsistent naming of the LeadList2Icon
+
 ## [1.2.1] - 2026-05-13
 
 ### Added

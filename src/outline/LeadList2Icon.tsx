@@ -1,6 +1,6 @@
 import type { SVGProps } from 'react';
 
-const LeadListIcon2 = (props: SVGProps<SVGSVGElement>) => (
+const LeadList2Icon = (props: SVGProps<SVGSVGElement>) => (
   <svg
     width={18}
     height={18}
@@ -50,4 +50,4 @@ const LeadListIcon2 = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export { LeadListIcon2 };
+export { LeadList2Icon };
