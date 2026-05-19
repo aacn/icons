@@ -4,6 +4,41 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.3.1] - 2026-05-19
+
+## Fixed
+
+### Re-included Outline Exports
+
+- `CsvIcon`
+- `DanceBarAnimationIcon`
+- `DecimalPlacesOneIcon`
+- `DecimalPlacesTwoIcon`
+- `DecimalPlacesZeroIcon`
+- `EarthIcon`
+- `EducationIcon`
+- `FormatsIcon`
+- `IOSPushPreviewIcon`
+- `LineChartIcon`
+- `LinearBarAnimationIcon`
+- `LiveModeOffIcon`
+- `LiveModeOffXIcon`
+- `LiveModeOnCheckIcon`
+- `LiveModeOnIcon`
+- `LiveOnCheckIcon`
+- `LiveOnXIcon`
+- `LockCheckIcon`
+- `LockIcon`
+- `LockOpenIcon`
+- `LockOpenXIcon`
+- `MultipleChoiceIcon`
+- `MultiplePollIcon`
+- `ParallelBarAnimationIcon`
+- `PieChartIcon`
+- `ScatterPlotIcon`
+- `SemiCircleChartIcon`
+- `ShortcutIcon`
+
 ## [2.3.0] - 2026-05-19
 
 ## Added
@@ -32,10 +67,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - `StreetSign90Icon`
 - `TrimIcon`
 - `UpercaseIcon`
-- `UserList2Icon`
-- `UserListIcon`
-- `WindshieldHeatingIcon`
-- `WindshieldIcon`
+- `UserList2Icon` (Falsely missing export)
+- `UserListIcon` (Falsely missing export)
 - `XCircleIcon`
 
 ## Changed
@@ -44,6 +77,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 - `outline/AddIcon` → `outline/AddCircleIcon`
 - `outline/MinusIcon` → `outline/MinusCircleIcon`
+- `outline/WindschieldHeatingIcon` → `outline/WindshieldHeatingIcon`
+- `outline/WindschieldIcon` → `outline/WindshieldIcon`
 
 ### Moved Icons
 
