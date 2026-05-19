@@ -462,6 +462,11 @@ graceful-fs@^4.2.4:
   resolved "https://registry.yarnpkg.com/@native-systems/icons/-/icons-2.0.0.tgz#95caad2b7309b6a10e946eead1598ed077c08f23"
   integrity sha512-Pt9pdIjRUj93HmS5nxlVvbe5SaJOMuHZPMZYEio4gIxb/y7W14leWW4t1sI6Al8DG0U/hnmF4qAskiaRCfpuiA==
 
+"icons-v220@npm:@native-systems/icons@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@native-systems/icons/-/icons-2.2.0.tgz#717c85b0c7980e17640de9c28593dc73bdba79e0"
+  integrity sha512-0o81/7tJKnuM9OZbC8uujFOKssUikEzGHNKpxE+Axf21vufaHzuI/d8LEKiZ7AYOZbIFTArlhyk0uwbpbymCgg==
+
 jiti@^2.6.1:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/jiti/-/jiti-2.7.0.tgz#974228f2f4ca2bc21885a1797b45fea68e950c64"

@@ -21,6 +21,7 @@ function parseInitialUrlState() {
 
   const version: VersionOption =
     versionParam === '1.2.1' ||
+    versionParam === '2.2.0' ||
     versionParam === '2.0.0' ||
     versionParam === 'latest'
       ? versionParam

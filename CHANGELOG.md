@@ -4,6 +4,54 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.3.0] - 2026-05-19
+
+## Added
+
+### Outline
+
+- `Anonymous2Icon`
+- `AnonymousIcon`
+- `BalanceIcon`
+- `ChevronLeftIcon`
+- `ChevronUpIcon`
+- `ExtensionIcon`
+- `InfoCircleIcon`
+- `LeadListIcon2`
+- `LowercaseIcon`
+- `NormalizeSpacesIcon`
+- `ParkingAssistent1Icon`
+- `ParkingAssistent2Icon`
+- `QrCodeIcon`
+- `SleepDetectionIcon`
+- `SpaceIcon`
+- `SteeringWheelIcon`
+- `StreetSign30Icon`
+- `StreetSign50Icon`
+- `StreetSign60Icon`
+- `StreetSign90Icon`
+- `TrimIcon`
+- `UpercaseIcon`
+- `UserList2Icon`
+- `UserListIcon`
+- `WindshieldHeatingIcon`
+- `WindshieldIcon`
+- `XCircleIcon`
+
+## Changed
+
+### Renamed Icons
+
+- `outline/AddIcon` → `outline/AddCircleIcon`
+- `outline/MinusIcon` → `outline/MinusCircleIcon`
+
+### Moved Icons
+
+- `outline/EnergyIcon` → `filled/EnergyIcon`
+- `outline/Star2Icon` → `filled/Star2Icon`
+- `outline/StarsIcon` → `filled/StarsIcon`
+- `outline/WinterIcon` → `filled/WinterIcon`
+
 ## [2.2.0] - 2026-05-13
 
 This release continues the icon naming standardization, especially around compound
