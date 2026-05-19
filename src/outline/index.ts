@@ -142,6 +142,7 @@ export { LiveOffIcon } from './LiveOffIcon';
 export { LiveOnIcon } from './LiveOnIcon';
 export { LowercaseIcon } from './LowercaseIcon';
 export { MapPencilIcon } from './MapPencilIcon';
+export { MapPinIcon } from './MapPinIcon';
 export { MapStarIcon } from './MapStarIcon';
 export { MarlonIcon } from './MarlonIcon';
 export { MauriceIcon } from './MauriceIcon';
