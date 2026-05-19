@@ -2,6 +2,7 @@ import type { ComponentType, SVGProps } from 'react';
 import * as IconsLatest from '@native-systems/icons';
 import IconsV121 from 'icons-v121';
 import * as IconsV200 from 'icons-v200';
+import * as IconsV220 from 'icons-v220';
 
 export type IconComponent = ComponentType<SVGProps<SVGSVGElement>>;
 
@@ -21,7 +22,7 @@ export type Category = {
   icons: Array<IconEntry>;
 };
 
-export type VersionOption = 'latest' | '2.0.0' | '1.2.1';
+export type VersionOption = 'latest' | '2.2.0' | '2.0.0' | '1.2.1';
 
 type IconModule = {
   Outline?: Record<string, unknown>;
@@ -128,6 +129,10 @@ export function buildCategories(version: VersionOption): Array<Category> {
 
   if (version === '2.0.0') {
     return buildLatestCategories(resolveModernIconModule(IconsV200));
+  }
+
+  if (version === '2.2.0') {
+    return buildLatestCategories(resolveModernIconModule(IconsV220));
   }
 
   const legacyIcons = ((IconsV121 as IconModule).default ??
