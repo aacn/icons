@@ -209,6 +209,7 @@ export { PresentationIcon } from './PresentationIcon';
 export { Program2Icon } from './Program2Icon';
 export { Program3Icon } from './Program3Icon';
 export { ProgramIcon } from './ProgramIcon';
+export { ProportionalBarAnimationIcon } from './ProportionalBarAnimationIcon';
 export { ProportionalHorizontal1Icon } from './ProportionalHorizontal1Icon';
 export { ProportionalHorizontalIcon } from './ProportionalHorizontalIcon';
 export { ProportionalVerticalIcon } from './ProportionalVerticalIcon';
