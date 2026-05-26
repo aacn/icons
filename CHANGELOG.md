@@ -4,6 +4,45 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.4.0] - 2026-05-26
+
+## Added
+
+## Outline 
+
+- `ArrowDown2Icon`
+- `ArrowDownCircleIcon`
+- `ArrowDownLeftCircleIcon`
+- `ArrowDownLeftIcon`
+- `ArrowDownRightCircleIcon`
+- `ArrowDownRightIcon`
+- `ArrowDownTrayIcon`
+- `ArrowLeftCircleIcon`
+- `ArrowLeftIcon`
+- `ArrowLeftRightIcon`
+- `ArrowLeftStartOnSquareIcon`
+- `ArrowOutIcon`
+- `ArrowRightCircleIcon`
+- `ArrowRightIcon`
+- `ArrowRightStartOnSquareIcon`
+- `ArrowsInIcon`
+- `ArrowUpCircleIcon`
+- `ArrowUpDownIcon`
+- `ArrowUpIcon`
+- `ArrowUpLeftCircleIcon`
+- `ArrowUpLeftIcon`
+- `ArrowUpRightIcon`
+- `ArrowUpRightCircleIcon`
+- `ArrowUpTrayIcon`
+- `ArrowUpRightIcon`
+- `GrandpaParentChildIcon`
+- `Parent2childsIcon`
+- `Parent3childsIcon`
+- `ParentIcon`
+- `PlayIcon`
+- `Send2Icon`
+- `VerticalPointsIcon`
+
 ## [2.3.3] - 2026-05-20
 
 ## Fixed
