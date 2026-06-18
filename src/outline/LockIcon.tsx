@@ -3,46 +3,45 @@ import type { SVGProps } from 'react';
 function LockIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
-      width="18"
-      height="18"
-      viewBox="0 0 18 18"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
       <rect
-        x="4.60156"
-        y="7.50781"
-        width="8.80044"
-        height="7.22894"
-        rx="1"
+        x="6.13165"
+        y="10.0088"
+        width="11.7336"
+        height="9.63834"
+        rx="1.3333"
         stroke="currentColor"
+        strokeWidth="0.66665"
       />
       <path
-        d="M6.17188 7.66487V6.09336C6.17188 4.53111 7.43833 3.26465 9.00059 3.26465C10.5628 3.26465 11.8293 4.53111 11.8293 6.09336V7.66487"
+        d="M8.22308 10.2184V8.12309C8.22308 6.04013 9.91165 4.35156 11.9946 4.35156C14.0776 4.35156 15.7661 6.04013 15.7661 8.12309V10.2184"
         stroke="currentColor"
+        strokeWidth="0.66665"
       />
-      <circle cx="9.00225" cy="10.178" r="1.12725" fill="currentColor" />
+      <circle cx="11.9999" cy="13.5694" r="1.50296" fill="currentColor" />
       <path
-        d="M9 10.4141V12.1935"
+        d="M11.9925 13.8843V16.2568"
         stroke="currentColor"
+        strokeWidth="0.66665"
         strokeLinecap="round"
       />
-      <rect
-        x="4.60156"
-        y="7.50781"
-        width="8.80044"
-        height="7.22894"
-        rx="1"
+      <path
+        d="M6.13403 11.3426C6.13403 10.6062 6.73097 10.0093 7.46733 10.0093H16.5344C17.2707 10.0093 17.8677 10.6062 17.8677 11.3426V18.3143C17.8677 19.0507 17.2707 19.6476 16.5344 19.6476H7.46733C6.73097 19.6476 6.13403 19.0507 6.13403 18.3143V11.3426Z"
         stroke="currentColor"
       />
       <path
-        d="M6.17188 7.66487V6.09336C6.17188 4.53111 7.43833 3.26465 9.00059 3.26465C10.5628 3.26465 11.8293 4.53111 11.8293 6.09336V7.66487"
+        d="M8.22546 10.2189V8.12358C8.22546 6.04062 9.91403 4.35205 11.997 4.35205C14.0799 4.35205 15.7685 6.04062 15.7685 8.12358V10.2189"
         stroke="currentColor"
       />
-      <circle cx="9.00225" cy="10.178" r="1.12725" fill="currentColor" />
+      <circle cx="12.0022" cy="13.5699" r="1.50296" fill="currentColor" />
       <path
-        d="M9 10.4141V12.1935"
+        d="M11.9949 13.8848V16.2573"
         stroke="currentColor"
         strokeLinecap="round"
       />

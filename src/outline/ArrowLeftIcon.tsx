@@ -3,16 +3,23 @@ import type { SVGProps } from 'react';
 function ArrowLeftIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
-      width="18"
-      height="18"
-      viewBox="0 0 18 18"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
       <path
-        d="M7.69589 5.47479C7.89115 5.27958 8.20767 5.27954 8.40292 5.47479C8.59812 5.67003 8.59811 5.98656 8.40292 6.18182L6.07479 8.50994H13.1324C13.4085 8.50999 13.6324 8.73384 13.6324 9.00994C13.6324 9.28605 13.4085 9.50989 13.1324 9.50994H6.07479L8.40292 11.8381C8.59812 12.0333 8.59811 12.3498 8.40292 12.5451C8.20767 12.7403 7.89115 12.7403 7.69589 12.5451L4.51424 9.36346C4.31898 9.1682 4.31898 8.85169 4.51424 8.65643L7.69589 5.47479Z"
-        fill="currentColor"
+        d="M17.5093 12.0132L6.49008 12.0132"
+        stroke="currentColor"
+        strokeLinecap="round"
+      />
+      <path
+        d="M8.91656 9.57324L6.49011 11.9997L8.91656 14.4261"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

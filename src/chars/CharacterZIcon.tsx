@@ -1,17 +1,23 @@
 import type { SVGProps } from 'react';
 
-export const CharacterZIcon = (props: SVGProps<SVGSVGElement>) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="18"
-    height="18"
-    viewBox="0 0 18 18"
-    fill="none"
-    {...props}
-  >
-    <path
-      d="M10.6656 5.61426C10.8441 5.61426 11.0089 5.70978 11.0983 5.86426C11.1876 6.01896 11.1876 6.20956 11.0983 6.36426L8.19884 11.3857H10.6656C10.9417 11.3857 11.1656 11.6097 11.1656 11.8857C11.1656 12.1619 10.9418 12.3857 10.6656 12.3857H7.33361C7.15516 12.3856 6.98925 12.2903 6.90001 12.1357C6.81103 11.9812 6.81096 11.7902 6.90001 11.6357L9.79943 6.61426H7.33361C7.05768 6.614 6.83361 6.39024 6.83361 6.11426C6.83361 5.83827 7.05768 5.61451 7.33361 5.61426H10.6656Z"
-      fill="currentColor"
-    />
-  </svg>
-);
+function CharacterZIcon(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <path
+        d="M14.2211 15.8476H9.77826L14.2211 8.15234H9.77826"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
+export { CharacterZIcon };

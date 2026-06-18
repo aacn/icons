@@ -3,16 +3,29 @@ import type { SVGProps } from 'react';
 function ArrowLeftRightIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
-      width="18"
-      height="18"
-      viewBox="0 0 18 18"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
       <path
-        d="M10.6435 6.01194C10.8385 5.8171 11.1552 5.81752 11.3505 6.01194L14.0175 8.67894C14.1883 8.84971 14.2099 9.11379 14.0819 9.30784L14.0175 9.38597L11.3505 12.053C11.1552 12.2481 10.8387 12.2482 10.6435 12.053C10.4488 11.8577 10.4485 11.541 10.6435 11.3459L12.4901 9.50023H4.9169L6.76358 11.3459C6.95859 11.5411 6.9584 11.8577 6.76358 12.053C6.56836 12.2482 6.25182 12.2481 6.05655 12.053L3.38956 9.38597L3.32511 9.30784C3.19726 9.11381 3.21882 8.84967 3.38956 8.67894L6.05655 6.01194C6.25177 5.81742 6.56851 5.81719 6.76358 6.01194C6.95875 6.20711 6.95857 6.52467 6.76358 6.71995L4.98331 8.50023H12.4237L10.6435 6.71995C10.4486 6.52466 10.4483 6.20707 10.6435 6.01194Z"
-        fill="currentColor"
+        d="M6.49005 11.9995L17.5093 11.9995"
+        stroke="currentColor"
+        strokeLinecap="round"
+      />
+      <path
+        d="M8.54599 15.5996L4.99042 12.044L8.54599 8.48846"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M14.663 15.5996L18.2186 12.044L14.663 8.48846"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

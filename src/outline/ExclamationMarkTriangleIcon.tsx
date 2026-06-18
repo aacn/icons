@@ -1,27 +1,27 @@
 import type { SVGProps } from 'react';
 
-export const ExclamationMarkTriangleIcon = (props: SVGProps<SVGSVGElement>) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="18"
-    height="18"
-    viewBox="0 0 18 18"
-    fill="none"
-    {...props}
-  >
-    <path
-      d="M8.99991 10.8293C9.3215 10.8293 9.58194 11.0897 9.58194 11.4113C9.5819 11.7328 9.32148 11.9933 8.99991 11.9933C8.6784 11.9933 8.41792 11.7328 8.41788 11.4113C8.41788 11.0897 8.67838 10.8293 8.99991 10.8293Z"
-      fill="currentColor"
-    />
-    <path
-      d="M9.02042 6.82828C9.29644 6.82842 9.52042 7.05222 9.52042 7.32828V9.88004C9.52024 10.1559 9.29633 10.3799 9.02042 10.38C8.74439 10.38 8.5206 10.156 8.52042 9.88004V7.32828C8.52042 7.05214 8.74428 6.82828 9.02042 6.82828Z"
-      fill="currentColor"
-    />
-    <path
-      fillRule="evenodd"
-      clipRule="evenodd"
-      d="M7.70108 4.29898C8.27846 3.29911 9.72138 3.2991 10.2987 4.29898L14.4823 11.5451C15.0597 12.5451 14.3382 13.7951 13.1835 13.7951H4.81632C3.66172 13.795 2.94028 12.545 3.51749 11.5451L7.70108 4.29898ZM9.43253 4.79898C9.24005 4.46587 8.75978 4.46589 8.5673 4.79898L4.38272 12.0451C4.19041 12.3784 4.43153 12.795 4.81632 12.7951H13.1835C13.5684 12.7951 13.8095 12.3784 13.6171 12.0451L9.43253 4.79898Z"
-      fill="currentColor"
-    />
-  </svg>
-);
+function ExclamationMarkTriangleIcon(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <path
+        d="M12.0265 9.77002L12.0265 13.1726"
+        stroke="currentColor"
+        strokeLinecap="round"
+      />
+      <circle cx="11.9997" cy="15.2144" r="0.77637" fill="currentColor" />
+      <path
+        d="M10.8449 6.06538C11.3581 5.17651 12.6411 5.17651 13.1543 6.06538L18.7325 15.7272C19.2457 16.6161 18.6042 17.7271 17.5778 17.7271H6.42134C5.39497 17.7271 4.75348 16.6161 5.26667 15.7272L10.8449 6.06538Z"
+        stroke="currentColor"
+      />
+    </svg>
+  );
+}
+
+export { ExclamationMarkTriangleIcon };

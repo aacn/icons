@@ -1,25 +1,26 @@
 import type { SVGProps } from 'react';
 
-const PieChartIcon = (props: SVGProps<SVGSVGElement>) => (
-  <svg
-    width={18}
-    height={18}
-    viewBox="0 0 18 18"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    {...props}
-  >
-    <path
-      d="M15.4716 8.00371C15.0413 5.18567 12.8143 2.95872 9.99631 2.52845C9.45035 2.44509 9 2.90084 9 3.45312V8.00002C9 8.5523 9.44772 9.00002 10 9.00002H14.5469C15.0992 9.00002 15.5549 8.54967 15.4716 8.00371Z"
-      fill="currentColor"
-      stroke="currentColor"
-    />
-    <path
-      d="M15.2118 11.0737C14.3445 13.6733 11.8911 15.5472 9.00002 15.5472C5.38427 15.5472 2.45312 12.6161 2.45312 9.00035C2.45312 6.11843 4.31524 3.67142 6.90193 2.79688"
-      stroke="currentColor"
-      strokeLinecap="round"
-    />
-  </svg>
-);
+function PieChartIcon(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <path
+        d="M20.6282 10.6711C20.0545 6.91381 17.0853 3.94461 13.328 3.37094C12.6001 3.2598 11.9996 3.86745 11.9996 4.60381V10.6662C11.9996 11.4025 12.5966 11.9995 13.3329 11.9995H19.3953C20.1317 11.9995 20.7393 11.399 20.6282 10.6711Z"
+        stroke="currentColor"
+      />
+      <path
+        d="M20.2819 14.7645C19.1256 18.2305 15.8544 20.7291 11.9997 20.7291C7.17885 20.7291 3.27075 16.821 3.27075 12.0001C3.27075 8.15763 5.75351 4.89503 9.20234 3.729"
+        stroke="currentColor"
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+}
 
 export { PieChartIcon };

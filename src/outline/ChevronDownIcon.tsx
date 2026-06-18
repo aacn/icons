@@ -1,17 +1,23 @@
 import type { SVGProps } from 'react';
 
-export const ChevronDownIcon = (props: SVGProps<SVGSVGElement>) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="18"
-    height="18"
-    viewBox="0 0 18 18"
-    fill="none"
-    {...props}
-  >
-    <path
-      d="M12.7256 6.60678C12.9208 6.41162 13.2373 6.41176 13.4326 6.60678C13.6278 6.80203 13.6278 7.11855 13.4326 7.31381L9.35252 11.3939C9.25882 11.4872 9.1313 11.5404 8.999 11.5404C8.86672 11.5401 8.73905 11.4874 8.64549 11.3939L4.56639 7.31381C4.37143 7.1186 4.37142 6.80198 4.56639 6.60678C4.76157 6.4116 5.07814 6.41175 5.27342 6.60678L8.999 10.3324L12.7256 6.60678Z"
-      fill="currentColor"
-    />
-  </svg>
-);
+function ChevronDownIcon(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <path
+        d="M6.56039 9.28027L11.9996 14.7196L17.4389 9.28027"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
+export { ChevronDownIcon };

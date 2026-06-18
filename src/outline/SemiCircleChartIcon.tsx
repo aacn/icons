@@ -1,46 +1,44 @@
 import type { SVGProps } from 'react';
 
-const SemiCircleChartIcon = (props: SVGProps<SVGSVGElement>) => (
-  <svg
-    width={18}
-    height={18}
-    viewBox="0 0 18 18"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    {...props}
-  >
-    <g clipPath="url(#semi-circle-chart-icon-clip)">
-      <path
-        d="M5.64945 13.0518H1.89844C1.34615 13.0518 0.891964 12.6018 0.9593 12.0537C1.45115 8.04965 4.86399 4.94922 9.00098 4.94922C13.138 4.94922 16.5508 8.04965 17.0427 12.0537C17.11 12.6018 16.6558 13.0518 16.1035 13.0518H12.4512"
-        stroke="currentColor"
-        strokeLinecap="round"
-      />
-      <path
-        d="M12.3317 13.0506C12.3317 11.2116 10.8408 9.7207 9.00178 9.7207C7.16272 9.7207 5.67188 11.2116 5.67188 13.0506"
-        stroke="currentColor"
-        strokeLinecap="round"
-      />
-      <path
-        d="M3.92969 7.0293L6.48281 10.5438"
-        stroke="currentColor"
-        strokeLinecap="round"
-      />
-      <path
-        d="M8.9375 9.37994V5.09961"
-        stroke="currentColor"
-        strokeLinecap="round"
-      />
-      <path
-        d="M2.36752 8.26043L0.984375 12.7439L5.39576 13.0239L5.75244 11.9793L6.797 10.1704L3.96904 7.03711L2.36752 8.26043Z"
-        fill="currentColor"
-      />
-    </g>
-    <defs>
-      <clipPath id="semi-circle-chart-icon-clip">
-        <rect width="18" height="18" fill="currentColor" />
-      </clipPath>
-    </defs>
-  </svg>
-);
+function SemiCircleChartIcon(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <g clipPath="url(#clip0_6013_5911)">
+        <path
+          d="M7.53105 17.4013H2.52983C1.79347 17.4013 1.1879 16.8014 1.27768 16.0705C1.93347 10.732 6.4838 6.59814 11.9996 6.59814C17.5155 6.59814 22.0658 10.732 22.7216 16.0705C22.8114 16.8014 22.2058 17.4013 21.4695 17.4013H16.5999"
+          stroke="currentColor"
+          strokeLinecap="round"
+        />
+        <path
+          d="M16.4406 17.4012C16.4406 14.9492 14.4528 12.9614 12.0008 12.9614C9.54878 12.9614 7.56104 14.9492 7.56104 17.4012"
+          stroke="currentColor"
+          strokeLinecap="round"
+        />
+        <path
+          d="M5.23816 9.37305L8.64224 14.0589"
+          stroke="currentColor"
+          strokeLinecap="round"
+        />
+        <path
+          d="M11.915 12.5068V6.7998"
+          stroke="currentColor"
+          strokeLinecap="round"
+        />
+      </g>
+      <defs>
+        <clipPath id="clip0_6013_5911">
+          <rect width="23.9994" height="23.9994" fill="currentColor" />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+}
 
 export { SemiCircleChartIcon };

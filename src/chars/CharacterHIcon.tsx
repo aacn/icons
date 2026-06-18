@@ -1,17 +1,23 @@
 import type { SVGProps } from 'react';
 
-export const CharacterHIcon = (props: SVGProps<SVGSVGElement>) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="18"
-    height="18"
-    viewBox="0 0 18 18"
-    fill="none"
-    {...props}
-  >
-    <path
-      d="M10.7686 5.63184C11.0444 5.63207 11.2684 5.85595 11.2686 6.13184V11.8672C11.2686 12.1432 11.0445 12.367 10.7686 12.3672C10.4925 12.3671 10.2686 12.1432 10.2686 11.8672V9.5H7.73145V11.8672C7.73145 12.1433 7.50759 12.3672 7.23145 12.3672C6.95542 12.3671 6.73145 12.1432 6.73145 11.8672V6.13184C6.73158 5.85589 6.9555 5.63197 7.23145 5.63184C7.50751 5.63184 7.73131 5.85581 7.73145 6.13184V8.5H10.2686V6.13184C10.2687 5.85589 10.4926 5.63197 10.7686 5.63184Z"
-      fill="currentColor"
-    />
-  </svg>
-);
+function CharacterHIcon(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <path
+        d="M9.64197 15.8232V11.9995M9.64197 8.17578V11.9995M9.64197 11.9995H14.3574M14.3574 15.8232V11.9995M14.3574 8.17578V11.9995"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
+export { CharacterHIcon };

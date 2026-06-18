@@ -1,27 +1,24 @@
 import type { SVGProps } from 'react';
 
-export const ExclamationMarkCircleIcon = (props: SVGProps<SVGSVGElement>) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="18"
-    height="18"
-    viewBox="0 0 18 18"
-    fill="none"
-    {...props}
-  >
-    <path
-      d="M9 10.707C9.32159 10.707 9.58203 10.9675 9.58203 11.2891C9.58191 11.6105 9.32152 11.8711 9 11.8711C8.67849 11.8711 8.41809 11.6105 8.41797 11.2891C8.41797 10.9675 8.67842 10.707 9 10.707Z"
-      fill="currentColor"
-    />
-    <path
-      d="M9.02051 6.11914C9.2964 6.11934 9.52038 6.34323 9.52051 6.61914V9.71582C9.52031 9.99168 9.29636 10.2156 9.02051 10.2158C8.74449 10.2158 8.5207 9.9918 8.52051 9.71582V6.61914C8.52064 6.34311 8.74445 6.11914 9.02051 6.11914Z"
-      fill="currentColor"
-    />
-    <path
-      fillRule="evenodd"
-      clipRule="evenodd"
-      d="M9 3.66895C11.9438 3.66918 14.3301 6.05709 14.3301 9.00098C14.3296 11.9444 11.9435 14.3308 9 14.3311C6.05645 14.3309 3.66944 11.9445 3.66895 9.00098C3.66895 6.05707 6.05614 3.66914 9 3.66895ZM9 4.66992C6.60843 4.67012 4.66895 6.60936 4.66895 9.00098C4.66944 11.3922 6.60873 13.3309 9 13.3311C11.3912 13.3308 13.3296 11.3922 13.3301 9.00098C13.3301 6.60938 11.3915 4.67015 9 4.66992Z"
-      fill="currentColor"
-    />
-  </svg>
-);
+function ExclamationMarkCircleIcon(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <path
+        d="M12.0265 8.82568L12.0265 12.954"
+        stroke="currentColor"
+        strokeLinecap="round"
+      />
+      <circle cx="11.9997" cy="15.0513" r="0.77637" fill="currentColor" />
+      <circle cx="11.9996" cy="11.9998" r="6.44068" stroke="currentColor" />
+    </svg>
+  );
+}
+
+export { ExclamationMarkCircleIcon };
