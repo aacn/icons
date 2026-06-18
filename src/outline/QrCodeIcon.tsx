@@ -1,6 +1,6 @@
 import type { SVGProps } from 'react';
 
-function QrcodeIcon(props: SVGProps<SVGSVGElement>) {
+function QrCodeIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       width="24"
@@ -55,4 +55,4 @@ function QrcodeIcon(props: SVGProps<SVGSVGElement>) {
   );
 }
 
-export { QrcodeIcon };
+export { QrCodeIcon };

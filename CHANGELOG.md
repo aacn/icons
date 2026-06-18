@@ -118,6 +118,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 - `outline/EarthAmerikaIcon` → `outline/EarthAmericaIcon`
 - `outline/EarthEuropaIcon` → `outline/EarthEuropeIcon`
+- `outline/QrcodeIcon` → `outline/QrCodeIcon`
+- `outline/LineChartIcon` → `outline/LineChart2Icon`
+- `outline/Parent2childsIcon` → `outline/Parent2ChildsIcon`
+- `outline/CsvIcon` → `outline/CSVIcon`
 - `outline/UpercaseIcon` → `chars/UppercaseIcon`
 
 ### Moved Icons
@@ -143,47 +147,28 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 - `AndroidPushPreviewIcon`
 - `ArrowDown2Icon`
-- `ArrowRightIcon`
 - `BadgeIcon`
 - `BookOpenIcon`
-- `CartIcon`
-- `ChoicePollIcon`
-- `ClockIcon`
 - `ColorIcon`
-- `CsvIcon`
-- `Cutlery2Icon`
 - `DanceBarAnimationIcon`
 - `DecimalPlacesOneIcon`
 - `DecimalPlacesTwoIcon`
 - `DecimalPlacesZeroIcon`
-- `EducationIcon`
 - `FormatsIcon`
-- `GrandpaParentChildIcon`
 - `IOSPushPreviewIcon`
 - `LeadListIcon2`
-- `LineChart2Icon`
 - `LinearBarAnimationIcon`
 - `LiveModeOffXIcon`
-- `LiveModeOnCheckIcon`
-- `LiveOnCheckIcon`
-- `LiveOnXIcon`
-- `LockCheckIcon`
-- `LockOpenXIcon`
-- `MinusCircleIcon`
 - `MultiplePollIcon`
 - `ParallelBarAnimationIcon`
 - `ParallelHorizontal1Icon`
 - `ParallelHorizontalIcon`
 - `ParallelVerticalIcon`
-- `Parent2childsIcon`
-- `Parent3ChildsIcon`
-- `ParentIcon`
 - `Porthole2Icon`
 - `ProportionalBarAnimationIcon`
 - `ProportionalHorizontal1Icon`
 - `ScatterPlotIcon`
 - `Send2Icon`
-- `ShortcutIcon`
 - `UploadIcon`
 - `VerticalPointsIcon`
 
@@ -258,7 +243,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - `EducationIcon`
 - `FormatsIcon`
 - `IOSPushPreviewIcon`
-- `LineChartIcon`
+- `LineChart2Icon`
 - `LinearBarAnimationIcon`
 - `LiveModeOffIcon`
 - `LiveModeOffXIcon`
