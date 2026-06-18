@@ -1,17 +1,23 @@
 import type { SVGProps } from 'react';
 
-export const CharacterYIcon = (props: SVGProps<SVGSVGElement>) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="18"
-    height="18"
-    viewBox="0 0 18 18"
-    fill="none"
-    {...props}
-  >
-    <path
-      d="M10.2775 5.82934C10.4156 5.5903 10.721 5.50871 10.9601 5.64672C11.1991 5.78477 11.2816 6.09025 11.1437 6.32934L9.50016 9.17504V11.9211C9.49987 12.1969 9.27593 12.4209 9.00016 12.4211C8.7243 12.421 8.50045 12.1969 8.50016 11.9211V9.17699L6.8566 6.32934C6.71862 6.09035 6.80044 5.78492 7.03922 5.64672C7.27831 5.50868 7.58372 5.59032 7.72184 5.82934L8.99918 8.04125L10.2775 5.82934Z"
-      fill="currentColor"
-    />
-  </svg>
-);
+function CharacterYIcon(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <path
+        d="M9.71912 8.10547L11.9998 12.0556M11.9998 12.0556L14.2804 8.10547M11.9998 12.0556V15.894"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
+export { CharacterYIcon };

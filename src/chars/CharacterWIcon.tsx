@@ -1,17 +1,23 @@
 import type { SVGProps } from 'react';
 
-export const CharacterWIcon = (props: SVGProps<SVGSVGElement>) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="18"
-    height="18"
-    viewBox="0 0 18 18"
-    fill="none"
-    {...props}
-  >
-    <path
-      d="M11.8616 5.90649C11.957 5.64738 12.245 5.51512 12.5042 5.6106C12.7628 5.7063 12.8954 5.99331 12.8 6.2522L10.6477 12.094C10.5764 12.2871 10.3936 12.4173 10.1877 12.4211C9.98177 12.4248 9.79434 12.3011 9.71606 12.1106L8.9895 10.3362L8.28638 12.1057C8.20984 12.2979 8.02255 12.4236 7.81567 12.4211C7.60872 12.4185 7.42455 12.2881 7.35278 12.094L5.20044 6.2522C5.10498 5.99314 5.23733 5.70613 5.49634 5.6106C5.75541 5.51513 6.04242 5.64746 6.13794 5.90649L7.83911 10.5217L8.51782 8.81567L8.55103 8.74731C8.63922 8.59664 8.80151 8.5013 8.97974 8.50024C9.18363 8.49922 9.36831 8.62209 9.44556 8.81079L10.1536 10.5413L11.8616 5.90649Z"
-      fill="currentColor"
-    />
-  </svg>
-);
+function CharacterWIcon(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <path
+        d="M7.55872 8.10547L10.4286 15.894L11.9766 11.9997L13.5709 15.894L16.4407 8.10547"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
+export { CharacterWIcon };

@@ -1,17 +1,22 @@
 import type { SVGProps } from 'react';
 
-export const CharacterUIcon = (props: SVGProps<SVGSVGElement>) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="18"
-    height="18"
-    viewBox="0 0 18 18"
-    fill="none"
-    {...props}
-  >
-    <path
-      d="M10.9521 5.60254C11.2281 5.60277 11.4521 5.82654 11.4521 6.10254V9.94531C11.4521 11.2994 10.3541 12.3973 9 12.3975C7.64596 12.3973 6.54787 11.2994 6.54785 9.94531V6.10254C6.54785 5.82648 6.77182 5.60267 7.04785 5.60254C7.32399 5.60254 7.54785 5.8264 7.54785 6.10254V9.94531C7.54787 10.7471 8.19824 11.3973 9 11.3975C9.80177 11.3973 10.4521 10.7471 10.4521 9.94531V6.10254C10.4521 5.82648 10.6761 5.60267 10.9521 5.60254Z"
-      fill="currentColor"
-    />
-  </svg>
-);
+function CharacterUIcon(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <path
+        d="M9.39728 8.13672V13.2602C9.39728 14.6976 10.5625 15.8628 11.9998 15.8628C13.4371 15.8628 14.6023 14.6976 14.6023 13.2602V8.13672"
+        stroke="currentColor"
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+}
+
+export { CharacterUIcon };

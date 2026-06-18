@@ -1,17 +1,22 @@
 import type { SVGProps } from 'react';
 
-export const Character7Icon = (props: SVGProps<SVGSVGElement>) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="18"
-    height="18"
-    viewBox="0 0 18 18"
-    fill="none"
-    {...props}
-  >
-    <path
-      d="M10.6074 5.49902C11.096 5.49942 11.4345 5.9879 11.2627 6.44531L9.10449 12.1768C9.00722 12.4351 8.71831 12.5658 8.45996 12.4688C8.20154 12.3714 8.07066 12.0826 8.16797 11.8242L10.1738 6.49902H7.60449V6.96387C7.60449 7.23989 7.38047 7.46367 7.10449 7.46387C6.82835 7.46387 6.60449 7.24001 6.60449 6.96387V6.19922C6.60449 5.81262 6.91809 5.49902 7.30469 5.49902H10.6074Z"
-      fill="currentColor"
-    />
-  </svg>
-);
+function Character7Icon(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <path
+        d="M11.5141 16.0008L14.3916 8.35917C14.4573 8.18478 14.3284 7.99854 14.1421 7.99854H9.73858C9.59131 7.99854 9.47192 8.11792 9.47192 8.2652V9.28541"
+        stroke="currentColor"
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+}
+
+export { Character7Icon };

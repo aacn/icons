@@ -1,17 +1,23 @@
 import type { SVGProps } from 'react';
 
-export const CharacterMIcon = (props: SVGProps<SVGSVGElement>) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="18"
-    height="18"
-    viewBox="0 0 18 18"
-    fill="none"
-    {...props}
-  >
-    <path
-      d="M11.2168 5.77846C11.3598 5.63575 11.575 5.59273 11.7617 5.67006C11.9482 5.74756 12.0703 5.92998 12.0703 6.13197V11.8673C12.0703 12.1433 11.8462 12.367 11.5703 12.3673C11.2942 12.3673 11.0703 12.1435 11.0703 11.8673V7.33803L9.35352 9.05482C9.15829 9.25005 8.84176 9.24996 8.64648 9.05482L6.93066 7.339V11.8673C6.93066 12.1433 6.70664 12.3671 6.43066 12.3673C6.15452 12.3673 5.93066 12.1435 5.93066 11.8673V6.13197C5.93071 5.92981 6.05249 5.74745 6.23926 5.67006C6.42601 5.59287 6.64127 5.63555 6.78418 5.77846L9 7.99428L11.2168 5.77846Z"
-      fill="currentColor"
-    />
-  </svg>
-);
+function CharacterMIcon(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <path
+        d="M8.57349 15.8232V11.9995V8.17578L11.9997 11.602L15.4259 8.17578V15.8232"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
+export { CharacterMIcon };

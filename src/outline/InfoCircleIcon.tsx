@@ -1,27 +1,36 @@
 import type { SVGProps } from 'react';
 
-export const InfoCircleIcon = (props: SVGProps<SVGSVGElement>) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="18"
-    height="18"
-    viewBox="0 0 18 18"
-    fill="none"
-    {...props}
-  >
-    <path
-      d="M8.99902 7.29297C8.67743 7.29297 8.41699 7.03253 8.41699 6.71094C8.41711 6.38945 8.67751 6.12891 8.99902 6.12891C9.32053 6.12892 9.58093 6.38946 9.58105 6.71094C9.58105 7.03252 9.32061 7.29296 8.99902 7.29297Z"
-      fill="currentColor"
-    />
-    <path
-      d="M8.97852 11.8809C8.70262 11.8807 8.47865 11.6568 8.47852 11.3809L8.47852 8.28418C8.47871 8.00833 8.70266 7.78438 8.97852 7.78418C9.25454 7.78418 9.47832 8.0082 9.47852 8.28418L9.47852 11.3809C9.47838 11.6569 9.25458 11.8809 8.97852 11.8809Z"
-      fill="currentColor"
-    />
-    <path
-      fillRule="evenodd"
-      clipRule="evenodd"
-      d="M8.99902 14.3311C6.05519 14.3308 3.66895 11.9429 3.66894 8.99902C3.66944 6.05556 6.0555 3.66918 8.99902 3.66895C11.9426 3.66914 14.3296 6.05554 14.3301 8.99902C14.3301 11.9429 11.9429 14.3309 8.99902 14.3311ZM8.99902 13.3301C11.3906 13.3299 13.3301 11.3906 13.3301 8.99902C13.3296 6.60783 11.3903 4.66914 8.99902 4.66895C6.60778 4.66918 4.66944 6.60785 4.66894 8.99902C4.66895 11.3906 6.60748 13.3298 8.99902 13.3301Z"
-      fill="currentColor"
-    />
-  </svg>
-);
+function InfoCircleIcon(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <path
+        d="M11.9727 15.1743L11.9727 11.046"
+        stroke="currentColor"
+        strokeLinecap="round"
+      />
+      <circle
+        cx="11.9995"
+        cy="8.94824"
+        r="0.77637"
+        transform="rotate(180 11.9995 8.94824)"
+        fill="currentColor"
+      />
+      <circle
+        cx="11.9996"
+        cy="12.0002"
+        r="6.44068"
+        transform="rotate(180 11.9996 12.0002)"
+        stroke="currentColor"
+      />
+    </svg>
+  );
+}
+
+export { InfoCircleIcon };

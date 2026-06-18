@@ -1,19 +1,29 @@
 import type { SVGProps } from 'react';
 
-export const NavigationIcon = (props: SVGProps<SVGSVGElement>) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="18"
-    height="18"
-    viewBox="0 0 18 18"
-    fill="none"
-    {...props}
-  >
-    <path
-      fillRule="evenodd"
-      clipRule="evenodd"
-      d="M13.8956 2.34922C14.7224 2.00017 15.5542 2.833 15.2052 3.65977L10.4307 14.9596C10.0906 15.7644 8.95414 15.7774 8.59676 14.9801L6.73348 10.8219L2.57528 8.95762C1.77825 8.60017 1.79021 7.46478 2.59481 7.12461L13.8956 2.34922ZM7.70614 10.5475L9.50887 14.5709L13.7735 4.48008L7.70614 10.5475ZM2.98446 8.04551L6.9952 9.84434L13.045 3.79453L2.98446 8.04551Z"
-      fill="currentColor"
-    />
-  </svg>
-);
+function NavigationIcon(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <path
+        d="M8.52734 15.4634L16.3658 7.625"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M15.5603 7.56555L4.21846 12.3583C3.68188 12.585 3.67375 13.3425 4.20534 13.5807L8.26418 15.3994C8.41351 15.4664 8.53302 15.5859 8.59994 15.7352L10.4187 19.7941C10.6569 20.3256 11.4144 20.3175 11.6411 19.7809L16.4338 8.43911C16.6668 7.88781 16.1116 7.33258 15.5603 7.56555Z"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
+export { NavigationIcon };

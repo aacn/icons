@@ -3,30 +3,30 @@ import type { SVGProps } from 'react';
 function LiveModeOnIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
-      width="18"
-      height="18"
-      viewBox="0 0 18 18"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
-      <g clipPath="url(#clip0_4359_3372)">
-        <circle cx="9.00007" cy="9.00007" r="2.65632" fill="currentColor" />
-        <circle cx="9.00229" cy="8.99936" r="4.5101" stroke="currentColor" />
+      <g clipPath="url(#clip0_6013_5810)">
+        <circle cx="11.9997" cy="12.1344" r="3.54167" fill="currentColor" />
+        <circle cx="12.0027" cy="12.1337" r="6.44473" stroke="currentColor" />
         <path
-          d="M13.8359 13.5935C16.4678 10.9616 16.4678 6.6944 13.8359 4.0625"
+          d="M18.4474 18.2589C21.9565 14.7498 21.9565 9.06038 18.4474 5.55127"
           stroke="currentColor"
           strokeLinecap="round"
         />
         <path
-          d="M4.16406 4.20439C1.53216 6.83629 1.53216 11.1034 4.16406 13.7354"
+          d="M5.55188 5.74061C2.04276 9.24973 2.04276 14.9391 5.55188 18.4482"
           stroke="currentColor"
           strokeLinecap="round"
         />
       </g>
       <defs>
-        <clipPath id="clip0_4359_3372">
-          <rect width="18" height="18" fill="currentColor" />
+        <clipPath id="clip0_6013_5810">
+          <rect width="23.9994" height="23.9994" fill="currentColor" />
         </clipPath>
       </defs>
     </svg>

@@ -1,17 +1,23 @@
 import type { SVGProps } from 'react';
 
-export const CharacterNIcon = (props: SVGProps<SVGSVGElement>) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="18"
-    height="18"
-    viewBox="0 0 18 18"
-    fill="none"
-    {...props}
-  >
-    <path
-      d="M10.9941 5.63175C11.2699 5.63202 11.4939 5.85597 11.4941 6.13175V11.8671C11.4941 12.0855 11.3518 12.2791 11.1436 12.3446C10.935 12.41 10.7077 12.3327 10.583 12.1532L7.50684 7.72648V11.8671C7.50684 12.1431 7.28281 12.3669 7.00684 12.3671C6.73069 12.3671 6.50684 12.1432 6.50684 11.8671V6.13175C6.50703 5.9134 6.64903 5.71953 6.85742 5.65421C7.06571 5.58926 7.29237 5.66746 7.41699 5.8466L10.4941 10.2724V6.13175C10.4944 5.85581 10.7181 5.63175 10.9941 5.63175Z"
-      fill="currentColor"
-    />
-  </svg>
-);
+function CharacterNIcon(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <path
+        d="M9.34167 15.8232V11.9995V8.17578L14.6578 15.8232V8.17578"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
+export { CharacterNIcon };

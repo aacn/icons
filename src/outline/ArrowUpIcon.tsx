@@ -3,16 +3,23 @@ import type { SVGProps } from 'react';
 function ArrowUpIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
-      width="18"
-      height="18"
-      viewBox="0 0 18 18"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
       <path
-        d="M8.64166 4.51949C8.83692 4.32423 9.15343 4.32423 9.34869 4.51949L12.5303 7.70113C12.7254 7.89642 12.7255 8.21298 12.5303 8.40817C12.3351 8.6033 12.0186 8.60318 11.8233 8.40817L9.49518 6.08004V13.1377C9.49503 13.4136 9.27114 13.6376 8.99518 13.6377C8.71913 13.6377 8.49533 13.4137 8.49518 13.1377V6.08004L6.16705 8.40817C5.97187 8.6033 5.65529 8.60318 5.46002 8.40817C5.26478 8.21292 5.26481 7.8964 5.46002 7.70113L8.64166 4.51949Z"
-        fill="currentColor"
+        d="M11.993 17.5161L11.993 6.49686"
+        stroke="currentColor"
+        strokeLinecap="round"
+      />
+      <path
+        d="M14.4261 8.92334L11.9997 6.49689L9.57324 8.92334"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

@@ -4,6 +4,189 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [3.0.0] - 2026-06-18
+
+## Added
+
+### Chars
+
+- `CharacterFIcon`
+- `CommercialAndIcon`
+- `Decimal2Icon`
+- `DecimalIcon`
+- `InfinityIcon`
+- `MultiplyIcon`
+- `MultiplyStarIcon`
+- `RoundIcon`
+
+### Outline
+
+- `AccessibilityIcon`
+- `AlarmclockIcon`
+- `AppleIcon`
+- `ArrowDownIcon`
+- `ArrowIcon`
+- `ArrowUpCurvedIcon`
+- `AverageIcon`
+- `BagAddIcon`
+- `BagRemoveIcon`
+- `BerlinIcon`
+- `BottleIcon`
+- `BracketLeftIcon`
+- `BracketRightIcon`
+- `BrokenBottleIcon`
+- `CactusIcon`
+- `CalendarIcon`
+- `Camera1Icon`
+- `CarTruck1Icon`
+- `CarVanBus2Icon`
+- `CardIcon`
+- `CartAddIcon`
+- `CartRemoveIcon`
+- `CaviarIcon`
+- `CloverIcon`
+- `CoinStarIcon`
+- `CookingIcon`
+- `CrownIcon`
+- `DeleteSpacesIcon`
+- `DiceIcon`
+- `DrinkIcon`
+- `FireIcon`
+- `FishIcon`
+- `GlasIcon`
+- `HastagIcon`
+- `LinealIcon`
+- `LinkIcon`
+- `MedicineIcon`
+- `MicrowaveIcon`
+- `MushroomIcon`
+- `PackageIcon`
+- `PaintbrushIcon`
+- `PanIcon`
+- `ParralelHorizontalIcon`
+- `ParralelVertical2Icon`
+- `ParralelVerticalIcon`
+- `PauseIcon`
+- `PepperIcon`
+- `PiIcon`
+- `PotIcon`
+- `ProportionalVertical1Icon`
+- `PuzzleIcon`
+- `RainbowIcon`
+- `RamenIcon`
+- `RefridgeratorIcon`
+- `RobotIcon`
+- `SaleLabelDollarIcon`
+- `SaleLabelPercentIcon`
+- `SalmonIcon`
+- `SaltIcon`
+- `SaltPepperIcon`
+- `Ship2Icon`
+- `ShippingIcon`
+- `SlashIcon`
+- `SparklesIcon`
+- `Speech2Icon`
+- `Speech3Icon`
+- `SpeechStarIcon`
+- `SpicyIcon`
+- `SquareBracketLeftIcon`
+- `SquareBracketRightIcon`
+- `SteakIcon`
+- `StoRIcon`
+- `TableIcon`
+- `TableRoundIcon`
+- `ThunderIcon`
+- `Time1Icon`
+- `TimeIcon`
+- `ToiletpaperIcon`
+- `TomatoIcon`
+- `TreeIcon`
+- `TreePineIcon`
+- `TripleDotsVerticalIcon`
+- `TruffleIcon`
+- `UnavailableIcon`
+- `WagyuSteakIcon`
+- `WashingMachineIcon`
+- `WineIcon`
+- `XMarkIcon`
+- `ZoomInIcon`
+- `ZoomOutIcon`
+
+## Changed
+
+### Renamed Icons
+
+- `outline/EarthAmerikaIcon` → `outline/EarthAmericaIcon`
+- `outline/EarthEuropaIcon` → `outline/EarthEuropeIcon`
+- `outline/UpercaseIcon` → `chars/UppercaseIcon`
+
+### Moved Icons
+
+- `filled/CheckIcon` → `outline/CheckIcon`
+- `filled/HouseIcon` → `outline/HouseIcon`
+- `filled/Star2Icon` → `outline/Star2Icon`
+- `filled/WinterIcon` → `outline/WinterIcon`
+- `outline/LowercaseIcon` → `chars/LowercaseIcon`
+
+## Removed
+
+### Chars
+
+- `CharacterE1Icon`
+
+### Filled
+
+- `StarsIcon`
+- `XIcon`
+
+### Outline
+
+- `AndroidPushPreviewIcon`
+- `ArrowDown2Icon`
+- `ArrowRightIcon`
+- `BadgeIcon`
+- `BookOpenIcon`
+- `CartIcon`
+- `ChoicePollIcon`
+- `ClockIcon`
+- `ColorIcon`
+- `CsvIcon`
+- `Cutlery2Icon`
+- `DanceBarAnimationIcon`
+- `DecimalPlacesOneIcon`
+- `DecimalPlacesTwoIcon`
+- `DecimalPlacesZeroIcon`
+- `EducationIcon`
+- `FormatsIcon`
+- `GrandpaParentChildIcon`
+- `IOSPushPreviewIcon`
+- `LeadListIcon2`
+- `LineChart2Icon`
+- `LinearBarAnimationIcon`
+- `LiveModeOffXIcon`
+- `LiveModeOnCheckIcon`
+- `LiveOnCheckIcon`
+- `LiveOnXIcon`
+- `LockCheckIcon`
+- `LockOpenXIcon`
+- `MinusCircleIcon`
+- `MultiplePollIcon`
+- `ParallelBarAnimationIcon`
+- `ParallelHorizontal1Icon`
+- `ParallelHorizontalIcon`
+- `ParallelVerticalIcon`
+- `Parent2childsIcon`
+- `Parent3ChildsIcon`
+- `ParentIcon`
+- `Porthole2Icon`
+- `ProportionalBarAnimationIcon`
+- `ProportionalHorizontal1Icon`
+- `ScatterPlotIcon`
+- `Send2Icon`
+- `ShortcutIcon`
+- `UploadIcon`
+- `VerticalPointsIcon`
+
 ## [2.4.0] - 2026-05-26
 
 ## Added
@@ -156,7 +339,7 @@ animation and chart icons.
 #### Chars
 
 - `CharacterExclamationmarkIcon` → `CharacterExclamationMarkIcon`
-- `CharacterQuestionmarkIcon` → `CharacterQuestionMarkIcon`
+- `CharacterQuestionMarkIcon` → `CharacterQuestionMarkIcon`
 - `QuestionmarkExclamationmarkIcon` → `QuestionExclamationMarkIcon`
 
 #### Outline
@@ -210,7 +393,7 @@ deprecated icon removals and new additions to the playground and icon set.
 #### Outline
 
 - `BatteryincludedIcon` → `BatteryIncludedIcon`
-- `CarEstatecarIcon` → `CarEstateCarIcon`
+- `CarEstateCarIcon` → `CarEstateCarIcon`
 - `CardIcon` → `CartIcon`
 - `DownIcon` → `ChevronDownIcon`
 - `SideIcon` → `ChevronRightIcon`
@@ -232,7 +415,7 @@ deprecated icon removals and new additions to the playground and icon set.
 - `FrameLockOffAltIcon` → `LockOpenXIcon`
 - `Map3Icon` → `MapPencilIcon`
 - `Map1Icon` → `MapStarIcon`
-- `MotorbikeLeightweight2Icon` → `MotorbikeLightweight2Icon`
+- `MotorbikeLightweight2Icon` → `MotorbikeLightweight2Icon`
 - `MultiplyPollIcon` → `MultiplePollIcon`
 - `MusicHandyIcon` → `MusicPhoneIcon`
 - `ParralelHorizontal1Icon` → `ParallelHorizontal1Icon`
@@ -244,9 +427,9 @@ deprecated icon removals and new additions to the playground and icon set.
 - `SmartphonesettingsIcon` → `PhoneSettingsIcon`
 - `Navigation2Icon` → `PinIcon`
 - `PunktdiagramIcon` → `PointChartIcon`
-- `Programm2Icon` → `Program2Icon`
-- `Programm3Icon` → `Program3Icon`
-- `ProgrammIcon` → `ProgramIcon`
+- `Program2Icon` → `Program2Icon`
+- `Program3Icon` → `Program3Icon`
+- `ProgramIcon` → `ProgramIcon`
 - `QrcodeIcon` → `QrCodeIcon`
 - `DynamicIcon` → `RefreshIcon`
 - `ComputerIcon` → `ServerIcon`

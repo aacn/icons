@@ -1,23 +1,28 @@
 import type { SVGProps } from 'react';
 
-export const AddCircleIcon = (props: SVGProps<SVGSVGElement>) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="18"
-    height="18"
-    viewBox="0 0 18 18"
-    fill="none"
-    {...props}
-  >
-    <path
-      d="M9 6.53027C9.27606 6.53027 9.49987 6.75424 9.5 7.03027V8.50488H10.9736C11.2498 8.50488 11.4746 8.72874 11.4746 9.00488C11.4746 9.28086 11.2505 9.50462 10.9746 9.50488H9.5V10.9688C9.5 11.2449 9.27614 11.4687 9 11.4688C8.72386 11.4687 8.5 11.2449 8.5 10.9688V9.50488H7.03613C6.75999 9.50488 6.53613 9.28103 6.53613 9.00488C6.53613 8.7289 6.75924 8.50515 7.03516 8.50488H8.5V7.03027C8.50013 6.75424 8.72394 6.53027 9 6.53027Z"
-      fill="currentColor"
-    />
-    <path
-      fillRule="evenodd"
-      clipRule="evenodd"
-      d="M9.00098 3.66895C11.9446 3.66944 14.3311 6.05726 14.3311 9.00098C14.3306 11.9443 11.9443 14.3306 9.00098 14.3311C6.05726 14.3311 3.66944 11.9446 3.66895 9.00098C3.66895 6.05695 6.05695 3.66895 9.00098 3.66895ZM9.00098 4.66992C6.60924 4.66992 4.66992 6.60924 4.66992 9.00098C4.67042 11.3923 6.60954 13.3311 9.00098 13.3311C11.392 13.3306 13.3306 11.392 13.3311 9.00098C13.3311 6.60954 11.3923 4.67042 9.00098 4.66992Z"
-      fill="currentColor"
-    />
-  </svg>
-);
+function AddCircleIcon(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <path
+        d="M11.9998 9.37402L11.9998 14.6257"
+        stroke="currentColor"
+        strokeLinecap="round"
+      />
+      <path
+        d="M9.38049 12.0063L14.6322 12.0063"
+        stroke="currentColor"
+        strokeLinecap="round"
+      />
+      <circle cx="11.9996" cy="11.9998" r="6.44068" stroke="currentColor" />
+    </svg>
+  );
+}
+
+export { AddCircleIcon };

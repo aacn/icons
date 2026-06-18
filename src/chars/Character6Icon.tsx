@@ -1,19 +1,29 @@
 import type { SVGProps } from 'react';
 
-export const Character6Icon = (props: SVGProps<SVGSVGElement>) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="18"
-    height="18"
-    viewBox="0 0 18 18"
-    fill="none"
-    {...props}
-  >
-    <path
-      fillRule="evenodd"
-      clipRule="evenodd"
-      d="M10.1602 5.48535C10.4362 5.48548 10.6602 5.70929 10.6602 5.98535C10.66 6.2613 10.4361 6.48522 10.1602 6.48535C8.98777 6.48549 8.00978 7.31833 7.78613 8.4248C8.13822 8.20462 8.55509 8.07622 9 8.07617C10.2374 8.0763 11.2616 9.05895 11.2617 10.2959C11.2614 11.5327 10.2373 12.5145 9 12.5146C7.76266 12.5145 6.73855 11.5327 6.73828 10.2959C6.73828 10.2796 6.73988 10.2633 6.74023 10.2471C6.73981 10.2386 6.73829 10.2302 6.73828 10.2217V8.90723C6.73843 7.01744 8.27038 5.48551 10.1602 5.48535ZM9 9.07617C8.2916 9.0763 7.73842 9.63421 7.73828 10.2959C7.73855 10.9575 8.29169 11.5145 9 11.5146C9.70831 11.5145 10.2614 10.9575 10.2617 10.2959C10.2616 9.63421 9.70839 9.0763 9 9.07617Z"
-      fill="currentColor"
-    />
-  </svg>
-);
+function Character6Icon(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <ellipse
+        cx="11.9997"
+        cy="13.7273"
+        rx="2.34922"
+        ry="2.29226"
+        stroke="currentColor"
+      />
+      <path
+        d="M13.5466 7.97998C11.3949 7.97998 9.65051 9.72433 9.65051 11.8761V13.6288"
+        stroke="currentColor"
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+}
+
+export { Character6Icon };
