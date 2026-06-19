@@ -73,13 +73,13 @@ function buildLatestCategories(iconModule: IconModule): Array<Category> {
     {
       id: 'outline',
       title: 'Outline',
-      subtitle: '18x18, outline set',
+      subtitle: '24x24, outline set',
       icons: toIconEntries(iconModule.Outline ?? {}),
     },
     {
       id: 'filled',
       title: 'Filled',
-      subtitle: '18x18, solid accents',
+      subtitle: '24x24, solid accents',
       icons: toIconEntries(iconModule.Filled ?? {}),
     },
     {
