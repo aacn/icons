@@ -395,3 +395,16 @@ export { Parent2ChildsIcon } from './Parent2ChildsIcon';
 export { Parent3ChildsIcon } from './Parent3ChildsIcon';
 export { ParentIcon } from './ParentIcon';
 export { ShortcutIcon } from './ShortcutIcon';
+
+// 3.1.0
+export { AppIcon } from './AppIcon';
+export { BellOffIcon } from './BellOffIcon';
+export { CarStarIcon } from './CarStarIcon';
+export { DrawerEmptyIcon } from './DrawerEmptyIcon';
+export { DrawerFullIcon } from './DrawerFullIcon';
+export { HammerIcon } from './HammerIcon';
+export { WidgetAddIcon } from './WidgetAddIcon';
+export { WidgetPopIcon } from './WidgetPopIcon';
+export { WidgetRemoveIcon } from './WidgetRemoveIcon';
+export { WidgetsIcon } from './WidgetsIcon';
+export { WrenchIcon } from './WrenchIcon';
