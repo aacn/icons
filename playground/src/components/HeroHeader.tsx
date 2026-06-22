@@ -37,7 +37,7 @@ export function HeroHeader({
                 onVersionChange(event.target.value as VersionOption)
               }
             >
-              <option value="latest">latest (v3.1.0)</option>
+              <option value="latest">latest (v3.1.1)</option>
               <option value="2.4.0">v2.4.0</option>
               <option value="2.2.0">v2.2.0</option>
               <option value="2.0.0">v2.0.0</option>
