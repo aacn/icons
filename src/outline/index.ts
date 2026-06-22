@@ -408,3 +408,7 @@ export { WidgetPopIcon } from './WidgetPopIcon';
 export { WidgetRemoveIcon } from './WidgetRemoveIcon';
 export { WidgetsIcon } from './WidgetsIcon';
 export { WrenchIcon } from './WrenchIcon';
+
+// 3.1.1
+export { AndroidPushPreviewIcon } from './AndroidPushPreviewIcon';
+export { IOSPushPreviewIcon } from './IOSPushPreviewIcon';
