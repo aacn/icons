@@ -11,9 +11,9 @@ function CharacterUIcon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <path
-        d="M9.39728 8.13672V13.2602C9.39728 14.6976 10.5625 15.8628 11.9998 15.8628C13.4371 15.8628 14.6023 14.6976 14.6023 13.2602V8.13672"
+        d="M8.0188 6.09033V13.9276C8.0188 16.1263 9.80115 17.9086 11.9998 17.9086C14.1984 17.9086 15.9808 16.1263 15.9808 13.9276V6.09033"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
     </svg>
   );

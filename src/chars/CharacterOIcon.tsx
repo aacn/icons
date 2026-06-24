@@ -10,8 +10,11 @@ function CharacterOIcon(props: SVGProps<SVGSVGElement>) {
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
-      <path
-        d="M12 8.01562C13.6354 8.01581 15.1299 9.69592 15.1299 12C15.1298 14.304 13.6354 15.9842 12 15.9844C10.3645 15.9844 8.86922 14.3041 8.86914 12C8.86914 9.69579 10.3645 8.01562 12 8.01562Z"
+      <ellipse
+        cx="11.9997"
+        cy="11.9999"
+        rx="5.55359"
+        ry="6.85931"
         stroke="currentColor"
       />
     </svg>

@@ -11,16 +11,16 @@ function CharacterXIcon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <path
-        d="M9.75134 8.10547L14.248 15.894"
+        d="M8.56042 6.04297L15.4388 17.9569"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M14.248 8.10547L9.7514 15.894"
+        d="M15.439 6.04297L8.56058 17.9569"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
     </svg>
   );

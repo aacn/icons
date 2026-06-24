@@ -11,11 +11,11 @@ function PersonIcon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <path
-        d="M16.7324 17.6623C16.7324 15.0486 14.6135 12.9297 11.9997 12.9297C9.38597 12.9297 7.26709 15.0486 7.26709 17.6623"
+        d="M17.9888 19.1654C17.9888 15.8577 15.3074 13.1763 11.9997 13.1763C8.69204 13.1763 6.01062 15.8577 6.01062 19.1654"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
-      <circle cx="11.9738" cy="9.63374" r="3.29682" stroke="currentColor" />
+      <circle cx="11.9669" cy="9.00558" r="4.17209" stroke="currentColor" />
     </svg>
   );
 }

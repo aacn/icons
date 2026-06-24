@@ -4,6 +4,122 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [3.2.0] - 2026-06-24
+
+## Added
+
+### Chars
+
+- `H1Icon`
+- `H2Icon`
+- `H3Icon`
+- `ItalicIcon`
+- `MinusIcon`
+- `PlusIcon`
+
+### Outline
+
+- `ArrowUturnLeftIcon`
+- `ArrowUturnRightIcon`
+- `ArrowsLeftRightIcon`
+- `ArrowsUpDownIcon`
+- `BatteryEmptyIcon`
+- `BatteryFullIcon`
+- `BatteryHalfIcon`
+- `BookmarkIcon`
+- `BookmarkRemoveIcon`
+- `BrushSmallIcon`
+- `CallInIcon`
+- `CallMissedIcon`
+- `CallOutIcon`
+- `Checkbox2Icon`
+- `ChevronDoubleDownIcon`
+- `ChevronDoubleLeftIcon`
+- `ChevronDoubleRightIcon`
+- `ChevronDoubleUpIcon`
+- `ClipboardCheckIcon`
+- `ClipboardIcon`
+- `CloudDownloadIcon`
+- `CloudUploadIcon`
+- `CodeBracketIcon`
+- `CodeBracketSquareIcon`
+- `CodeCommandSquareIcon`
+- `CompactIcon`
+- `CurlyBracketLeftIcon`
+- `CurlyBracketRightIcon`
+- `DrawerInIcon`
+- `DrawerOutIcon`
+- `FadeAnimationIcon`
+- `FileChartIcon`
+- `FileDollarIcon`
+- `FileDownloadIcon`
+- `FileEuroIcon`
+- `FileMinusIcon`
+- `FilePlusIcon`
+- `FilePoundIcon`
+- `FileSearchIcon`
+- `FileUploadIcon`
+- `FilesIcon`
+- `FolderDownloadIcon`
+- `FolderIcon`
+- `FolderMinusIcon`
+- `FolderPlusIcon`
+- `FolderUploadIcon`
+- `ForwardIcon`
+- `FunnelIcon`
+- `GifIcon`
+- `HandIcon`
+- `HouseModernIcon`
+- `IdentityIcon`
+- `InternetIcon`
+- `LayoutIcon`
+- `Menu2Icon`
+- `Menu3Icon`
+- `MouseClickIcon`
+- `MouseHoverIcon`
+- `PaperclipIcon`
+- `PauseCircleIcon`
+- `PausePlayIcon`
+- `PencilSquareIcon`
+- `PlayCircleIcon`
+- `PowerIcon`
+- `PresentationChartIcon`
+- `PrinterIcon`
+- `PuzzleCompleteIcon`
+- `QuestionMarkCircleIcon`
+- `RadioIcon`
+- `ResetIcon`
+- `RocketIcon`
+- `ScaleAnimationIcon`
+- `SettingsHorizontalIcon`
+- `SettingsVerticalIcon`
+- `TabletIcon`
+- `TextAlignCenterIcon`
+- `TextAlignLeftIcon`
+- `TextAlignRightIcon`
+- `TextShortenIcon`
+- `TextWidenIcon`
+- `TvIcon`
+- `TvInfoInsertIcon`
+- `TvVintageIcon`
+- `WidgetRefreshIcon`
+- `WidgetResetIcon`
+- `XRotationAnimationIcon`
+- `YRotationAnimationIcon`
+
+## Changed
+
+### Renamed Icons
+
+- `outline/ArrowUpCurvedIcon` → `outline/ArrowUturnUp`
+- `outline/HastagIcon` → `chars/HashtagIcon`
+
+### Moved Icons
+
+- `outline/PiIcon` → `chars/PiIcon`
+- `outline/HastagIcon` → `chars/HashtagIcon`
+- `outline/SlashIcon` → `chars/SlashIcon`
+
 ## [3.1.1] - 2026-06-20
 
 ### Added

@@ -11,39 +11,39 @@ function CookingIcon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <ellipse
-        cx="11.9998"
-        cy="17.1209"
-        rx="5.05658"
-        ry="1.34593"
-        transform="rotate(180 11.9998 17.1209)"
+        cx="11.9999"
+        cy="17.7963"
+        rx="5.67614"
+        ry="1.51085"
+        transform="rotate(180 11.9999 17.7963)"
         stroke="currentColor"
       />
       <path
-        d="M9.37378 14.1092V12.7026"
+        d="M9.052 14.4158V12.8369"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M11.9999 13.7498V12.3433"
+        d="M11.9999 14.012V12.4331"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M14.5514 14.1092V12.7026"
+        d="M14.864 14.4158V12.8369"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M6.94324 12.6617L6.94324 17.2344M17.0564 12.6617L17.0564 17.2344"
+        d="M6.32375 12.7909L6.32375 17.9238M17.676 12.7909L17.676 17.9238"
         stroke="currentColor"
       />
       <path
-        d="M6.93196 12.7026C5.44266 12.31 4.34638 10.9791 4.34631 9.39839C4.34658 7.50942 5.9123 5.97783 7.84336 5.97757H8.09259C8.43514 5.97765 8.76595 6.02672 9.07882 6.11661C9.71697 5.2869 10.732 4.75021 11.8749 4.75H12.1241C13.2669 4.75011 14.2811 5.28712 14.9192 6.11661C15.2324 6.02655 15.5636 5.97766 15.9064 5.97757H16.1557C18.0868 5.97776 19.6524 7.50938 19.6527 9.39839C19.6526 10.9791 18.5564 12.31 17.0672 12.7026"
+        d="M6.31102 12.8367C4.63925 12.396 3.40864 10.902 3.40857 9.1276C3.40886 7.00719 5.16643 5.28794 7.33409 5.28765H7.61386C7.99838 5.28773 8.36972 5.34282 8.72092 5.44373C9.43727 4.51235 10.5766 3.90991 11.8596 3.90967H12.1394C13.4222 3.9098 14.5606 4.5126 15.2769 5.44373C15.6284 5.34263 16.0002 5.28774 16.3851 5.28765H16.6649C18.8326 5.28786 20.5901 7.00714 20.5904 9.1276C20.5903 10.902 19.3598 12.396 17.6881 12.8367"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
     </svg>
   );

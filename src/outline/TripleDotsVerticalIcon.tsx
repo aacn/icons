@@ -12,23 +12,23 @@ function TripleDotsVerticalIcon(props: SVGProps<SVGSVGElement>) {
     >
       <circle
         cx="11.9998"
-        cy="17.958"
-        r="1.65038"
-        transform="rotate(-90 11.9998 17.958)"
+        cy="18.6333"
+        r="1.89406"
+        transform="rotate(-90 11.9998 18.6333)"
         stroke="currentColor"
       />
       <circle
         cx="11.9998"
         cy="11.9995"
-        r="1.65038"
+        r="1.89406"
         transform="rotate(-90 11.9998 11.9995)"
         stroke="currentColor"
       />
       <circle
         cx="11.9998"
-        cy="6.04201"
-        r="1.65038"
-        transform="rotate(-90 11.9998 6.04201)"
+        cy="5.36669"
+        r="1.89406"
+        transform="rotate(-90 11.9998 5.36669)"
         stroke="currentColor"
       />
     </svg>

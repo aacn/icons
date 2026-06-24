@@ -11,21 +11,21 @@ function CharacterEuroIcon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <path
-        d="M16.0436 9.32589C15.3111 8.51102 14.2489 7.99854 13.067 7.99854C10.8572 7.99854 9.06586 9.78989 9.06586 11.9996C9.06586 14.2094 10.8572 16.0007 13.067 16.0007C14.2489 16.0007 15.3111 15.4883 16.0436 14.6734"
+        d="M18.1855 7.90981C17.0651 6.66332 15.4403 5.87939 13.6323 5.87939C10.2521 5.87939 7.51196 8.61957 7.51196 11.9998C7.51196 15.3799 10.2521 18.1201 13.6323 18.1201C15.4403 18.1201 17.0651 17.3362 18.1855 16.0897"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
       <path
-        d="M7.95569 11.0894H13.5451"
+        d="M5.81378 10.6074H14.3637"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M7.95569 13.249H13.5451"
+        d="M5.81378 13.9106H14.3637"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
     </svg>
   );

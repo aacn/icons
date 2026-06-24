@@ -11,76 +11,76 @@ function MusicPhoneIcon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <path
-        d="M10.6009 6.62822V17.3714C10.6009 18.1078 10.0039 18.7047 9.26756 18.7047H4.42028C3.68391 18.7047 3.08698 18.1078 3.08698 17.3714V6.62822M10.6009 6.62822C10.6009 5.89186 10.0039 5.29492 9.26756 5.29492H4.42028C3.68391 5.29492 3.08698 5.89186 3.08698 6.62822M10.6009 6.62822L10.6009 15.6017C10.6009 16.338 10.0039 16.935 9.26756 16.935H4.42027C3.68391 16.935 3.08698 16.338 3.08698 15.6017V6.62822"
+        d="M10.4754 6.1467V17.8532C10.4754 18.6556 9.82495 19.306 9.02256 19.306H3.74063C2.93825 19.306 2.28778 18.6556 2.28778 17.8532V6.1467M10.4754 6.1467C10.4754 5.34431 9.82495 4.69385 9.02256 4.69385H3.74063C2.93825 4.69385 2.28778 5.34431 2.28778 6.1467M10.4754 6.1467L10.4754 15.9248C10.4754 16.7272 9.82495 17.3776 9.02256 17.3776H3.74063C2.93824 17.3776 2.28778 16.7272 2.28778 15.9248V6.1467"
         stroke="currentColor"
       />
-      <circle cx="6.62244" cy="14.5038" r="1.08393" fill="currentColor" />
+      <circle cx="6.14029" cy="14.7285" r="1.18112" fill="currentColor" />
       <ellipse
-        cx="13.0146"
-        cy="11.1616"
-        rx="1.14767"
-        ry="0.710914"
+        cx="13.1056"
+        cy="11.0867"
+        rx="1.25058"
+        ry="0.77466"
         fill="currentColor"
       />
       <ellipse
-        cx="15.9225"
-        cy="10.3886"
-        rx="1.16391"
-        ry="0.710914"
+        cx="16.2743"
+        cy="10.2444"
+        rx="1.26827"
+        ry="0.77466"
         fill="currentColor"
       />
       <path
-        d="M13.7198 11.1612V6.9502"
+        d="M13.8741 11.0861V6.49756"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M16.6185 10.3882V6.17725"
+        d="M17.0327 10.2438V5.65527"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M13.721 6.94985L16.6045 6.17738"
+        d="M13.8754 6.49715L17.0174 5.65542"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <ellipse
-        cx="18.1211"
-        cy="12.9389"
-        rx="0.800812"
-        ry="0.481908"
+        cx="18.67"
+        cy="13.0232"
+        rx="0.872619"
+        ry="0.52512"
         fill="currentColor"
       />
       <ellipse
-        cx="20.0954"
-        cy="12.3974"
-        rx="0.816932"
-        ry="0.481908"
+        cx="20.8213"
+        cy="12.4333"
+        rx="0.890185"
+        ry="0.52512"
         fill="currentColor"
       />
       <path
-        d="M18.4993 12.8794V10.0249"
+        d="M19.0821 12.9581V9.84766"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M20.4575 12.356V9.50146"
+        d="M21.2159 12.3878V9.27734"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M18.4958 10.0252L20.4504 9.50156"
+        d="M19.0783 9.84803L21.2082 9.27744"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M7.99188 9.68994C8.1028 9.75414 8.10289 9.9139 7.99188 9.97803L6.05829 11.0942C5.94732 11.1583 5.80862 11.0787 5.80829 10.9507L5.80829 8.71729C5.80839 8.58913 5.94725 8.50877 6.05829 8.57275L7.99188 9.68994Z"
+        d="M7.74463 9.49512C7.85573 9.55926 7.85573 9.72004 7.74463 9.78418L5.4585 11.1045C5.34744 11.1686 5.2086 11.0882 5.2085 10.96L5.2085 8.31934C5.20879 8.19128 5.34751 8.11171 5.4585 8.17578L7.74463 9.49512Z"
         stroke="currentColor"
       />
     </svg>

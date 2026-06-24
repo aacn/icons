@@ -11,28 +11,28 @@ function LightIcon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <path
-        d="M4.63229 11.9995C4.63229 14.8406 7.41044 17.175 10.9613 17.437C11.3285 17.4641 11.6277 17.163 11.6277 16.7948V7.20425C11.6277 6.83607 11.3285 6.53496 10.9613 6.56205C7.41044 6.82404 4.63229 9.15847 4.63229 11.9995Z"
+        d="M2.62046 11.9944C2.62046 15.6414 6.23341 18.6295 10.8171 18.8958C11.1847 18.9171 11.4841 18.6166 11.4841 18.2484V5.74038C11.4841 5.3722 11.1847 5.07168 10.8171 5.09303C6.23341 5.35928 2.62046 8.34741 2.62046 11.9944Z"
         stroke="currentColor"
       />
       <path
-        d="M15.933 12H19.6984"
+        d="M16.9392 11.9946H21.7103"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
       <path
-        d="M15.933 15.0576L19.5211 16.0188"
+        d="M16.9392 15.8691L21.4856 17.087"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
       <path
-        d="M19.5172 7.98188L15.929 8.94309"
+        d="M21.4806 6.90374L16.9342 8.12166"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
       <path
-        d="M13.4325 6.55811L13.4325 17.5017"
+        d="M13.7709 5.09961L13.7709 18.966"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
     </svg>
   );

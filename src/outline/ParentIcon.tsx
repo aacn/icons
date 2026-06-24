@@ -10,7 +10,7 @@ function ParentIcon(props: SVGProps<SVGSVGElement>) {
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
-      <circle cx="11.9996" cy="10.6106" r="3.20921" stroke="currentColor" />
+      <circle cx="11.9996" cy="12.0001" r="6.09138" stroke="currentColor" />
     </svg>
   );
 }

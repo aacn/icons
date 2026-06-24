@@ -11,17 +11,17 @@ function QuestionExclamationMarkIcon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <path
-        d="M7.47479 9.81286C7.47479 8.37343 8.64168 7.20654 10.0811 7.20654C11.5205 7.20654 12.6874 8.37343 12.6874 9.81286C12.6874 11.2523 11.5205 12.4192 10.0811 12.4192V13.7444"
+        d="M5.07806 8.65428C5.07806 6.45243 6.86301 4.66748 9.06486 4.66748C11.2667 4.66748 13.0517 6.45243 13.0517 8.65428C13.0517 10.8561 11.2667 12.6411 9.06486 12.6411V14.6683"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
       <path
-        d="M15.6337 7.27344V13.7449"
+        d="M17.5585 4.77002V14.6692"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
-      <circle cx="10.0606" cy="15.8705" r="0.9227" fill="currentColor" />
-      <circle cx="15.6019" cy="15.8705" r="0.9227" fill="currentColor" />
+      <circle cx="9.03356" cy="17.9207" r="1.41143" fill="currentColor" />
+      <circle cx="17.5099" cy="17.9207" r="1.41143" fill="currentColor" />
     </svg>
   );
 }

@@ -11,20 +11,20 @@ function PiIcon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <path
-        d="M15.8984 10.6796L8.82534 10.6796L8.36333 11.677"
+        d="M17.9679 7.70309L7.14854 7.70308L6.44181 9.2288"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M11.0632 11.2173V12.0375C11.0632 13.6626 10.8502 15.2807 10.4296 16.8504"
+        d="M10.5717 8.52539V10.5416C10.5717 12.522 10.3121 14.4938 9.79953 16.4066L9.60244 17.1422"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
       <path
-        d="M13.6101 11.2173V15.5739C13.6101 16.2292 14.1413 16.7604 14.7965 16.7604C15.2177 16.7604 15.6074 16.5371 15.8203 16.1736L15.8983 16.0404"
+        d="M14.4675 8.52539V15.1896C14.4675 16.1919 15.2801 17.0045 16.2824 17.0045C16.9267 17.0045 17.5228 16.6629 17.8484 16.1069L17.9678 15.9032"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
     </svg>
   );

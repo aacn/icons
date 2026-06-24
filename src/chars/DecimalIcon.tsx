@@ -11,27 +11,27 @@ function DecimalIcon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <path
-        d="M6.4342 10.3314L8.68459 8.08105V15.9139"
+        d="M5.24866 9.81105L7.97865 7.08105V16.5832"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M12.4382 15.9136L12.4382 17.0547L12.4382 17.7101"
+        d="M12.2695 16.583L12.2695 17.9674L12.2695 18.7624"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M15.3225 7.83435L13.3876 12.834C13.32 13.0087 13.4489 13.1968 13.6363 13.1968L17.5598 13.1968"
+        d="M16.0312 6.78184L13.6541 12.9243C13.5865 13.099 13.7154 13.2871 13.9027 13.2871L18.7453 13.2871"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
       <path
-        d="M16.2189 11.9863V15.9136"
+        d="M17.1187 11.8188V16.5832"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
     </svg>
   );

@@ -10,12 +10,12 @@ function BluetoothIcon(props: SVGProps<SVGSVGElement>) {
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
-      <circle cx="11.9997" cy="11.9999" r="7.96716" stroke="currentColor" />
+      <circle cx="11.9997" cy="12" r="8.86813" stroke="currentColor" />
       <path
-        d="M8.81653 9.71677L15.0952 14.4274L11.7649 17.0362V6.96191L15.0952 9.40416L8.81653 14.1499"
+        d="M8.45654 9.45848L15.4452 14.7018L11.7383 17.6056V6.39209L15.4452 9.11051L8.45654 14.3929"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
     </svg>
   );

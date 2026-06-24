@@ -11,17 +11,17 @@ function Character9Icon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <ellipse
-        cx="11.9997"
-        cy="10.2722"
-        rx="2.34922"
-        ry="2.29226"
-        transform="rotate(-180 11.9997 10.2722)"
+        cx="11.9998"
+        cy="9.35688"
+        rx="3.59352"
+        ry="3.5064"
+        transform="rotate(-180 11.9998 9.35688)"
         stroke="currentColor"
       />
       <path
-        d="M10.4528 16.0195C12.6045 16.0195 14.3489 14.2752 14.3489 12.1234L14.3489 10.3708"
+        d="M9.63356 18.1484C12.925 18.1484 15.5933 15.4802 15.5933 12.1887L15.5933 9.50767"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
     </svg>
   );

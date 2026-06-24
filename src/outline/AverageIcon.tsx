@@ -11,11 +11,11 @@ function AverageIcon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <path
-        d="M8.82684 15.167L15.1672 8.82666"
+        d="M5.80078 18.1926L18.1931 5.80029"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
-      <circle cx="11.997" cy="11.9974" r="3.17023" stroke="currentColor" />
+      <circle cx="11.997" cy="11.9975" r="6.19626" stroke="currentColor" />
     </svg>
   );
 }

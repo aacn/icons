@@ -11,9 +11,9 @@ function BracketRightIcon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <path
-        d="M10.84 7.97852C12.2757 10.4652 12.2757 13.5289 10.84 16.0155"
+        d="M10.2255 5.8501C12.4216 9.65388 12.4216 14.3403 10.2255 18.1441"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
     </svg>
   );

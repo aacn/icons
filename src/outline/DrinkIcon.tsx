@@ -10,42 +10,35 @@ function DrinkIcon(props: SVGProps<SVGSVGElement>) {
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
-      <g clipPath="url(#clip0_6013_6762)">
-        <path
-          d="M14.4657 13.9965L18.4982 3.40465C18.8652 2.44062 20.141 2.24065 20.7854 3.04615L23.2181 6.08711"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-        <ellipse
-          cx="11.9996"
-          cy="7.1379"
-          rx="6.10914"
-          ry="1.55001"
-          stroke="currentColor"
-        />
-        <path
-          d="M5.8905 7.30615L6.99259 18.5692C6.99259 19.4549 9.22046 20.1729 11.9687 20.1729C14.7169 20.1729 16.9448 19.4549 16.9448 18.5692L18.0942 7.30615"
-          stroke="currentColor"
-        />
-        <path
-          d="M6.78394 13.5522C10.0587 14.7661 13.6544 14.7997 16.9512 13.6471L17.2227 13.5522"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-        <path
-          d="M17.2227 13.2549C13.9479 12.041 10.3522 12.0075 7.05536 13.16L6.7839 13.2549"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </g>
-      <defs>
-        <clipPath id="clip0_6013_6762">
-          <rect width="23.9994" height="23.9994" fill="currentColor" />
-        </clipPath>
-      </defs>
+      <path
+        d="M13.1416 15.2973L17.1741 4.70543C17.5411 3.7414 18.8169 3.54143 19.4613 4.34693L21.894 7.38789"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <ellipse
+        cx="10.6755"
+        cy="8.43868"
+        rx="6.10914"
+        ry="1.55001"
+        stroke="currentColor"
+      />
+      <path
+        d="M4.56641 8.60693L5.6685 19.8699C5.6685 20.7556 7.89637 21.4737 10.6446 21.4737C13.3928 21.4737 15.6207 20.7556 15.6207 19.8699L16.7701 8.60693"
+        stroke="currentColor"
+      />
+      <path
+        d="M5.45984 14.853C8.73463 16.0669 12.3303 16.1004 15.6271 14.9479L15.8986 14.853"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M15.8986 14.5557C12.6238 13.3418 9.02814 13.3082 5.73127 14.4608L5.45981 14.5557"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
     </svg>
   );
 }

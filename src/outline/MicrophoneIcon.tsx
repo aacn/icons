@@ -11,36 +11,36 @@ function MicrophoneIcon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <path
-        d="M8.8045 10.3276C8.8045 9.05908 9.83282 8.03076 11.1013 8.03076C12.3698 8.03076 13.3981 9.05908 13.3981 10.3276V13.7613C13.3981 15.0298 12.3698 16.0581 11.1013 16.0581C9.83282 16.0581 8.8045 15.0298 8.8045 13.7613V10.3276Z"
+        d="M8.17523 9.99817C8.17523 8.47986 9.40606 7.24902 10.9244 7.24902C12.4427 7.24902 13.6735 8.47986 13.6735 9.99817V14.1081C13.6735 15.6264 12.4427 16.8573 10.9244 16.8573C9.40606 16.8573 8.17523 15.6264 8.17523 14.1081V9.99817Z"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
       <path
-        d="M7.23041 12.7729V13.8839C7.23041 16.023 8.96449 17.7571 11.1036 17.7571C13.2427 17.7571 14.9768 16.023 14.9768 13.8839V12.7729"
+        d="M6.29114 12.9253V14.255C6.29114 16.8154 8.36673 18.891 10.9271 18.891C13.4875 18.891 15.5631 16.8154 15.5631 14.255V12.9253"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
       <path
-        d="M14.9739 9.82678C14.9739 7.68769 13.2399 5.95361 11.1008 5.95361"
+        d="M15.5597 9.39864C15.5597 6.83828 13.4841 4.7627 10.9237 4.7627"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
       <path
-        d="M16.769 9.8274C16.769 6.69693 14.2312 4.15918 11.1008 4.15918"
+        d="M17.7082 9.39975C17.7082 5.65277 14.6707 2.61523 10.9237 2.61523"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
       <path
-        d="M11.1444 17.8989V19.8399"
+        d="M10.976 19.0605V21.3838"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M13.7479 19.8394H8.55469"
+        d="M14.0922 21.3833H7.87624"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
     </svg>
   );

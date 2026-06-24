@@ -11,16 +11,16 @@ function XCircleIcon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <path
-        d="M10.1449 10.1475L13.8584 13.8609"
+        d="M9.9231 9.92627L14.0807 14.0839"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
       <path
-        d="M10.1543 13.8608L13.8678 10.1474"
+        d="M9.93359 14.0835L14.0912 9.9259"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
-      <circle cx="11.9997" cy="11.9998" r="6.44068" stroke="currentColor" />
+      <circle cx="11.9997" cy="12" r="7.21094" stroke="currentColor" />
     </svg>
   );
 }

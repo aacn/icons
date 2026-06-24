@@ -11,10 +11,10 @@ function CheckIcon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <path
-        d="M6.55632 11.997L9.82775 15.2686L16.7394 8.35695"
+        d="M4.26798 11.9999L9.23602 16.9681L19.7321 6.47206"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
     </svg>
   );

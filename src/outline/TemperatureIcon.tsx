@@ -10,40 +10,40 @@ function TemperatureIcon(props: SVGProps<SVGSVGElement>) {
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
-      <circle cx="11.1243" cy="16.8506" r="1.39211" fill="currentColor" />
+      <circle cx="10.3036" cy="17.8182" r="1.95887" fill="currentColor" />
       <path
-        d="M11.1188 5.95654C12.1242 5.95658 12.9389 6.77158 12.9391 7.77686V14.5171C13.6171 15.0557 14.0534 15.8857 14.0534 16.8188C14.0533 18.4427 12.7368 19.7593 11.113 19.7593C9.48913 19.7593 8.17263 18.4427 8.17255 16.8188C8.17255 15.8804 8.61397 15.0467 9.29852 14.5083V7.77686C9.29873 6.77156 10.1135 5.95654 11.1188 5.95654Z"
+        d="M10.2959 2.48877C11.7106 2.48882 12.8571 3.63563 12.8574 5.05018V14.5345C13.8113 15.2925 14.4253 16.4603 14.4253 17.7734C14.4251 20.0583 12.5727 21.911 10.2877 21.911C8.00275 21.911 6.15026 20.0583 6.15015 17.7734C6.15015 16.4529 6.77129 15.2797 7.73454 14.5222V5.05018C7.73483 3.6356 8.8813 2.48877 10.2959 2.48877Z"
         stroke="currentColor"
       />
       <path
-        d="M14.7188 5.67188H16.4867"
+        d="M15.3615 2.08838H17.8492"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
       <path
-        d="M14.7188 7.56836L15.2466 7.56848"
+        d="M15.3615 4.75684L16.1042 4.757"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
       <path
-        d="M14.7188 9.46533H16.4867"
+        d="M15.3615 7.42627H17.8492"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
       <path
-        d="M14.7188 11.3623L15.2466 11.3624"
+        d="M15.3615 10.0957L16.1042 10.0959"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
       <path
-        d="M14.7188 13.2598H16.4867"
+        d="M15.3615 12.7656H17.8492"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
       <path
-        d="M11.1177 16.521C11.1388 16.3945 11.1265 10.7388 11.1177 7.92676"
+        d="M10.2943 17.3544C10.324 17.1763 10.3067 9.21812 10.2943 5.26123"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
     </svg>
   );

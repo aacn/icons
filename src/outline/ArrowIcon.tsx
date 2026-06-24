@@ -11,26 +11,26 @@ function ArrowIcon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <path
-        d="M9.8606 12L17.9865 12"
+        d="M10.3 12L19.6356 12"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
       <path
-        d="M3.85156 9.36133L6.49001 11.9998L3.85156 14.6382"
+        d="M3.39648 8.96875L6.42768 12L3.39648 15.0312"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
       <path
-        d="M3.85156 14.6382H7.22209L9.86054 11.9998L7.22209 9.36133H3.85156"
+        d="M3.39648 15.0312H7.26875L10.3 12L7.26875 8.96875H3.39648"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
       <path
-        d="M18.8285 11.9993L16.1901 9.36084L17.0764 11.9993L16.1901 14.6377L18.8285 11.9993Z"
+        d="M20.6029 11.9995L17.5717 8.96826L18.59 11.9995L17.5717 15.0307L20.6029 11.9995Z"
         fill="currentColor"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
     </svg>
   );

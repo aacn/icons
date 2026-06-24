@@ -11,15 +11,15 @@ function CharacterExclamationMarkIcon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <path
-        d="M11.9677 7.20605V13.7232"
+        d="M11.9507 4.66699V14.6361"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
       <circle
-        cx="0.929225"
-        cy="0.929225"
-        r="0.929225"
-        transform="matrix(-1 0 0 1 12.929 14.9346)"
+        cx="1.42141"
+        cy="1.42141"
+        r="1.42141"
+        transform="matrix(-1 0 0 1 13.4212 16.4893)"
         fill="currentColor"
       />
     </svg>

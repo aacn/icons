@@ -11,32 +11,32 @@ function FileIcon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <path
-        d="M17.9931 17.2313V6.76836C17.9931 6.032 17.3962 5.43506 16.6598 5.43506H10.3932C10.0389 5.43506 9.69916 5.57608 9.449 5.82698L6.39546 8.88967C6.14627 9.13959 6.00635 9.47812 6.00635 9.83104V17.2313C6.00635 17.9677 6.60329 18.5646 7.33965 18.5646H16.6598C17.3962 18.5646 17.9931 17.9677 17.9931 17.2313Z"
+        d="M19.1413 18.4893V5.51103C19.1413 4.77467 18.5444 4.17773 17.808 4.17773H9.9794C9.62509 4.17773 9.28536 4.31875 9.0352 4.56966L5.24726 8.36893C4.99808 8.61886 4.85815 8.95738 4.85815 9.31031V18.4893C4.85815 19.2257 5.45509 19.8226 6.19145 19.8226H17.808C18.5444 19.8226 19.1413 19.2257 19.1413 18.4893Z"
         stroke="currentColor"
       />
       <path
-        d="M6.1377 9.6095H8.84336C9.57972 9.6095 10.1767 9.01256 10.1767 8.2762V5.74121"
+        d="M5.01477 9.15185H8.4942C9.23056 9.15185 9.8275 8.55491 9.8275 7.81855V4.54248"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M12.7024 9.60938L15.5677 9.60938"
+        d="M12.8369 9.15137L16.2512 9.15137"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
         d="M8.3739 15.0996L11.2392 15.0996"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M8.3739 12.4038L15.5676 12.4038"
+        d="M7.6792 12.4814L16.2511 12.4814"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
     </svg>
   );
