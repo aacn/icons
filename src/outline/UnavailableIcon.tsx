@@ -11,12 +11,12 @@ function UnavailableIcon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <path
-        d="M7.98848 7.98879L15.4528 15.4531"
+        d="M6.60336 6.51163L17.3471 17.2554"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
-      <circle cx="11.7436" cy="11.994" r="5.83043" stroke="currentColor" />
+      <circle cx="11.7436" cy="11.9937" r="7.98101" stroke="currentColor" />
     </svg>
   );
 }

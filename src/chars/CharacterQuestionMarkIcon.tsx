@@ -11,11 +11,11 @@ function CharacterQuestionMarkIcon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <path
-        d="M9.41504 9.83117C9.41504 8.40374 10.5722 7.24658 11.9996 7.24658C13.4271 7.24658 14.5842 8.40374 14.5842 9.83117C14.5842 11.2586 13.4271 12.4158 11.9996 12.4158V13.73"
+        d="M8.04614 8.59468C8.04614 6.41119 9.81621 4.64111 11.9997 4.64111C14.1832 4.64111 15.9533 6.41119 15.9533 8.59468C15.9533 10.7782 14.1832 12.5482 11.9997 12.5482V14.5585"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
-      <circle cx="11.9794" cy="15.8379" r="0.915008" fill="currentColor" />
+      <circle cx="11.9688" cy="17.9583" r="1.39966" fill="currentColor" />
     </svg>
   );
 }

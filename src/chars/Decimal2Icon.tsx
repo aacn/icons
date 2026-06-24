@@ -11,33 +11,33 @@ function Decimal2Icon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <path
-        d="M3.21716 10.331L5.46755 8.08057V15.9134"
+        d="M2.9118 10.2461L5.24046 7.91748V16.0227"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M9.22101 15.9136L9.22101 17.0547L9.22101 17.7101"
+        d="M9.12445 16.0229L9.12445 17.2038L9.12445 17.8819"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M12.1054 7.83435L10.1706 12.834C10.103 13.0087 10.2319 13.1968 10.4192 13.1968L14.3427 13.1968"
+        d="M12.1092 7.6625L10.1022 12.8486C10.0346 13.0233 10.1635 13.2114 10.3508 13.2114L14.4244 13.2114"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
       <path
-        d="M13.0018 11.9858V15.9132"
+        d="M13.0368 11.9585V16.0224"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M16.3195 10.2433C16.3195 9.08985 17.3173 8.15479 18.5482 8.15479C19.7791 8.15479 20.7769 9.08985 20.7769 10.2433C20.7769 11.155 20.1444 11.9447 19.2547 12.1438L18.5451 12.3026C17.2406 12.5944 16.3132 13.7523 16.3132 15.089V15.9132H20.7769"
+        d="M16.4698 10.1553C16.4698 8.96173 17.5024 7.99414 18.7761 7.99414C20.0497 7.99414 21.0823 8.96173 21.0823 10.1553C21.0823 11.0987 20.4278 11.9158 19.5072 12.1218L18.7728 12.2862C17.4229 12.5882 16.4633 13.7863 16.4633 15.1695V16.0224H21.0823"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
     </svg>
   );

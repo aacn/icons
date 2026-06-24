@@ -11,21 +11,21 @@ function ArrowLeftRightIcon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <path
-        d="M6.49005 11.9995L17.5093 11.9995"
+        d="M3.1037 11.9868L20.1053 11.9868"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
       <path
-        d="M8.54599 15.5996L4.99042 12.044L8.54599 8.48846"
+        d="M7.67353 16.6138L3.1037 12.0439L7.67353 7.47411"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M14.663 15.5996L18.2186 12.044L14.663 8.48846"
+        d="M15.5355 16.6138L20.1053 12.0439L15.5355 7.47411"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
     </svg>
   );

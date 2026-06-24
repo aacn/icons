@@ -11,21 +11,21 @@ function ArrowUpDownIcon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <path
-        d="M11.993 17.5161L11.993 6.49686"
+        d="M11.5474 20.5449L11.5474 3.54333"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
       <path
-        d="M8.44409 8.85733L11.9997 5.30176L15.5552 8.85733"
+        d="M16.1743 15.9751L11.6045 20.5449L7.03465 15.9751"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M8.44409 15.2301L11.9997 18.7856L15.5552 15.2301"
+        d="M16.1743 8.1128L11.6045 3.54297L7.03465 8.1128"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
     </svg>
   );

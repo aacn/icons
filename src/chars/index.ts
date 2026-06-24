@@ -43,10 +43,21 @@ export { CharacterZIcon } from './CharacterZIcon';
 export { CommercialAndIcon } from './CommercialAndIcon';
 export { Decimal2Icon } from './Decimal2Icon';
 export { DecimalIcon } from './DecimalIcon';
+export { HashtagIcon } from './HashtagIcon';
 export { InfinityIcon } from './InfinityIcon';
 export { LowercaseIcon } from './LowercaseIcon';
 export { MultiplyIcon } from './MultiplyIcon';
 export { MultiplyStarIcon } from './MultiplyStarIcon';
+export { PiIcon } from './PiIcon';
 export { QuestionExclamationMarkIcon } from './QuestionExclamationMarkIcon';
 export { RoundIcon } from './RoundIcon';
+export { SlashIcon } from './SlashIcon';
 export { UppercaseIcon } from './UppercaseIcon';
+
+// 3.2.0
+export { H1Icon } from './H1Icon';
+export { H2Icon } from './H2Icon';
+export { H3Icon } from './H3Icon';
+export { ItalicIcon } from './ItalicIcon';
+export { MinusIcon } from './MinusIcon';
+export { PlusIcon } from './PlusIcon';

@@ -10,7 +10,7 @@ function SteeringWheelIcon(props: SVGProps<SVGSVGElement>) {
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
-      <circle cx="11.9997" cy="11.9997" r="7.69792" stroke="currentColor" />
+      <circle cx="11.9997" cy="11.9996" r="8.40486" stroke="currentColor" />
       <circle cx="11.9947" cy="12.0003" r="5.87087" stroke="currentColor" />
       <circle cx="11.9957" cy="12.0001" r="2.22128" stroke="currentColor" />
       <circle cx="11.987" cy="12.0003" r="0.82545" fill="currentColor" />

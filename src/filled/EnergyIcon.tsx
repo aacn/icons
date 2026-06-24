@@ -11,17 +11,16 @@ function EnergyIcon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <path
-        d="M13.7426 18.7365C16.6727 17.9659 18.8337 15.2987 18.8337 12.1267C18.8337 9.25626 17.0641 6.79917 14.5563 5.7869M9.32743 18.4185C6.88105 17.3782 5.16565 14.9528 5.16565 12.1267C5.16565 8.92127 7.37246 6.23129 10.3497 5.49316"
+        d="M14.1931 20.4779C17.8805 19.5082 20.6002 16.1515 20.6002 12.1596C20.6002 8.54728 18.3731 5.45509 15.2171 4.18118M8.63672 20.0777C5.55802 18.7685 3.39923 15.7162 3.39923 12.1596C3.39923 8.1257 6.17645 4.74043 9.92316 3.81152"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M8.95901 12.8464L12.9587 4.45654L12.0393 10.8769H15.4074L11.1085 19.5425L12.0393 12.8464H8.95901Z"
-        fill="currentColor"
+        d="M8.17307 13.0653L13.2065 2.50684L12.0496 10.5867H16.2882L10.8781 21.4921L12.0496 13.0653H8.17307Z"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
     </svg>
   );

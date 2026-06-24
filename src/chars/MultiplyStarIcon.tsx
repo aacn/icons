@@ -11,24 +11,24 @@ function MultiplyStarIcon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <path
-        d="M8.82678 14.646L15.1672 8.30566"
+        d="M7.14758 16.3256L16.8463 6.62695"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
       <path
-        d="M15.1672 14.646L8.82678 8.30562"
+        d="M16.8463 16.3252L7.14758 6.62652"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
       <path
-        d="M16.4803 11.4752H7.51363"
+        d="M18.8549 11.475H5.13895"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
       <path
-        d="M11.997 6.99226L11.997 15.9589"
+        d="M11.997 4.61759L11.997 18.3336"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
     </svg>
   );

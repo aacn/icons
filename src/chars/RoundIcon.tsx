@@ -11,22 +11,22 @@ function RoundIcon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <path
-        d="M13.1859 10.331L15.4362 8.08057V15.9134"
+        d="M14.3052 9.22773L18.0496 5.4834V18.5161"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M8.16443 12.0531C8.6394 11.5264 9.46571 11.5264 9.9407 12.0531C10.4157 12.5797 11.242 12.5797 11.717 12.0531"
+        d="M5.95038 12.0925C6.74067 11.2163 8.11553 11.2163 8.90585 12.0925C9.69619 12.9687 11.0711 12.9687 11.8614 12.0925"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M8.16443 14.4564C8.6394 13.9297 9.46571 13.9298 9.9407 14.4564C10.4157 14.983 11.242 14.983 11.717 14.4564"
+        d="M5.95038 16.092C6.74067 15.2158 8.11553 15.2158 8.90585 16.092C9.69619 16.9682 11.0711 16.9683 11.8614 16.092"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
     </svg>
   );

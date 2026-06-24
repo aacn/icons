@@ -11,16 +11,16 @@ function CharacterPoundIcon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <path
-        d="M14.5263 14.8608V16.0196H9.90731C11.1789 15.2367 11.5671 13.5666 10.771 12.3032L10.3274 11.5991C10.0529 11.1635 9.90729 10.6591 9.90729 10.1442C9.90729 8.94894 10.9413 7.97998 12.2168 7.97998C12.8854 7.97998 13.4877 8.24625 13.9094 8.6718"
+        d="M15.8646 16.3759V18.1485H8.7991C10.7442 16.951 11.338 14.3962 10.1203 12.4637L9.44171 11.3866C9.02186 10.7203 8.79907 9.94873 8.79907 9.16114C8.79907 7.33277 10.3807 5.85059 12.3318 5.85059C13.3546 5.85059 14.2759 6.25788 14.921 6.90884"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M9.47302 11.855H14.0423"
+        d="M8.13483 11.7783H15.1243"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
     </svg>
   );

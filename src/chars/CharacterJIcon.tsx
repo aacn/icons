@@ -11,10 +11,10 @@ function CharacterJIcon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <path
-        d="M13.6351 8.17578V11.9995V14.1879C13.6351 15.091 12.9029 15.8232 11.9998 15.8232H11.7575C10.9881 15.8232 10.3644 15.1995 10.3644 14.4301"
+        d="M14.5013 6.15088V11.9999V15.3474C14.5013 16.7289 13.3813 17.8489 11.9998 17.8489H11.6292C10.4523 17.8489 9.49817 16.8948 9.49817 15.7179"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
     </svg>
   );

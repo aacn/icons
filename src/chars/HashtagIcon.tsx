@@ -1,6 +1,6 @@
 import type { SVGProps } from 'react';
 
-function HastagIcon(props: SVGProps<SVGSVGElement>) {
+function HashtagIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       width="24"
@@ -11,27 +11,27 @@ function HastagIcon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <path
-        d="M9.75542 16.4799V7.51326"
+        d="M8.56808 18.8546V5.13859"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
       <path
-        d="M14.2388 16.4799V7.51326"
+        d="M15.426 18.8546V5.13859"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
       <path
-        d="M16.4803 14.2384L7.51369 14.2384"
+        d="M18.8551 15.4257L5.13907 15.4257"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
       <path
-        d="M16.4803 9.75496L7.51369 9.75496"
+        d="M18.8551 8.56778L5.13907 8.56779"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
     </svg>
   );
 }
 
-export { HastagIcon };
+export { HashtagIcon };

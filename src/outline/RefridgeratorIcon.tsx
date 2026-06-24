@@ -11,38 +11,38 @@ function RefridgeratorIcon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <path
-        d="M6.92542 5.34502C6.92542 4.60866 7.52235 4.01172 8.25872 4.01172H15.7406C16.477 4.01172 17.0739 4.60866 17.0739 5.34502V18.6536C17.0739 19.39 16.477 19.9869 15.7406 19.9869H8.25872C7.52235 19.9869 6.92542 19.39 6.92542 18.6536V5.34502Z"
+        d="M6.33472 4.49583C6.33472 3.67375 7.00114 3.00732 7.82322 3.00732H16.1761C16.9982 3.00732 17.6646 3.67375 17.6646 4.49583V19.3537C17.6646 20.1757 16.9982 20.8422 16.1761 20.8422H7.82323C7.00115 20.8422 6.33472 20.1757 6.33472 19.3537V4.49583Z"
         stroke="currentColor"
       />
       <path
-        d="M7.19385 10.6572H17.0258"
+        d="M6.6344 10.4263H17.6109"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M9.15747 6.94141L9.15747 8.39368"
+        d="M8.82666 6.27783L8.82666 7.89916"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M9.15747 13.0815L9.15747 14.5338"
+        d="M8.82666 13.1328L8.82666 14.7541"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M9.15747 20.3438L9.15747 21.268"
+        d="M8.82666 21.2407L8.82666 22.2726"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M14.6622 20.3438L14.6622 21.268"
+        d="M14.9722 21.2407L14.9722 22.2726"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
     </svg>
   );

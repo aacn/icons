@@ -12,15 +12,15 @@ function Character6Icon(props: SVGProps<SVGSVGElement>) {
     >
       <ellipse
         cx="11.9997"
-        cy="13.7273"
-        rx="2.34922"
-        ry="2.29226"
+        cy="14.6421"
+        rx="3.59352"
+        ry="3.5064"
         stroke="currentColor"
       />
       <path
-        d="M13.5466 7.97998C11.3949 7.97998 9.65051 9.72433 9.65051 11.8761V13.6288"
+        d="M14.366 5.85059C11.0745 5.85059 8.40622 8.51886 8.40622 11.8103V14.4913"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
     </svg>
   );

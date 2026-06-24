@@ -4,6 +4,7 @@ import IconsV121 from 'icons-v121';
 import * as IconsV200 from 'icons-v200';
 import * as IconsV220 from 'icons-v220';
 import * as IconsV240 from 'icons-v240';
+import * as IconsV310 from 'icons-v310';
 
 export type IconComponent = ComponentType<SVGProps<SVGSVGElement>>;
 
@@ -23,7 +24,13 @@ export type Category = {
   icons: Array<IconEntry>;
 };
 
-export type VersionOption = 'latest' | '2.4.0' | '2.2.0' | '2.0.0' | '1.2.1';
+export type VersionOption =
+  | 'latest'
+  | '3.1.0'
+  | '2.4.0'
+  | '2.2.0'
+  | '2.0.0'
+  | '1.2.1';
 
 type IconModule = {
   Outline?: Record<string, unknown>;
@@ -138,6 +145,10 @@ export function buildCategories(version: VersionOption): Array<Category> {
 
   if (version === '2.4.0') {
     return buildLatestCategories(resolveModernIconModule(IconsV240));
+  }
+
+  if (version === '3.1.0') {
+    return buildLatestCategories(resolveModernIconModule(IconsV310));
   }
 
   const legacyIcons = ((IconsV121 as IconModule).default ??

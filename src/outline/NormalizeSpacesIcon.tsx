@@ -11,22 +11,22 @@ function NormalizeSpacesIcon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <path
-        d="M14.56 12.3108L16.8445 14.5954L14.56 16.8799M16.8445 14.5954L12.0064 14.5954"
+        d="M15.4366 12.3337L18.5605 15.4577L15.4366 18.5815M18.5605 15.4577L11.9448 15.4577"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M9.78811 16.8801L7.50354 14.5956L9.78811 12.311M7.50354 14.5956L12.3417 14.5956"
+        d="M8.9115 18.5818L5.78756 15.4579L8.9115 12.334M5.78756 15.4579L12.4033 15.4579"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M7.50351 7.61572L7.50351 9.49426L16.5026 9.49426L16.5026 7.61572"
+        d="M5.78754 5.91406L5.78754 8.48278L18.0929 8.48278L18.0929 5.91406"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
     </svg>
   );

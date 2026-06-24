@@ -11,21 +11,21 @@ function CharacterDollarIcon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <path
-        d="M10.1954 13.4379C10.1954 14.373 11.0043 15.131 12.0022 15.131C13 15.131 13.8089 14.373 13.8089 13.4379C13.8089 12.6965 13.2404 12.079 12.5015 12.0179L11.4505 11.931C10.7383 11.8721 10.1903 11.2769 10.1903 10.5623C10.1903 9.62717 10.9992 8.86914 11.9971 8.86914C12.9949 8.86914 13.8038 9.62717 13.8038 10.5623"
+        d="M8.70223 14.6275C8.70223 16.3366 10.1807 17.722 12.0044 17.722C13.8281 17.722 15.3065 16.3366 15.3065 14.6275C15.3065 13.2725 14.2674 12.1438 12.9169 12.0322L10.9961 11.8734C9.69447 11.7657 8.69287 10.6779 8.69287 9.3718C8.69287 7.66278 10.1713 6.27734 11.995 6.27734C13.8187 6.27734 15.2972 7.66278 15.2972 9.3718"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
       <path
-        d="M12.0569 16.0242L12.0569 15.3853"
+        d="M12.1044 19.3544L12.1044 18.1865"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M12.0569 8.61457L12.0569 7.97559"
+        d="M12.1044 5.81238L12.1044 4.64453"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
     </svg>
   );

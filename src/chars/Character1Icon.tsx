@@ -11,10 +11,10 @@ function Character1Icon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <path
-        d="M9.74875 10.3334L11.9996 8.08252V15.9171"
+        d="M10.2781 9.45045L13.7213 6.00732V17.9916"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
     </svg>
   );

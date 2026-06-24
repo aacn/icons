@@ -11,12 +11,12 @@ function ExclamationMarkCircleIcon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <path
-        d="M12.0265 8.82568L12.0265 12.954"
+        d="M12.0297 8.44629L12.0297 13.0683"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
-      <circle cx="11.9997" cy="15.0513" r="0.77637" fill="currentColor" />
-      <circle cx="11.9996" cy="11.9998" r="6.44068" stroke="currentColor" />
+      <circle cx="11.9997" cy="15.4161" r="0.869219" fill="currentColor" />
+      <circle cx="11.9996" cy="12" r="7.21094" stroke="currentColor" />
     </svg>
   );
 }

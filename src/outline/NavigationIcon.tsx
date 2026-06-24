@@ -11,16 +11,16 @@ function NavigationIcon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <path
-        d="M8.52734 15.4634L16.3658 7.625"
+        d="M9.83398 13.677L17.9538 5.55713"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M15.5603 7.56555L4.21846 12.3583C3.68188 12.585 3.67375 13.3425 4.20534 13.5807L8.26418 15.3994C8.41351 15.4664 8.53302 15.5859 8.59994 15.7352L10.4187 19.7941C10.6569 20.3256 11.4144 20.3175 11.6411 19.7809L16.4338 8.43911C16.6668 7.88781 16.1116 7.33258 15.5603 7.56555Z"
+        d="M17.1738 5.47269L5.31981 10.4818C4.78323 10.7086 4.7751 11.4661 5.30669 11.7043L9.56975 13.6145C9.71908 13.6814 9.83859 13.8009 9.90551 13.9503L11.8158 18.2134C12.054 18.7449 12.8115 18.7368 13.0382 18.2002L18.0473 6.34625C18.2803 5.79495 17.7251 5.23973 17.1738 5.47269Z"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
     </svg>
   );

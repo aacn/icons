@@ -11,22 +11,22 @@ function InfoCircleIcon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <path
-        d="M11.9727 15.1743L11.9727 11.046"
+        d="M11.9694 15.5537L11.9694 10.9317"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
       <circle
         cx="11.9995"
-        cy="8.94824"
-        r="0.77637"
-        transform="rotate(180 11.9995 8.94824)"
+        cy="8.58342"
+        r="0.869219"
+        transform="rotate(180 11.9995 8.58342)"
         fill="currentColor"
       />
       <circle
         cx="11.9996"
-        cy="12.0002"
-        r="6.44068"
-        transform="rotate(180 11.9996 12.0002)"
+        cy="12"
+        r="7.21094"
+        transform="rotate(180 11.9996 12)"
         stroke="currentColor"
       />
     </svg>

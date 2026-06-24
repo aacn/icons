@@ -11,10 +11,10 @@ function CharacterZIcon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <path
-        d="M14.2211 15.8476H9.77826L14.2211 8.15234H9.77826"
+        d="M15.3977 17.8855H8.60168L15.3977 6.11426H8.60168"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
     </svg>
   );

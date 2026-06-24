@@ -11,28 +11,28 @@ function TreePineIcon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <path
-        d="M11.9996 4.01562L8.74597 7.99952C10.8274 8.87184 13.1719 8.87184 15.2533 7.99952L11.9996 4.01562Z"
+        d="M11.9996 3.0376L8.34729 7.50962C10.6837 8.48883 13.3155 8.48882 15.6519 7.50962L11.9996 3.0376Z"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M9.77681 8.58691L7.55396 11.3087C10.2699 13.0228 13.7294 13.0228 16.4454 11.3087L14.2225 8.58691"
+        d="M9.50449 8.16895L7.00928 11.2242C10.058 13.1483 13.9414 13.1483 16.9902 11.2242L14.4949 8.16895"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M9.17927 12.2534L6.35876 15.7069C9.80498 17.8819 14.1946 17.8819 17.6408 15.7069L14.8203 12.2534"
+        d="M8.83369 12.2847L5.6676 16.1613C9.53606 18.6028 14.4635 18.6028 18.332 16.1613L15.1659 12.2847"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M10.4441 17.7217V18.6504C10.4441 19.3867 11.041 19.9837 11.7774 19.9837H12.2222C12.9586 19.9837 13.5555 19.3867 13.5555 18.6504V17.7217"
+        d="M10.2535 18.4229V19.6287C10.2535 20.3651 10.8505 20.962 11.5868 20.962H12.4129C13.1493 20.962 13.7462 20.3651 13.7462 19.6287V18.4229"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
     </svg>
   );

@@ -11,9 +11,9 @@ function CharacterVIcon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <path
-        d="M8.89062 7.87256L11.7509 15.4644C11.8376 15.6946 12.1633 15.6946 12.25 15.4644L15.1087 7.87256"
+        d="M7.24384 5.68652L11.7513 17.6504C11.838 17.8807 12.1637 17.8806 12.2504 17.6504L16.7555 5.68652"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
     </svg>
   );

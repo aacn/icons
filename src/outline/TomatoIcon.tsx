@@ -11,39 +11,39 @@ function TomatoIcon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <path
-        d="M5.26172 13.6619C5.26174 9.80488 8.80999 8.34985 12.5312 8.50757C16.2523 8.66543 18.7382 10.5377 18.7383 14.2332C18.7384 17.9288 15.5076 19.3875 11.4688 19.3875C7.67619 19.3873 5.26172 16.8575 5.26172 13.6619Z"
+        d="M3.8064 14.1582C3.80643 9.46837 8.12089 7.69912 12.6457 7.89091C17.1703 8.08286 20.1931 10.3595 20.1931 14.8529C20.1933 19.3466 16.2647 21.1202 11.3538 21.1202C6.74225 21.12 3.8064 18.0439 3.8064 14.1582Z"
         stroke="currentColor"
-        strokeLinejoin="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M11.5526 7.96587C11.8399 7.03634 13.7295 4.9592 16.5298 6.02501C16.198 7.57196 15.7742 8.95171 12.3835 8.34731"
+        d="M11.4557 7.23213C11.8051 6.10187 14.1028 3.5762 17.5078 4.87216C17.1043 6.75317 16.589 8.43086 12.4661 7.69595"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M11.7555 7.94291C11.4936 7.25848 9.33562 5.67132 7.58056 7.04951C7.89519 8.20648 8.29108 9.25906 11.0859 8.37621"
+        d="M11.7025 7.20402C11.384 6.37178 8.76002 4.4419 6.62597 6.11769C7.00855 7.5245 7.48992 8.80438 10.8882 7.73088"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M11.6933 8.28334C11.0181 8.25053 8.79937 9.25954 9.19766 10.9229C10.285 11.0681 11.3204 11.1234 11.7688 8.88877"
+        d="M11.6268 7.61833C10.8058 7.57844 8.10802 8.80533 8.59231 10.8279C9.91448 11.0044 11.1735 11.0716 11.7187 8.3545"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M14.8689 11.1851C15.3247 11.4286 16.2263 12.1902 16.1859 13.2884"
+        d="M15.4882 11.1465C16.0424 11.4426 17.1387 12.3687 17.0896 13.704"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M10.4495 4.38574C11.0252 5.01749 11.3663 5.95089 11.3663 7.27371"
+        d="M10.1144 2.87891C10.8145 3.64708 11.2292 4.78204 11.2292 6.3905"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
     </svg>
   );

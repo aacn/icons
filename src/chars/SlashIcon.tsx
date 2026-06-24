@@ -11,9 +11,9 @@ function SlashIcon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <path
-        d="M9.75533 15.8797L14.2386 8.11436"
+        d="M8.57099 17.939L15.429 6.0606"
         stroke="currentColor"
-        strokeLinecap="round"
+        stroke-linecap="round"
       />
     </svg>
   );

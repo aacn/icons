@@ -11,16 +11,16 @@ function XMarkIcon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <path
-        d="M15.4528 8.54152L8.5412 15.4531"
+        d="M18.2445 5.75513L5.75549 18.2441"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <path
-        d="M8.54122 8.54152L15.4528 15.4531"
+        d="M5.75556 5.75513L18.2446 18.2441"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
     </svg>
   );
