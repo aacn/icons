@@ -406,10 +406,6 @@ export { WidgetRemoveIcon } from './WidgetRemoveIcon';
 export { WidgetsIcon } from './WidgetsIcon';
 export { WrenchIcon } from './WrenchIcon';
 
-// 3.1.1
-export { AndroidPushPreviewIcon } from './AndroidPushPreviewIcon';
-export { IOSPushPreviewIcon } from './IOSPushPreviewIcon';
-
 // 3.2.0
 export { ArrowUturnLeftIcon } from './ArrowUturnLeftIcon';
 export { ArrowUturnRightIcon } from './ArrowUturnRightIcon';
