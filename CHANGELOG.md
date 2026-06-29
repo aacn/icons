@@ -4,6 +4,76 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [3.3.0] - 2026-06-29
+
+## Added
+
+### Outline
+
+- `AirBaloonIcon`
+- `BaloonIcon`
+- `BrakesIcon`
+- `CalculatorIcon`
+- `CandleIcon`
+- `CandyIcon`
+- `CarFrontIcon`
+- `ChoiceIcon`
+- `CityIcon`
+- `CompassIcon`
+- `ContractIcon`
+- `CountrysideIcon`
+- `FaceId2Icon`
+- `FaceIdIcon`
+- `FenceIcon`
+- `FilePreviewIcon`
+- `FingerprintIcon`
+- `FingerprintScan2Icon`
+- `FingerprintScanIcon`
+- `FlowerSpringIcon`
+- `GhostIcon`
+- `GlassesIcon`
+- `HandshakeIcon`
+- `HouseApartmentIcon`
+- `HouseMoneyRealEstateIcon`
+- `HouseSearchRealEstateIcon`
+- `HousesIcon`
+- `KeyboardIcon`
+- `KitchenKnifeIcon`
+- `LeafFallIcon`
+- `LeafIcon`
+- `MontageIcon`
+- `MouseIcon`
+- `PinIcon`
+- `NoticeIcon`
+- `PersonAddIcon`
+- `PersonRemoveIcon`
+- `RecycleIcon`
+- `RepairIcon`
+- `RestaurationIcon`
+- `ScrewdriverIcon`
+- `Service2Icon`
+- `ShareIcon`
+- `SignSaleIcon`
+- `SignSoldIcon`
+- `SocialNetworkIcon`
+- `SubmarineIcon`
+- `SuburbsIcon`
+- `TrafficJamIcon`
+- `TrafficLightIcon`
+- `UmbrellaIcon`
+- `WindIcon`
+- `WindyIcon`
+
+## Changed
+
+- `outline/SecurityIcon`
+
+### Renamed Icons
+
+- `outline/PinIcon` → `outline/NavigationPinIcon`
+- `outline/ArrowUturnUp` → `outline/ArrowUturnUpIcon`
+
+
 ## [3.2.1] - 2026-06-25
 
 ## Removed
