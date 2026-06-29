@@ -16,7 +16,7 @@ function SecurityIcon(props: SVGProps<SVGSVGElement>) {
         stroke-linejoin="round"
       />
       <path
-        d="M9.4476 11.7643L11.6019 13.9188L15.4573 10.0635"
+        d="M8.99487 12.1867L11.1492 14.3412L15.0045 10.4858"
         stroke="currentColor"
         stroke-linecap="round"
         stroke-linejoin="round"
