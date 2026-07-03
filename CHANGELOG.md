@@ -4,6 +4,92 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [3.4.0] - 2026-07-03
+
+## Added
+
+### Outline
+
+- `Ai2Icon`
+- `AiIcon`
+- `AiImageIcon`
+- `AiLayoutIcon`
+- `AiRepairIcon`
+- `AiSearchIcon`
+- `AiTextIcon`
+- `AlignBottonHorizontalIcon`
+- `AlignLeftVerticalIcon`
+- `AlignMiddleHorizontalIcon`
+- `AlignMiddleVerticalIcon`
+- `AlignRightVerticalIcon`
+- `AlignTopHorizontalIcon`
+- `ArrowOut2Icon`
+- `ArrowsIn2Icon`
+- `BacteriaIcon`
+- `BadmintonIcon`
+- `BarChartHorizontal2Icon`
+- `BasketballIcon`
+- `BoneIcon`
+- `BowlingIcon`
+- `BroomIcon`
+- `CampingIcon`
+- `Cerificate2Icon`
+- `CerificateIcon`
+- `ChemicalIcon`
+- `ColorPaletteIcon`
+- `DnaIcon`
+- `FlashlightIcon`
+- `FlipHorizontalIcon`
+- `FlipVerticalIcon`
+- `FossilIcon`
+- `GolfBallIcon`
+- `GolfIcon`
+- `HeartRateIcon`
+- `LightningIcon`
+- `LinkedIcon`
+- `MedalIcon`
+- `MicroscopeIcon`
+- `OfflineIcon`
+- `PortDisplayPortIcon`
+- `PortHdmiIcon`
+- `PortUsbIcon`
+- `PortUsbcIcon`
+- `SatelliteIcon`
+- `SaveIcon`
+- `ScienceIcon`
+- `SecurityCamIcon`
+- `ShoeIcon`
+- `Shortcut2Icon`
+- `Shortcut3Icon`
+- `Shortcut4Icon`
+- `Shortcut5Icon`
+- `SignalIcon`
+- `SoccerIcon`
+- `TargetBowIcon`
+- `TelescopeIcon`
+- `TennisIcon`
+- `ToothbrushIcon`
+- `UsbStickIcon`
+- `VirusIcon`
+- `VolleyballIcon`
+- `VulcanIcon`
+- `WalletFullIcon`
+- `WalletIcon`
+
+## Changed
+
+### Outline
+
+- `BookmarkIcon`
+- `BookmarkRemoveIcon`
+- `FunnelIcon`
+- `HandIcon`
+- `IdentityIcon`
+
+### Moved Icons
+
+- `filled/EnergyIcon` → `outline/EnergyIcon`
+
 ## [3.3.0] - 2026-06-29
 
 ## Added
@@ -63,6 +149,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - `UmbrellaIcon`
 - `WindIcon`
 - `WindyIcon`
+- `AiAppIconIcon`
+- `AiStar2Icon`
+- `AiStarIcon`
 
 ## Changed
 
