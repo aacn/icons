@@ -1,1 +1,1 @@
-export { EnergyIcon } from './EnergyIcon';
+export {};
