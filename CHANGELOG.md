@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [3.4.1] - 2026-07-03
+
+## Changed
+
+### Outline
+
+- `BookmarkIcon`
+- `BookmarkRemoveIcon`
+- `FunnelIcon`
+- `HandIcon`
+
 ## [3.4.0] - 2026-07-03
 
 ## Added
@@ -80,10 +91,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Outline
 
-- `BookmarkIcon`
-- `BookmarkRemoveIcon`
-- `FunnelIcon`
-- `HandIcon`
 - `IdentityIcon`
 
 ### Moved Icons
