@@ -13,7 +13,7 @@ function AnonymousIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M21.1365 17.0823C21.1365 14.4512 19.0036 12.3184 16.3726 12.3184C13.7415 12.3184 11.6086 14.4512 11.6086 17.0823"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <circle cx="16.3466" cy="9.00073" r="3.3186" stroke="currentColor" />
       <path
@@ -28,7 +28,7 @@ function AnonymousIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M7.23126 14.0225V15.7909"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

@@ -17,14 +17,14 @@ function CodeBracketSquareIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M13.9694 15.8496L17.8191 11.9999L13.9694 8.1502"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M10.2262 8.1499L6.37637 11.9997L10.2262 15.8495"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

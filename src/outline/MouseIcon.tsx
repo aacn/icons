@@ -29,17 +29,17 @@ function MouseIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M7.95276 2.34473H8.78801C10.5618 2.34473 11.9998 3.78271 11.9998 5.55654"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M6.89014 12.5379H11.9651M17.04 12.5379H11.9651M11.9651 12.5379V10.6313"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M11.9998 7.61595V5.55615"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

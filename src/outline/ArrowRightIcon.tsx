@@ -13,13 +13,13 @@ function ArrowRightIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M6.49005 11.9995L17.5093 11.9995"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M15.0828 9.57324L17.5093 11.9997L15.0828 14.4261"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

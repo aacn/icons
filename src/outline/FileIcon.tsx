@@ -17,26 +17,26 @@ function FileIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M5.01477 9.15185H8.4942C9.23056 9.15185 9.8275 8.55491 9.8275 7.81855V4.54248"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M12.8369 9.15137L16.2512 9.15137"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M8.3739 15.0996L11.2392 15.0996"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M7.6792 12.4814L16.2511 12.4814"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

@@ -21,8 +21,8 @@ function ClipboardCheckIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M9.34106 13.9508L10.3172 14.927C10.7077 15.3175 11.3409 15.3175 11.7314 14.927L14.6589 11.9995"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

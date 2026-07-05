@@ -18,17 +18,17 @@ function LiveOnCheckIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M15.6654 14.3545L16.5235 15.2132"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M16.5238 15.2129L18.4925 13.2457"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M17.8733 8.82078C16.7431 6.73543 14.5352 5.31934 11.9966 5.31934C8.30737 5.31934 5.31665 8.31006 5.31665 11.9993C5.31665 15.6885 8.30737 18.6793 11.9966 18.6793C12.4516 18.6793 12.896 18.6338 13.3254 18.5471"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

@@ -37,12 +37,12 @@ function CityIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M6.19666 7.46582L6.19666 8.82981"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M7.44666 8.00195L7.44666 8.83037"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <circle cx="6.70786" cy="11.6909" r="0.738743" fill="currentColor" />
       <circle cx="9.64048" cy="11.6909" r="0.738743" fill="currentColor" />
@@ -53,7 +53,7 @@ function CityIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M9.03931 8.81656V6.54292C9.03931 6.21006 9.20492 5.89903 9.48109 5.71322L12.105 3.94784C12.4425 3.72076 12.8839 3.72076 13.2214 3.94784L15.8454 5.71322C16.1215 5.89903 16.2871 6.21006 16.2871 6.54292V13.6473M16.2871 20.426H9.59681"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

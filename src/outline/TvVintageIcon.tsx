@@ -21,32 +21,32 @@ function TvVintageIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M6.90356 18.4312L6.23254 20.9355"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M17.8477 18.4312L18.5187 20.9355"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M9.25098 3.06348L11.2928 5.105C11.6833 5.49548 12.3165 5.49546 12.707 5.10495L14.7484 3.06348"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M6.81116 7.99805L11.4227 15.9854"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M9.11694 7.99805L13.7284 15.9853"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <circle cx="18.1832" cy="8.88922" r="0.891174" stroke="currentColor" />
       <circle cx="18.1832" cy="12.254" r="0.891174" stroke="currentColor" />

@@ -17,17 +17,17 @@ function SubmarineIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M3.91846 14.5303H2.18129"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M2.70203 13.2319L2.70203 15.8184"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M15.2502 7.76326L15.2502 6.17676C15.2502 5.62447 15.698 5.17676 16.2502 5.17676L16.5439 5.17676"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <circle cx="18.9002" cy="14.5305" r="0.952846" stroke="currentColor" />
       <circle cx="15.2503" cy="14.5305" r="0.952846" stroke="currentColor" />
@@ -35,12 +35,12 @@ function SubmarineIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M4.84509 12.7169V11.2329C4.84509 10.6806 5.30134 10.2329 5.85362 10.2329C6.21089 10.2329 6.54594 10.4235 6.72457 10.7329L7.16474 11.4953"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M4.84509 16.3618V17.8228C4.84509 18.375 5.30134 18.8228 5.85362 18.8228C6.21089 18.8228 6.54594 18.6322 6.72457 18.3228L7.16474 17.5604"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

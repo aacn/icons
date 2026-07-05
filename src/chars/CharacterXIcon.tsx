@@ -13,14 +13,14 @@ function CharacterXIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M8.56042 6.04297L15.4388 17.9569"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M15.439 6.04297L8.56058 17.9569"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

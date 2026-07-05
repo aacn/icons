@@ -13,8 +13,8 @@ function CharacterLIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M8.90979 6.15088V11.9999V17.8489H15.0897"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

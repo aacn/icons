@@ -17,8 +17,8 @@ function PepperIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M7.80164 18.9595V21.3307C7.80164 21.6988 8.10011 21.9973 8.46829 21.9973H15.7919C16.1601 21.9973 16.4585 21.6988 16.4585 21.3307V18.9596"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M6.81628 16.9956C6.81628 15.911 7.69555 15.0317 8.78018 15.0317H15.2812C16.3658 15.0317 17.2451 15.911 17.2451 16.9956C17.2451 18.0803 16.3658 18.9595 15.2812 18.9595H8.78018C7.69555 18.9595 6.81628 18.0803 6.81628 16.9956Z"
@@ -27,14 +27,14 @@ function PepperIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M8.84904 15.0317C7.74804 14.174 7.44298 12.6362 8.27198 11.5134L8.34452 11.4152C8.67222 10.9713 8.84904 10.4342 8.84904 9.88247V9.38965"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M15.1503 15.0317C16.2514 14.174 16.5564 12.6362 15.7274 11.5134L15.6549 11.4152C15.3272 10.9713 15.1503 10.4342 15.1503 9.88247V9.38965"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <mask id="path-6-inside-1_6013_6792" fill="currentColor">
         <path d="M10.4746 3.48392C10.4746 2.66545 11.1381 2.00195 11.9566 2.00195H12.0931C12.9115 2.00195 13.575 2.66545 13.575 3.48392C13.575 4.30239 12.9115 4.96589 12.0931 4.96589H11.9566C11.1381 4.96589 10.4746 4.30239 10.4746 3.48392Z" />

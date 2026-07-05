@@ -18,27 +18,27 @@ function SoccerIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M11.9997 5.41823L9.90501 3.89631M11.9997 5.41823L14.0945 3.89631M11.9997 5.41823L11.9997 8.78467"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M8.50233 17.4613L9.55547 19.8267M8.50233 17.4613L5.92728 17.732M8.50233 17.4613L10.1856 14.5459"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M15.4971 17.4613L14.4439 19.8267M15.4971 17.4613L18.0721 17.732M15.4971 17.4613L13.8138 14.5459"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M18.3319 10.1239L19.2598 7.70664M18.3319 10.1239L20.3441 11.7534M18.3319 10.1239L15.0802 10.9952"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M5.78005 10.1239L4.85215 7.70664M5.78005 10.1239L3.76783 11.7534M5.78005 10.1239L9.03178 10.9952"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

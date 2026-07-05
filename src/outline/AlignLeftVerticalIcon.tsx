@@ -31,8 +31,8 @@ function AlignLeftVerticalIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M3.80093 21.3486L3.80093 3.25623"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

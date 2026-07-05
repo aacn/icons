@@ -17,20 +17,20 @@ function BroomIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M6.32801 12.161L2.45024 13.8877C1.80942 14.173 1.65389 15.0123 2.14991 15.5083L4.66784 18.0262C4.87862 18.237 5.17245 18.3428 5.46921 18.3147L6.23199 18.2425C6.85675 18.1833 7.38096 18.7075 7.32181 19.3323L7.24958 20.0951C7.22148 20.3918 7.32724 20.6856 7.53802 20.8964L8.47198 21.8304C8.968 22.3264 9.80727 22.1709 10.0926 21.5301L11.8193 17.6523"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M8.11896 17.3643L7.26208 18.2211"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M7.51822 14.4449L3.98028 16.972"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

@@ -13,7 +13,7 @@ function ExclamationMarkTriangleIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M12.0303 9.29346L12.0303 13.1727"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <circle cx="11.9997" cy="15.5004" r="0.885137" fill="currentColor" />
       <path

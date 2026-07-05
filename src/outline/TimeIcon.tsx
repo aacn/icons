@@ -17,20 +17,20 @@ function TimeIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M7.49585 17.7744L7.58792 17.7161C10.3147 15.9897 13.7979 16.0125 16.5019 17.7744"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M5.94678 3.9126L18.0528 3.91155"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M18.0526 20.0869L5.94664 20.088"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

@@ -25,32 +25,32 @@ function CarIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M8.97162 14.1602L8.97162 15.4013"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M14.9687 14.1602L14.9687 15.4013"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M6.14404 9.83105H6.85311"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M17.1463 9.83105H17.8553"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M8.28748 4.36279H9.67552"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M14.2845 4.36279H15.6726"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

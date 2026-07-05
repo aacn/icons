@@ -13,8 +13,8 @@ function CheckIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M4.26798 11.9999L9.23602 16.9681L19.7321 6.47206"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

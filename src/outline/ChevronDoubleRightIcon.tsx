@@ -13,14 +13,14 @@ function ChevronDoubleRightIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M11.5034 17.439L16.9427 11.9997L11.5034 6.56041"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M7.05664 17.439L12.496 11.9997L7.05664 6.56041"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

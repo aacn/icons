@@ -17,20 +17,20 @@ function FilePoundIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M5.01465 9.15185H8.49408C9.23044 9.15185 9.82738 8.55491 9.82738 7.81855V4.54248"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M13.9639 15.2375V16.1383H10.3733C11.3618 15.5297 11.6635 14.2314 11.0447 13.2493L10.6999 12.702C10.4865 12.3634 10.3733 11.9713 10.3733 11.571C10.3733 10.6419 11.1771 9.88867 12.1686 9.88867C12.6883 9.88867 13.1565 10.0957 13.4843 10.4265"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M10.0354 12.9009H13.5873"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

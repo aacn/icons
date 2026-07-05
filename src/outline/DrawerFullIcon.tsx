@@ -33,7 +33,7 @@ function DrawerFullIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M10.5552 16.9292H13.4442"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

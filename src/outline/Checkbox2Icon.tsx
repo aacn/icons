@@ -21,12 +21,12 @@ function Checkbox2Icon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M4.86426 12.2861L6.83276 14.2561"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M6.84351 14.2559L11.3596 9.74304"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

@@ -18,32 +18,32 @@ function TemperatureIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M15.3615 2.08838H17.8492"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M15.3615 4.75684L16.1042 4.757"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M15.3615 7.42627H17.8492"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M15.3615 10.0957L16.1042 10.0959"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M15.3615 12.7656H17.8492"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M10.2943 17.3544C10.324 17.1763 10.3067 9.21812 10.2943 5.26123"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

@@ -25,32 +25,32 @@ function CarStarIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M6.13 17.5625L6.13 18.031"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M9.27573 17.5625L9.27573 18.031"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M3.71841 14.2485H4.20252"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M11.2372 14.2485H11.7213"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M5.39648 10.5151L6.13006 10.5151"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M9.27615 10.5151H10.2238"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M17.9062 10.1875C18.1806 10.7395 18.6287 11.1873 19.1806 11.4619C18.629 11.7363 18.1806 12.1838 17.9062 12.7354C17.6315 12.1837 17.1836 11.7362 16.6317 11.4619C17.1839 11.1874 17.6316 10.7396 17.9062 10.1875ZM13.7626 4.08301C13.9639 5.37969 14.9816 6.39723 16.2782 6.59863L16.6776 6.66016L16.2782 6.72266C14.9816 6.92404 13.964 7.94166 13.7626 9.23828L13.7001 9.6377L13.6386 9.23828C13.4372 7.94163 12.4196 6.92398 11.123 6.72266L10.7226 6.66016L11.123 6.59863C12.4197 6.39729 13.4372 5.37972 13.6386 4.08301L13.7001 3.68262L13.7626 4.08301Z"

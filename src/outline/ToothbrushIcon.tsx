@@ -21,20 +21,20 @@ function ToothbrushIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M13.9322 7.04688L15.9548 9.06944"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M15.6288 5.35059L17.6514 7.37315"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M12.3251 8.67121L15.5906 5.30547C16.6055 4.25935 16.6108 2.59765 15.6025 1.54508C15.5861 1.52796 15.5576 1.53286 15.5479 1.55448L15.2041 2.31808C14.6628 3.52028 13.8109 4.55656 12.7362 5.3203L12.5544 5.44954C11.4865 6.20838 11.3575 7.7452 12.2838 8.67152C12.2952 8.68296 12.3138 8.68282 12.3251 8.67121Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

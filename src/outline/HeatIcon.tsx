@@ -17,17 +17,17 @@ function HeatIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M8.63867 15.9497C7.91834 15.2611 7.91834 14.1107 8.63867 13.4221C9.35899 12.7336 9.35899 11.5831 8.63867 10.8946C7.91834 10.206 7.91834 9.05554 8.63867 8.36698"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M12.0004 15.9497C11.28 15.2611 11.28 14.1107 12.0004 13.4221C12.7207 12.7336 12.7207 11.5831 12.0004 10.8946C11.28 10.206 11.28 9.05554 12.0004 8.36698"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M15.3621 15.9497C14.6418 15.2611 14.6418 14.1107 15.3621 13.4221C16.0824 12.7336 16.0824 11.5831 15.3621 10.8946C14.6418 10.206 14.6418 9.05554 15.3621 8.36698"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

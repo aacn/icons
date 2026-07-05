@@ -21,7 +21,7 @@ function DrawerEmptyIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M10.5791 16.9648H13.4204"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

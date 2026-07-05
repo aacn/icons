@@ -17,12 +17,12 @@ function FolderUploadIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M11.9995 11.2948L11.9995 15.2119"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M14.2517 12.7359L12.1866 10.6741C12.0825 10.5701 11.9138 10.5702 11.8097 10.6742L9.74805 12.7359"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

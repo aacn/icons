@@ -25,42 +25,42 @@ function DistanceIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M9.45618 16.0239L9.45618 17.0665"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M14.4937 16.0239L14.4937 17.0665"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M7.08093 12.3872H7.67655"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M16.3229 12.3872H16.9185"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M8.88147 7.79346H10.0474"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M8.88147 4.34912H15.0813"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M8.88147 2.16455H15.0813"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M13.919 7.79346H15.085"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

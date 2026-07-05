@@ -17,23 +17,23 @@ function FileChartIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M5.01465 9.15185H8.49408C9.23044 9.15185 9.82738 8.55491 9.82738 7.81855V4.54248"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M9.29223 15.8064L9.29224 13.7197"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M11.9998 15.8062L11.9998 12.3828"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M14.7073 15.8061L14.7073 10.8036"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

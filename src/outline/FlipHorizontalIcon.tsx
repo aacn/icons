@@ -13,8 +13,8 @@ function FlipHorizontalIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M4.1936 11.9995L19.8059 11.9995"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M11.1337 15.4292C11.5186 14.7625 12.4809 14.7625 12.8658 15.4292L15.2372 19.5366C15.6221 20.2033 15.141 21.0366 14.3712 21.0366L9.62834 21.0366C8.85854 21.0366 8.37741 20.2033 8.76231 19.5366L11.1337 15.4292Z"

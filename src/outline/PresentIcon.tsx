@@ -25,14 +25,14 @@ function PresentIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M11.5677 11.1699L11.5677 20.2629"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M10.8154 11.0381L10.8154 8.1946"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

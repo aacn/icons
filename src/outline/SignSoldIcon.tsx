@@ -13,7 +13,7 @@ function SignSoldIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M4.00261 10.2106C4.00261 10.8323 4.54045 11.3363 5.20391 11.3363C5.86737 11.3363 6.40521 10.8323 6.40521 10.2106C6.40521 9.71763 6.02717 9.30704 5.53588 9.26642L4.83711 9.20864C4.36358 9.16949 3.99921 8.77374 3.99921 8.29859C3.99921 7.67686 4.53705 7.17285 5.2005 7.17285C5.86396 7.17285 6.4018 7.67686 6.4018 8.29859"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <ellipse
         cx="9.59491"
@@ -25,14 +25,14 @@ function SignSoldIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M12.7846 7.17285V9.23342V11.294H14.3217"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M15.7353 7.17285V11.294L16.0656 11.294C17.2037 11.294 18.1263 10.3715 18.1263 9.23343C18.1263 8.09544 17.2037 7.1729 16.0658 7.17286L15.7353 7.17285Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M3.09209 14.0456C2.53981 14.0456 2.0921 13.5979 2.0921 13.0456L2.0921 5.46284C2.0921 4.91055 2.53982 4.46284 3.0921 4.46284L9.28471 4.46284L19.0334 4.46308C19.5857 4.46309 20.0334 4.9108 20.0334 5.46308L20.0334 13.0459C20.0334 13.5982 19.5857 14.0459 19.0334 14.0459L3.09209 14.0456Z"

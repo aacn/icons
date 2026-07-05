@@ -29,22 +29,22 @@ function AirBaloonIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M10.3069 16.2729L10.3069 18.1204"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M13.8175 16.2729L13.8175 18.1204"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M8.83325 14.3257H15.4504"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M9.25415 18.125H14.7452"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

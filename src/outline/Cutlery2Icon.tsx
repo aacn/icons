@@ -17,17 +17,17 @@ function Cutlery2Icon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M7.84528 3.32861V7.41908"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M9.51013 3.32861V7.41908"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M13.3018 19.9975V3.87138C13.3018 3.78211 13.3973 3.72537 13.4757 3.76806C16.2253 5.26556 17.3612 8.62544 16.0844 11.4841L15.1854 13.4971C15.1759 13.5182 15.1711 13.5411 15.1711 13.5642V19.9975C15.1711 20.5137 14.7526 20.9322 14.2364 20.9322C13.7203 20.9322 13.3018 20.5137 13.3018 19.9975Z"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

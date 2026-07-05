@@ -17,14 +17,14 @@ function CodeCommandSquareIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M6.36218 11.9995L8.8315 9.53023L6.36218 7.06091"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M10.5734 11.9995H13.4261"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

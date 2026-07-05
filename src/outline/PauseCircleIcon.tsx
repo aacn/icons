@@ -14,12 +14,12 @@ function PauseCircleIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M14.3027 8.18652V15.8132"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M9.69653 8.18652V15.8132"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );
