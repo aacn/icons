@@ -25,12 +25,12 @@ function WidgetAddIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M14.0693 16.3623H18.9465"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M16.502 18.8066L16.502 13.9295"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

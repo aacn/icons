@@ -21,14 +21,14 @@ function AiRepairIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M5.0445 7.46582L7.99255 10.4139"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M3.9621 8.70801L6.91016 11.6561"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M19.8197 10.0849C19.8572 9.84409 20.2036 9.84406 20.241 10.0849C20.3835 11.0033 21.1041 11.7239 22.0225 11.8664C22.2634 11.9038 22.2634 12.2503 22.0225 12.2877C21.1042 12.4302 20.3837 13.151 20.241 14.0692C20.2036 14.3101 19.8571 14.3101 19.8197 14.0692C19.677 13.1511 18.9563 12.4303 18.0382 12.2877C17.7973 12.2503 17.7973 11.9038 18.0382 11.8664C18.9564 11.7238 19.6772 11.0032 19.8197 10.0849Z"

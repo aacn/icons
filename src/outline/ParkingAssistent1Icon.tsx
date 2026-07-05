@@ -13,12 +13,12 @@ function ParkingAssistent1Icon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M19.4673 9.09481C19.4673 6.5186 17.3789 4.43018 14.8027 4.43018"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M21.8866 9.09516C21.8866 5.18281 18.715 2.01123 14.8027 2.01123"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M2.8656 11.7145C2.8656 9.3324 4.79664 7.40137 7.17869 7.40137H12.3869C14.769 7.40137 16.7 9.3324 16.7 11.7145V16.9227C16.7 19.3048 14.769 21.2358 12.387 21.2358H7.17869C4.79664 21.2358 2.8656 19.3048 2.8656 16.9227V11.7145Z"

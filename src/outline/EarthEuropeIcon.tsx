@@ -24,13 +24,13 @@ function EarthEuropeIcon(props: SVGProps<SVGSVGElement>) {
         <path
           d="M12.0036 8.68815L11.9279 9.23437C11.8764 9.606 11.5628 9.88532 11.1878 9.89367"
           stroke="currentColor"
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
       </g>
       <path
         d="M16.9396 11.7617L18.4158 12.2934"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <defs>
         <filter
@@ -40,9 +40,9 @@ function EarthEuropeIcon(props: SVGProps<SVGSVGElement>) {
           width="12.4823"
           height="12.872"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"

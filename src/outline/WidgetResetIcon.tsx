@@ -25,17 +25,17 @@ function WidgetResetIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M13.3657 15.0171L15.5524 15.0171"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M13.3657 12.8301L13.3657 15.0168"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M13.5711 14.7755C14.1153 13.7493 15.1945 13.0503 16.437 13.0503C18.2275 13.0503 19.6789 14.5017 19.6789 16.2922C19.6789 18.0826 18.2275 19.5341 16.437 19.5341C15.1249 19.5341 13.9949 18.7546 13.4847 17.6334"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

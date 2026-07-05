@@ -53,17 +53,17 @@ function HouseApartmentIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M17.4115 6.64941V9.67256"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M9.36792 2.24414L9.36792 4.19933"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M11.1595 3.01221L11.1595 4.19968"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

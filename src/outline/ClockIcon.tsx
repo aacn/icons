@@ -14,27 +14,27 @@ function ClockIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M11.9997 7.7002V11.998"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M11.9997 17.6768L11.9997 19.312"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M6.58313 11.9985L4.94786 11.9985"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M19.1661 11.9985L17.5309 11.9985"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M13.2913 13.2915L11.9984 11.9986"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

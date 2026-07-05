@@ -17,7 +17,7 @@ function PinIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M8.51172 13.3403L3.11373 18.7383C2.95692 18.8951 2.85668 19.0996 2.82878 19.3196L2.81906 19.3963C2.73685 20.0447 3.28852 20.5964 3.9369 20.5142L4.01358 20.5044C4.23359 20.4765 4.43809 20.3763 4.5949 20.2195L9.99289 14.8215"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

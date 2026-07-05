@@ -13,19 +13,19 @@ function ArrowUpDownIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M11.5474 20.5449L11.5474 3.54333"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M16.1743 15.9751L11.6045 20.5449L7.03465 15.9751"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M16.1743 8.1128L11.6045 3.54297L7.03465 8.1128"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

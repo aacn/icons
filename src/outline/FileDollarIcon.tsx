@@ -17,25 +17,25 @@ function FileDollarIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M5.01477 9.15185H8.4942C9.23056 9.15185 9.8275 8.55491 9.8275 7.81855V4.54248"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M10.3198 14.2379C10.3198 15.1086 11.073 15.8144 12.0021 15.8144C12.9312 15.8144 13.6844 15.1086 13.6844 14.2379C13.6844 13.5476 13.155 12.9726 12.467 12.9157L11.4885 12.8348C10.8253 12.78 10.3151 12.2258 10.3151 11.5604C10.3151 10.6897 11.0683 9.98389 11.9974 9.98389C12.9265 9.98389 13.6796 10.6897 13.6796 11.5604"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M12.0531 16.6448L12.0531 16.0498"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M12.0531 9.74633L12.0531 9.15137"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

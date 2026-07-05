@@ -13,14 +13,14 @@ function DeleteSpacesIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M15.1226 12.334L11.9986 15.4579M11.9986 15.4579L15.1226 18.5818M11.9986 15.4579L8.87468 18.5818M11.9986 15.4579L8.87475 12.334"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M5.85034 5.91406L5.85034 8.48278L18.1557 8.48278L18.1557 5.91406"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

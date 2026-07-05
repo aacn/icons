@@ -13,8 +13,8 @@ function FlipVerticalIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M11.9997 4.19336V19.8057"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M8.56988 11.1335C9.23655 11.5184 9.23655 12.4806 8.56988 12.8655L4.46246 15.237C3.7958 15.6219 2.96246 15.1407 2.96246 14.3709L2.96246 9.62809C2.96246 8.85829 3.7958 8.37716 4.46246 8.76207L8.56988 11.1335Z"

@@ -13,12 +13,12 @@ function SettingsVerticalIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M5.8418 12.7266L5.8418 4.15238"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M5.8418 19.8467L5.8418 16.7854"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <circle
         cx="5.72248"
@@ -30,12 +30,12 @@ function SettingsVerticalIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M11.8806 11.2725L11.8806 19.8466"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M11.8806 4.15234L11.8806 7.21361"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <circle
         cx="11.9999"
@@ -47,12 +47,12 @@ function SettingsVerticalIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M18.3965 12.7266L18.3965 4.15238"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M18.3965 19.8467L18.3965 16.7854"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <circle
         cx="18.2769"

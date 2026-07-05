@@ -21,7 +21,7 @@ function Character9Icon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M9.63356 18.1484C12.925 18.1484 15.5933 15.4802 15.5933 12.1887L15.5933 9.50767"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

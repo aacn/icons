@@ -25,7 +25,7 @@ function WidgetRemoveIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M14.0693 16.3623H18.9465"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

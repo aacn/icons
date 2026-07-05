@@ -17,8 +17,8 @@ function ThunderIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M10.0041 12.8857L8.66676 16.4848C8.50493 16.9203 8.82706 17.3836 9.29167 17.3836H11.0296C11.4942 17.3836 11.8163 17.847 11.6545 18.2825L10.3288 21.8504C10.2751 21.9949 10.4687 22.1001 10.5607 21.9764L14.8742 16.1815C15.2015 15.7417 14.8877 15.1168 14.3394 15.1168H12.3811C12.2809 15.1168 12.2165 15.0103 12.263 14.9216L13.3299 12.8857"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

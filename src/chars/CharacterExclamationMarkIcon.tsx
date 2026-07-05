@@ -13,7 +13,7 @@ function CharacterExclamationMarkIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M11.9507 4.66699V14.6361"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <circle
         cx="1.42141"

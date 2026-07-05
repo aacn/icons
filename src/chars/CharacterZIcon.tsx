@@ -13,8 +13,8 @@ function CharacterZIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M15.3977 17.8855H8.60168L15.3977 6.11426H8.60168"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

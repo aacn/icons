@@ -20,7 +20,7 @@ function Character6Icon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M14.366 5.85059C11.0745 5.85059 8.40622 8.51886 8.40622 11.8103V14.4913"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

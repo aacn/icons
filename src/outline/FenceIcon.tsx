@@ -25,42 +25,42 @@ function FenceIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M14.0802 11.334H16.6029"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M20.7633 11.334H22.016"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M1.98315 11.334H3.23584"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M14.0802 14.9043H16.6029"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M20.7633 14.9043H22.016"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M1.98315 14.9043H3.23584"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M7.39624 11.334H9.91956"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M7.39624 14.9043H9.91956"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <circle cx="5.3161" cy="11.3325" r="0.494568" fill="currentColor" />
       <circle cx="11.9999" cy="11.3325" r="0.494568" fill="currentColor" />

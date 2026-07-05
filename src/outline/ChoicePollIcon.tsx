@@ -10,7 +10,7 @@ function ChoicePollIcon(props: SVGProps<SVGSVGElement>) {
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
-      <g clip-path="url(#clip0_6013_5753)">
+      <g clipPath="url(#clip0_6013_5753)">
         <path
           d="M4.4165 2.6043C4.4165 1.86794 5.01344 1.271 5.7498 1.271H9.03618C9.77254 1.271 10.3695 1.86793 10.3695 2.6043V5.89067C10.3695 6.62703 9.77254 7.22397 9.03618 7.22397H5.7498C5.01344 7.22397 4.4165 6.62703 4.4165 5.89067V2.6043Z"
           stroke="currentColor"
@@ -26,27 +26,27 @@ function ChoicePollIcon(props: SVGProps<SVGSVGElement>) {
         <path
           d="M6.17377 12.106L6.90557 12.8383"
           stroke="currentColor"
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <path
           d="M6.91418 12.8398L8.59307 11.1622"
           stroke="currentColor"
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <path
           d="M13.1455 4.24707L19.5828 4.24707"
           stroke="currentColor"
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <path
           d="M13.1455 11.9995L19.5828 11.9995"
           stroke="currentColor"
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <path
           d="M13.1455 19.752L19.5828 19.752"
           stroke="currentColor"
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
       </g>
       <defs>

@@ -18,17 +18,17 @@ function LiveOnXIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M16.1212 15.3438L18.0899 13.3765"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M18.0891 15.3442L16.1219 13.3756"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M17.8735 8.82078C16.7432 6.73543 14.5353 5.31934 11.9967 5.31934C8.30749 5.31934 5.31677 8.31006 5.31677 11.9993C5.31677 15.6885 8.30749 18.6793 11.9967 18.6793C12.4517 18.6793 12.8961 18.6338 13.3256 18.5471"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

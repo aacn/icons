@@ -21,7 +21,7 @@ function PackageIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M6.71252 14.2535V10.5411L16.1364 5.75781"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

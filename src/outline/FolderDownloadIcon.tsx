@@ -17,12 +17,12 @@ function FolderDownloadIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M12.0002 14.403L12.0002 10.4858"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M9.74805 12.9618L11.8131 15.0237C11.9173 15.1277 12.086 15.1276 12.19 15.0235L14.2517 12.9618"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

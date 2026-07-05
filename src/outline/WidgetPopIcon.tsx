@@ -29,12 +29,12 @@ function WidgetPopIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M20.1183 4.67547L21.6704 2.70344"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M21.2167 5.98322L22.1865 5.76211"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

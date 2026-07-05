@@ -13,7 +13,7 @@ function FlowerSpringIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M11.7892 12.6686L11.9863 15.0168C12.0846 16.1879 12.0536 17.3662 11.8938 18.5306L11.4964 21.4261"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <circle cx="9.7967" cy="7.84358" r="2.60627" stroke="currentColor" />
       <path
@@ -51,19 +51,19 @@ function FlowerSpringIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M13.7144 21.7258L11.645 22.015L12.1486 19.747C13.0575 15.6542 16.5913 12.6494 20.7746 12.3732C21.095 12.3521 21.3693 12.6061 21.3693 12.9271C21.3693 17.3587 18.1034 21.1126 13.7144 21.7258Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M9.02169 21.7094L11.645 22.0149L11.4703 21.3593C10.6115 18.1362 7.77691 15.8313 4.44644 15.6481L4.3173 15.641C4.11143 15.6296 3.93829 15.7935 3.93829 15.9997C3.93829 18.9172 6.1238 21.3719 9.02169 21.7094Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M11.9274 21.8923L17.2014 17.099"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

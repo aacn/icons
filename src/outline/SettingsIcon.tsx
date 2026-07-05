@@ -21,24 +21,24 @@ function SettingsIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M21.5598 7.69333L20.6381 8.60665C20.1168 9.12327 19.2759 9.12135 18.7569 8.60234L18.5033 8.34878C17.9826 7.8281 17.9826 6.98392 18.5033 6.46323L19.3641 5.6024"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M11.8738 15.2754L8.49475 18.6546"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M16.1532 10.9492L14.0588 13.0437"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M21.5625 7.69679C21.5625 9.48303 20.6849 11.6344 18.8987 11.6344C17.1125 11.6344 15.6644 10.1863 15.6644 8.4001C15.6644 6.61386 17.5407 5.61035 19.3269 5.61035"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

@@ -24,8 +24,8 @@ function PanIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M13.9999 8.88808L21.093 7.68089C21.7314 7.57224 22.3408 7.98982 22.4699 8.62437C22.6054 9.29064 22.1608 9.93629 21.49 10.0472L14.0833 11.2718"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

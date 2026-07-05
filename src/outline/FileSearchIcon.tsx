@@ -17,13 +17,13 @@ function FileSearchIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M5.01477 9.15185H8.4942C9.23056 9.15185 9.8275 8.55491 9.8275 7.81855V4.54248"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M11.5269 14.7184L9.28296 16.8906"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <circle cx="13.4316" cy="12.6105" r="2.69639" stroke="currentColor" />
     </svg>

@@ -13,14 +13,14 @@ function ChevronDoubleDownIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M6.5603 11.5034L11.9995 16.9427L17.4389 11.5034"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M6.5603 7.05664L11.9995 12.496L17.4389 7.05664"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

@@ -13,35 +13,35 @@ function ServiceIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M8.64161 16.1765C5.13813 16.1765 2.298 13.3363 2.298 9.83287C2.298 6.32939 5.13813 3.48926 8.64161 3.48926C10.9588 3.48926 12.9859 4.73169 14.0929 6.58674"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <circle cx="8.68329" cy="9.83292" r="1.09513" fill="currentColor" />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M17.851 7.68228C18.3053 7.70402 18.7398 7.80085 19.1427 7.96048C19.4284 8.07368 19.4762 8.43915 19.2589 8.65643L17.042 10.8733C16.8592 11.0563 16.8591 11.3529 17.042 11.5359L17.8423 12.3366C18.0138 12.5079 18.2852 12.5185 18.4691 12.3686L18.5048 12.3366L20.7217 10.1193C20.939 9.90197 21.3043 9.94989 21.4177 10.2355C21.6004 10.696 21.7013 11.1979 21.7014 11.7235L21.6959 11.9317C21.5874 14.0693 19.8198 15.7696 17.6551 15.7697L17.4781 15.7679C17.0798 15.759 16.7805 15.7173 16.535 15.6228C16.315 15.5382 16.0518 15.5447 15.8839 15.7102L11.4863 20.0452L11.4254 20.1024C10.8059 20.6537 9.8654 20.6445 9.25658 20.0813L9.1971 20.0232C8.5987 19.4103 8.58604 18.4416 9.15409 17.8132L9.21083 17.7532L13.5677 13.3959C13.714 13.2496 13.7481 13.0218 13.7036 12.8198C13.6574 12.6102 13.6271 12.3419 13.6149 12.0383L13.6089 11.7235C13.609 9.48901 15.4207 7.67732 17.6551 7.67725L17.851 7.68228Z"
         stroke="currentColor"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M8.67883 6.27734V9.83096"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M8.67883 14.8315L8.67883 16.1761"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M3.60269 9.83203L2.62263 9.83203"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M8.67883 9.83203L10.2994 11.4526"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

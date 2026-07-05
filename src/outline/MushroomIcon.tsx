@@ -17,14 +17,14 @@ function MushroomIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M8.7466 12.9326L7.78366 15.3803C7.42625 16.2888 7.42625 17.299 7.78366 18.2075C8.36463 19.6842 9.78995 20.6552 11.3769 20.6552H12.7041C14.3686 20.6552 15.8458 19.5885 16.3694 18.0085C16.6307 17.2198 16.6307 16.3679 16.3694 15.5793L15.4923 12.9326"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M13.6188 6.12207C14.1576 6.28438 15.2833 6.90427 15.4756 8.08533"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );
