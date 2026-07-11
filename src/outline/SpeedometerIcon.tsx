@@ -13,32 +13,32 @@ function SpeedometerIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M9.5654 9.41162L9.5654 11.0128"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M5.16437 15.4165L3.56319 15.4165"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M11.5753 18.2192H7.97266"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M15.3612 15.4165L13.76 15.4165"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M6.14334 11.9893L5.16706 11.013"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M12.6928 12.5L9.764 15.4288"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <circle cx="9.57073" cy="15.4162" r="1.20088" fill="currentColor" />
       <path
@@ -48,12 +48,12 @@ function SpeedometerIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M19.0469 15.4483C19.0469 10.2118 14.8019 5.9668 9.5654 5.9668"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M21.8471 15.4487C21.8471 8.66569 16.3484 3.16699 9.5654 3.16699"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

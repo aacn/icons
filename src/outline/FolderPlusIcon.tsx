@@ -17,12 +17,12 @@ function FolderPlusIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M12.0002 14.8537L12.0002 10.9365"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M13.953 12.8897L10.0359 12.8896"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

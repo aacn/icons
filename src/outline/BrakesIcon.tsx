@@ -10,7 +10,7 @@ function BrakesIcon(props: SVGProps<SVGSVGElement>) {
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
-      <g clip-path="url(#clip0_6421_5022)">
+      <g clipPath="url(#clip0_6421_5022)">
         <circle cx="11.1364" cy="12.8097" r="4.76872" stroke="currentColor" />
         <circle cx="11.1364" cy="12.81" r="1.09367" stroke="currentColor" />
         <circle cx="11.1353" cy="15.6898" r="0.628743" fill="currentColor" />
@@ -36,7 +36,7 @@ function BrakesIcon(props: SVGProps<SVGSVGElement>) {
         <path
           d="M19.1363 19.4954C22.3397 15.6244 22.3397 9.99416 19.1362 6.1231C18.7841 5.69761 18.1464 5.70015 17.7559 6.09068L16.0684 7.77817C16.0229 7.82364 16.0071 7.89093 16.0275 7.9519C17.047 10.994 17.0815 14.2801 16.1261 17.343L16.0268 17.6614C16.0067 17.7256 16.024 17.7957 16.0716 17.8433L17.7559 19.5278C18.1464 19.9184 18.7841 19.9209 19.1363 19.4954Z"
           stroke="currentColor"
-          stroke-linejoin="round"
+          strokeLinejoin="round"
         />
       </g>
       <defs>

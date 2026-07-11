@@ -25,7 +25,7 @@ function ShortcutIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M18.7378 13.3569L21.776 16.3914"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

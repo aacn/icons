@@ -13,22 +13,22 @@ function AiTextIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M13.4087 17.1597H20.7587"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M13.4087 20.4385H20.7587"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M2.87421 13.5621V12.6662C2.87421 12.298 3.17268 11.9995 3.54086 11.9995H7.02633M11.1784 13.5621V12.6662C11.1784 12.298 10.88 11.9995 10.5118 11.9995H7.02633M7.02633 11.9995V19.946"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M5.54028 20.4385H8.5067"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M18.3752 9.71577C18.4127 9.47495 18.759 9.47492 18.7964 9.71577C18.939 10.6342 19.6596 11.3547 20.578 11.4973C20.8189 11.5347 20.8189 11.8811 20.578 11.9185C19.6597 12.0611 18.9392 12.7819 18.7964 13.7001C18.759 13.941 18.4126 13.941 18.3752 13.7001C18.2325 12.782 17.5118 12.0612 16.5937 11.9185C16.3528 11.8812 16.3528 11.5347 16.5937 11.4973C17.5119 11.3546 18.2327 10.6341 18.3752 9.71577Z"

@@ -17,25 +17,25 @@ function FileEuroIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M5.01465 9.15185H8.49408C9.23044 9.15185 9.82738 8.55491 9.82738 7.81855V4.54248"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M15.1913 11.594C14.6132 10.9508 13.7749 10.5464 12.8421 10.5464C11.0981 10.5464 9.68433 11.9602 9.68433 13.7042C9.68433 15.4481 11.0981 16.8619 12.8421 16.8619C13.7749 16.8619 14.6132 16.4575 15.1913 15.8143"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M8.80835 12.9854H13.2196"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M8.80835 14.6904H13.2196"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

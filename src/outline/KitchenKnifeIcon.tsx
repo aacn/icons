@@ -17,7 +17,7 @@ function KitchenKnifeIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M8.60559 12.5669C11.8291 9.34345 15.5298 6.63569 19.5776 4.53886L20.3276 4.15039C20.3275 6.79404 19.2106 9.31463 17.2523 11.0905L11.9434 15.9048L8.60559 12.5669Z"
         stroke="currentColor"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M7.08948 14.0825L8.52797 12.644L10.1772 14.2933L8.73872 15.7318L7.08948 14.0825Z"

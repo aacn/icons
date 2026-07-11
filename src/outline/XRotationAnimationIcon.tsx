@@ -17,17 +17,17 @@ function XRotationAnimationIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M12.1935 1.9585L8.59795 3.96774"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M14.2028 5.55371L12.1935 1.95818"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M11.7908 2.44922C11.1104 4.06275 10.6374 7.63687 10.6374 11.7868C10.6374 17.4497 11.5182 22.0403 12.6047 22.0403C13.2788 22.0403 13.8736 20.2735 14.2281 17.5799"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

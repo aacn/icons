@@ -17,12 +17,12 @@ function CloudUploadIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M12.2712 11.772L12.2712 15.6357"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M14.5427 13.2161L12.4583 11.135C12.3542 11.031 12.1855 11.0311 12.0814 11.1351L10.0005 13.2161"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

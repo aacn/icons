@@ -17,8 +17,8 @@ function CharacterQIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M12.5687 13.5459L17.8867 18.864"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

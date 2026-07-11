@@ -18,23 +18,23 @@ function LockOpenXIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M10.031 13.4424V15.8149"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M10.5469 19.2292H5.06816C4.3318 19.2292 3.73486 18.6322 3.73486 17.8959V10.9241C3.73486 10.1878 4.3318 9.59082 5.06816 9.59082H14.1352C14.8716 9.59082 15.4685 10.1878 15.4685 10.9241V11.0494"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <circle cx="16.0658" cy="17.0227" r="4.01001" stroke="currentColor" />
       <path
         d="M14.9216 18.166L17.2099 15.8794"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M17.2091 18.167L14.9225 15.8787"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

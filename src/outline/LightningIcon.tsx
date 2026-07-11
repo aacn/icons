@@ -13,8 +13,8 @@ function LightningIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M7.94214 13.0653L12.9756 2.50684L11.8186 10.5867H16.0573L10.6472 21.4921L11.8186 13.0653H7.94214Z"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

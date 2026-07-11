@@ -17,14 +17,14 @@ function CountrysideIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M15.7243 19.2233C16.133 19.2233 16.4641 18.8922 16.4642 18.4835L16.4591 14.0278C16.4591 13.8292 16.3839 13.6433 16.2423 13.5042L13.237 10.5523C12.9473 10.2679 12.4824 10.2701 12.1953 10.5572L9.24836 13.5041M16.2423 13.5042C16.3811 13.643 16.4591 13.8315 16.4591 14.0278M16.2423 13.5042L17.4086 14.6706M15.7243 19.2233H14.6685H14.1135H11.3828H10.8278H9.7714C9.36283 19.2232 9.0316 18.8921 9.03155 18.4835V14.0277C9.03155 13.8314 9.10958 13.6429 9.24836 13.5041M15.7243 19.2233H19.693C20.1017 19.2233 20.4328 18.8922 20.4329 18.4835V14.6728M9.24836 13.5041L8.08203 14.6704M17.4082 14.6798L20.4329 14.6728L21.3773 14.6706L20.211 13.5042L17.2765 10.6167C17.0996 10.4398 16.8597 10.3404 16.6095 10.3404H12.8835"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M5.8812 12.0632L5.8812 15.1174M8.92944 12.5259L8.92944 14.3433"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M12.7674 10.0583C12.7672 8.65055 11.6408 7.23219 10.2455 7.18122C10.0515 5.8221 8.8837 4.77656 7.47113 4.77637H7.16912C5.62098 4.77656 4.36522 6.03228 4.36507 7.58042C4.36507 7.66298 4.36931 7.74465 4.37631 7.8254C3.38155 7.98972 2.62224 8.8517 2.62207 9.8929C2.62207 11.0515 3.56153 11.9908 4.72009 11.9909H5.74581C6.25796 11.9909 6.72611 11.8059 7.0904 11.501C7.56851 12.0481 8.26912 12.3957 9.05268 12.3957H10.1491"
@@ -33,22 +33,22 @@ function CountrysideIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M3.70923 17.0342L8.99939 17.0342"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M4.36487 19.2231L4.36487 16.4588"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M7.43555 19.1934L7.43555 16.4291"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M5.88123 19.1934L5.88123 16.4291"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <rect
         x="12.04"

@@ -41,27 +41,27 @@ function CalculatorIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M8.04382 12.3071V14.6521"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M6.87781 13.4863L9.22278 13.4863"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M11.7136 13.4863L14.0586 13.4863"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M7.70886 7.46777L9.22278 10.6567"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M9.61536 6.77002L11.3898 10.6567"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

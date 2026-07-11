@@ -4,6 +4,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [3.5.0] - 2026-07-11
+
+## Added
+
+- React-free `@native-systems/icons/identifiers` export with all public icon names.
+
+## [3.4.2] - 2026-07-05
+
+## Fixed
+
+Several icons still used the js-style attribute declaration like `stroke-linecap`. This has been changed to use proper
+react naming instead. (e.g. `strokeLinecap`)
+
 ## [3.4.1] - 2026-07-03
 
 ## Changed
@@ -496,7 +509,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Added
 
-## Outline 
+## Outline
 
 - `ArrowDown2Icon`
 - `ArrowDownCircleIcon`

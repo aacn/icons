@@ -13,46 +13,46 @@ function ArrowOut2Icon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M16.0551 3.12822L20.9219 3.12822L20.9219 7.995"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M20.922 3.12842L15.2237 8.82676"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M7.94426 3.12822L3.07747 3.12822L3.07747 7.995"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M3.07751 3.12842L8.77586 8.82676"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M7.94426 20.8708H3.07747V16.004"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M3.07751 20.8706L8.77586 15.1723"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M16.0551 20.8708L20.9219 20.8708L20.9219 16.004"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M20.922 20.8706L15.2237 15.1723"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

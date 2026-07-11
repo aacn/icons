@@ -13,12 +13,12 @@ function ParkingAssistent2Icon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M7.14556 16.0637C7.14556 18.4002 9.03975 20.2944 11.3763 20.2944"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M4.95128 16.0637C4.95128 19.6122 7.82788 22.4888 11.3763 22.4888"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M9.30719 5.73924C9.30719 4.0743 10.6569 2.72461 12.3218 2.72461H14.7429C16.4078 2.72461 17.7575 4.0743 17.7575 5.73923V14.7129C17.7575 16.3779 16.4078 17.7276 14.7429 17.7276H12.3218C10.6569 17.7276 9.30719 16.3779 9.30719 14.7129V5.73924Z"
@@ -35,32 +35,32 @@ function ParkingAssistent2Icon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M11.0029 12.0117L11.0029 13.0372"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M15.9583 12.0117L15.9583 13.0372"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M8.66656 8.43408H9.25246"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M17.7575 8.43408H18.3434"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M10.4376 3.91553H11.5845"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M15.3929 3.91553H16.5398"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

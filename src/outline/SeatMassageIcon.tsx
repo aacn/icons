@@ -25,17 +25,17 @@ function SeatMassageIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M9.29269 12.4825C9.78379 11.9687 10.6043 11.9687 11.0954 12.4825C11.5865 12.9962 12.407 12.9962 12.8981 12.4825C13.3892 11.9687 14.2098 11.9687 14.7009 12.4825"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M9.29269 10.0831C9.78379 9.56932 10.6043 9.56932 11.0954 10.0831C11.5865 10.5968 12.407 10.5968 12.8981 10.0831C13.3892 9.56932 14.2098 9.56932 14.7009 10.0831"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M9.29269 14.8809C9.78379 14.3672 10.6043 14.3672 11.0954 14.8809C11.5865 15.3947 12.407 15.3947 12.8981 14.8809C13.3892 14.3672 14.2098 14.3672 14.7009 14.8809"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

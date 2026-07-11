@@ -29,20 +29,20 @@ function AlignMiddleHorizontalIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M2.95349 11.9995L5.63156 11.9995"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M18.3678 11.9995L21.0459 11.9995"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M10.3131 11.9995L13.6862 11.9995"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

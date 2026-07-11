@@ -13,14 +13,14 @@ function ChevronDoubleUpIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M17.4388 12.4961L11.9996 7.05678L6.56029 12.4961"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M17.4388 16.9429L11.9996 11.5036L6.56029 16.9429"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

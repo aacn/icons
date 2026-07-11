@@ -13,12 +13,12 @@ function MultiplyIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M16.8851 16.8853L7.11426 7.11444"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M16.8856 7.11542L7.11481 16.8862"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

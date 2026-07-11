@@ -17,22 +17,22 @@ function DrawerInIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M9.11396 7.12109H6.19316C5.71413 7.12109 5.30238 7.4608 5.21137 7.93111L4.29385 12.6727C4.28173 12.7353 4.27563 12.7989 4.27563 12.8627V17.4125C4.27563 17.9648 4.72335 18.4125 5.27564 18.4125H18.7239C19.2762 18.4125 19.7239 17.9648 19.7239 17.4125V12.8556C19.7239 12.7965 19.7186 12.7376 19.7082 12.6794L18.8607 7.94488C18.7754 7.46815 18.3607 7.12109 17.8764 7.12109H14.9556"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M10.7419 16.4839H13.2577"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M12 10.8745L12 4.18483"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M10.0669 9.63762L11.8126 11.3806C11.9168 11.4846 12.0855 11.4845 12.1895 11.3805L13.9324 9.63762"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

@@ -17,12 +17,12 @@ function CloudDownloadIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M12.272 14.666L12.272 10.8022"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M10.0505 13.2445L12.0849 15.2756C12.189 15.3796 12.3577 15.3796 12.4618 15.2755L14.4928 13.2445"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

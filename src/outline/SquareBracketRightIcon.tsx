@@ -13,7 +13,7 @@ function SquareBracketRightIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M10.3035 5.55615C12.1774 5.55615 13.6965 7.07526 13.6965 8.94918V15.0511C13.6965 16.9251 12.1774 18.4442 10.3035 18.4442"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

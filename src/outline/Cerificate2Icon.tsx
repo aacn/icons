@@ -17,20 +17,20 @@ function Cerificate2Icon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M11.9623 17.5663L14.7812 22.449C14.8329 22.5387 14.9627 22.5377 15.0131 22.4473L16.3428 20.0614C16.3667 20.0185 16.4123 19.9922 16.4613 19.993L19.1925 20.0343C19.296 20.0359 19.3617 19.924 19.3099 19.8343L16.7641 15.425"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M7.13115 15.5218L4.63957 19.8369C4.5878 19.9265 4.65353 20.0384 4.75705 20.0369L7.4882 19.9955C7.53728 19.9948 7.58279 20.0211 7.60668 20.0639L8.93647 22.4499C8.98687 22.5403 9.11663 22.5413 9.1684 22.4516L11.9418 17.6479"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M9.24939 9.84537L11.4037 11.9999L15.259 8.14453"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

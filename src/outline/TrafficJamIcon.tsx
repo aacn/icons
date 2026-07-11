@@ -13,32 +13,32 @@ function TrafficJamIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M2.71522 11.9979H2.15627C1.71892 11.9979 1.36438 11.6433 1.36438 11.206C1.36438 10.7686 1.71892 10.4141 2.15627 10.4141H2.71522C3.15257 10.4141 3.50712 10.7686 3.50712 11.206C3.50712 11.6433 3.15257 11.9979 2.71522 11.9979Z"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M15.8966 11.9979H15.3377C14.9003 11.9979 14.5458 11.6433 14.5458 11.206C14.5458 10.7686 14.9003 10.4141 15.3377 10.4141H15.8966C16.334 10.4141 16.6885 10.7686 16.6885 11.206C16.6885 11.6433 16.334 11.9979 15.8966 11.9979Z"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M5.52246 16.7321V17.6549C5.52246 18.2072 5.07475 18.6549 4.52246 18.6549H3.43579C2.88351 18.6549 2.43579 18.2072 2.43579 17.6549V15.8224"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M15.6172 14.9346V17.6556C15.6172 18.2078 15.1695 18.6556 14.6172 18.6556H13.5305C12.9782 18.6556 12.5305 18.2078 12.5305 17.6556V16.7328"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M14.6173 16.7325H3.43579C2.88351 16.7325 2.43579 16.2848 2.43579 15.7325V12.998C2.43579 12.4457 2.88351 11.998 3.43579 11.998H14.6173C15.1696 11.998 15.6173 12.4457 15.6173 12.998V15.7325C15.6173 16.2848 15.1696 16.7325 14.6173 16.7325Z"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M14.0378 9.3935L14.395 10.7263C14.5651 11.3615 14.0866 11.9852 13.429 11.9852H4.62406C3.96653 11.9852 3.48795 11.3615 3.65813 10.7263L4.01527 9.39349C4.24956 8.51913 5.04191 7.91113 5.94712 7.91113H12.106C13.0112 7.91113 13.8035 8.51913 14.0378 9.3935Z"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <circle cx="4.93759" cy="14.3187" r="1.04916" fill="currentColor" />
       <circle cx="13.0247" cy="14.3187" r="1.04916" fill="currentColor" />
@@ -46,37 +46,37 @@ function TrafficJamIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M5.79199 7.91113L8.15138 11.9978"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M8.15137 7.91113L10.5108 11.9978"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M7.53247 14.3188H10.5202"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M21.8924 8.74846H21.3682C20.9581 8.74846 20.6256 8.41597 20.6256 8.00582C20.6256 7.59567 20.9581 7.26318 21.3682 7.26318H21.8924C22.3026 7.26318 22.6351 7.59567 22.6351 8.00582C22.6351 8.41597 22.3026 8.74846 21.8924 8.74846Z"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M17.7726 8.74854H20.4555C21.0078 8.74854 21.4555 9.19625 21.4555 9.74854V12.1885C21.4555 12.7408 21.0078 13.1885 20.4555 13.1885H17.7726"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M21.4555 11.5024V13.992C21.4555 14.5443 21.0078 14.992 20.4555 14.992H19.5608C19.0085 14.992 18.5608 14.5443 18.5608 13.992V13.1888"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M10.5566 6.19487C10.789 5.435 11.4904 4.91602 12.285 4.91602H18.0672C18.9724 4.91602 19.7647 5.52401 19.999 6.39838L20.2883 7.47782C20.4584 8.11294 19.9799 8.73664 19.3223 8.73664H16.4914"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

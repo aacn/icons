@@ -13,12 +13,12 @@ function PlusIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M11.997 17.5197V5.43243"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M18.0406 11.4759L5.9533 11.4759"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

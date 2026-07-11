@@ -21,14 +21,14 @@ function ScrewdriverIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M5.09045 17.5487L8.30857 14.3306"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M6.4469 18.7303L9.66502 15.5122"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

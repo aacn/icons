@@ -17,18 +17,18 @@ function FileUploadIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M5.01465 9.15185H8.49408C9.23044 9.15185 9.82738 8.55491 9.82738 7.81855V4.54248"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M12.1301 11.4367L12.1301 15.4429"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M14.4333 12.9101L12.317 10.7971C12.2129 10.6931 12.0442 10.6932 11.9402 10.7973L9.82732 12.9101"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );
