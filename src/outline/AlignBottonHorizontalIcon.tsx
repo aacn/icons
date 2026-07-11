@@ -27,8 +27,8 @@ function AlignBottonHorizontalIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M2.95349 20.501L21.0459 20.501"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

@@ -25,26 +25,26 @@ function RobotIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M10.5051 18.9136L10.5051 20.7595"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M12 7.48584L12 8.38595"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M13.3706 15.5776L10.6289 15.5776"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M13.4945 18.9136L13.4945 20.7595"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <circle cx="10.0007" cy="12.4959" r="1.14192" fill="currentColor" />
       <circle cx="13.9987" cy="12.4959" r="1.14192" fill="currentColor" />

@@ -21,33 +21,33 @@ function MicrowaveIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M5.12427 18.1152L5.12427 19.2867"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M18.6093 18.1152L18.6093 19.2867"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <circle cx="6.0543" cy="7.44322" r="0.930034" fill="currentColor" />
       <path
         d="M6.05432 10.2251V12.145"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M9.38208 12.9026L12.5465 7.42188"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M11.675 14.2055L15.5917 7.42188"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

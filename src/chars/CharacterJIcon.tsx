@@ -13,8 +13,8 @@ function CharacterJIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M14.5013 6.15088V11.9999V15.3474C14.5013 16.7289 13.3813 17.8489 11.9998 17.8489H11.6292C10.4523 17.8489 9.49817 16.8948 9.49817 15.7179"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

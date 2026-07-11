@@ -22,14 +22,14 @@ function BasketballIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M11.9998 3.49854L11.9998 20.501"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M3.49841 11.9395L20.501 11.9395"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

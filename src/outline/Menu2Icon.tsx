@@ -13,12 +13,12 @@ function Menu2Icon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M19.6882 9.56079L4.31177 9.56079"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M19.6882 14.4392L4.31177 14.4392"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

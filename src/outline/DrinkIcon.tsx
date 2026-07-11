@@ -13,8 +13,8 @@ function DrinkIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M13.1416 15.2973L17.1741 4.70543C17.5411 3.7414 18.8169 3.54143 19.4613 4.34693L21.894 7.38789"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <ellipse
         cx="10.6755"
@@ -30,14 +30,14 @@ function DrinkIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M5.45984 14.853C8.73463 16.0669 12.3303 16.1004 15.6271 14.9479L15.8986 14.853"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M15.8986 14.5557C12.6238 13.3418 9.02814 13.3082 5.73127 14.4608L5.45981 14.5557"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

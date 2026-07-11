@@ -21,14 +21,14 @@ function UsbStickIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M15.3024 6.78418L14.7043 7.38229"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M17.0153 8.49707L16.4172 9.09518"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

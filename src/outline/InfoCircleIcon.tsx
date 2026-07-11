@@ -13,7 +13,7 @@ function InfoCircleIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M11.9694 15.5537L11.9694 10.9317"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <circle
         cx="11.9995"

@@ -17,12 +17,12 @@ function NotificationIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M17.5766 11.3815C18.3894 9.34086 17.394 7.02765 15.3533 6.21484"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M20.1131 12.3908C21.4834 8.95035 19.8053 5.05049 16.3649 3.68018"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M13.3947 18.2334C13.3947 19.3851 12.4611 20.3187 11.3094 20.3187C10.1577 20.3187 9.22412 19.3851 9.22412 18.2334"
@@ -31,8 +31,8 @@ function NotificationIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M10.1168 7.32379V5.2381C10.1168 4.58128 10.6492 4.04883 11.306 4.04883C11.9628 4.04883 12.4953 4.58128 12.4953 5.2381V7.32379"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

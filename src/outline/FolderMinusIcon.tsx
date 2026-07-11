@@ -17,7 +17,7 @@ function FolderMinusIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M13.953 12.8897L10.0359 12.8896"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

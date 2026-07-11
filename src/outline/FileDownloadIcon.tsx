@@ -17,18 +17,18 @@ function FileDownloadIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M5.01465 9.15185H8.49408C9.23044 9.15185 9.82738 8.55491 9.82738 7.81855V4.54248"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M12.1311 14.6151L12.1311 10.6089"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M9.82739 13.1417L11.9437 15.2547C12.0478 15.3586 12.2165 15.3586 12.3206 15.2545L14.4334 13.1417"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

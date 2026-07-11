@@ -17,46 +17,46 @@ function ScaleAnimationIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M16.7046 4.00165L19.9228 4.00418C20.07 4.00429 20.1892 4.12362 20.1892 4.27078L20.1892 7.48621"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M16.5973 7.68115L19.5189 4.75957"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M3.90815 7.41279L3.91067 4.19462C3.91079 4.04746 4.03012 3.92823 4.17727 3.92823L7.39271 3.92823"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M7.58801 7.51953L4.66643 4.59795"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M7.39252 19.9974L4.17436 19.9948C4.0272 19.9947 3.90797 19.8754 3.90797 19.7282L3.90796 16.5128"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M7.49988 16.3179L4.5783 19.2395"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M20.189 16.5862L20.1865 19.8044C20.1864 19.9516 20.0671 20.0708 19.9199 20.0708L16.7045 20.0708"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M16.5092 16.4795L19.4307 19.4011"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

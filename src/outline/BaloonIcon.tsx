@@ -17,17 +17,17 @@ function BaloonIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M11.9998 4.64551C14.3172 4.64551 16.1959 6.5242 16.1959 8.84169"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M12.1591 18.6973L11.9181 18.9881C11.5156 19.4736 11.6809 20.2086 12.2525 20.4751C12.7985 20.7298 12.9792 21.4176 12.6289 21.9077L12.1591 22.5649"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M10.7703 16.6714L10.5746 17.1166C10.2843 17.7774 10.7683 18.5189 11.4902 18.5189L12.5094 18.5189C13.2312 18.5189 13.7152 17.7774 13.4249 17.1166L13.2293 16.6714"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

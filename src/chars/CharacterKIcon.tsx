@@ -13,8 +13,8 @@ function CharacterKIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M9.07521 6.15088L9.07513 13.4498L9.07521 17.8489M14.9242 6.15088L11.1117 10.9084L9.07513 13.4498M11.1117 10.9084L14.9242 17.8489"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

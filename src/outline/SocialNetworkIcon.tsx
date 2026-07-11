@@ -16,14 +16,14 @@ function SocialNetworkIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M9.83076 10.1244L14.1492 7.63135"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M9.83072 13.8749L14.1489 16.3683"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

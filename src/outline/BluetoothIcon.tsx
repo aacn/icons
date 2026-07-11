@@ -14,8 +14,8 @@ function BluetoothIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M8.45654 9.45848L15.4452 14.7018L11.7383 17.6056V6.39209L15.4452 9.11051L8.45654 14.3929"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

@@ -27,8 +27,8 @@ function CharacterPercentIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M6.80701 18.0508L17.1893 5.87598"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

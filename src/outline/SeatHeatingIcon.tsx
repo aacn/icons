@@ -25,12 +25,12 @@ function SeatHeatingIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M10.8437 15.1904C10.3506 14.7191 10.3506 13.9316 10.8437 13.4603C11.3368 12.9889 11.3368 12.2014 10.8437 11.7301C10.3506 11.2588 10.3506 10.4713 10.8437 9.99996"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M13.1553 15.1904C12.6622 14.7191 12.6622 13.9316 13.1553 13.4603C13.6483 12.9889 13.6483 12.2014 13.1553 11.7301C12.6622 11.2588 12.6622 10.4713 13.1553 9.99996"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

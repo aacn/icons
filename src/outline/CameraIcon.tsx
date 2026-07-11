@@ -13,12 +13,12 @@ function CameraIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M18.7577 9.31638C18.7577 7.01449 16.8917 5.14844 14.5898 5.14844"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M20.9194 9.31645C20.9194 5.82069 18.0855 2.98682 14.5898 2.98682"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M3.22266 10.9378C3.22266 8.8164 4.94238 7.09668 7.06377 7.09668H13.1544C15.2758 7.09668 16.9955 8.8164 16.9955 10.9378V17.0285C16.9955 19.1498 15.2758 20.8696 13.1544 20.8696H7.06377C4.94238 20.8696 3.22266 19.1498 3.22266 17.0285V10.9378Z"

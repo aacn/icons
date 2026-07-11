@@ -29,8 +29,8 @@ function AlignTopHorizontalIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M2.95349 4.10352H21.0459"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

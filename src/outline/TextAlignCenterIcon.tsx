@@ -13,17 +13,17 @@ function TextAlignCenterIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M19.6882 12.4641L4.31177 12.4641"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M19.6882 7.21509L4.31177 7.21509"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M16.0508 17.3423L7.94923 17.3423"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

@@ -10,21 +10,21 @@ function LivemodusOffIcon(props: SVGProps<SVGSVGElement>) {
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
-      <g clip-path="url(#clip0_6121_7856)">
+      <g clipPath="url(#clip0_6121_7856)">
         <path
           d="M18.2124 10.4043C17.4567 7.68482 14.9626 5.68896 12.0023 5.68896C8.44302 5.68896 5.55762 8.57437 5.55762 12.1337C5.55762 15.693 8.44302 18.5784 12.0023 18.5784C12.2607 18.5784 12.5156 18.5632 12.766 18.5337"
           stroke="currentColor"
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <path
           d="M18.447 5.55127C20.0722 7.17642 20.9447 9.26919 21.0645 11.3965"
           stroke="currentColor"
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <path
           d="M5.55151 5.74061C2.0424 9.24973 2.0424 14.9391 5.55151 18.4482"
           stroke="currentColor"
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <circle cx="17.4438" cy="15.5442" r="3.44995" stroke="currentColor" />
         <path
@@ -34,12 +34,12 @@ function LivemodusOffIcon(props: SVGProps<SVGSVGElement>) {
         <path
           d="M16.4595 16.6592L18.4281 14.6919"
           stroke="currentColor"
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <path
           d="M18.4274 16.6597L16.4601 14.691"
           stroke="currentColor"
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
       </g>
       <defs>

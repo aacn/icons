@@ -25,27 +25,27 @@ function WidgetRefreshIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M13.3657 15.0171L15.5524 15.0171"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M19.679 17.3472L17.4922 17.3472"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M13.3657 12.8301L13.3657 15.0168"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M19.679 19.5342L19.679 17.3475"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M13.571 14.7755C14.1152 13.7493 15.1945 13.0503 16.437 13.0503C17.8144 13.0503 18.9911 13.9092 19.4608 15.1207M13.3878 17.4636C13.8265 18.7125 15.1249 19.5341 16.437 19.5341C17.8144 19.5341 18.9911 18.6751 19.4608 17.4636"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

@@ -17,22 +17,22 @@ function LightIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M16.9392 11.9946H21.7103"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M16.9392 15.8691L21.4856 17.087"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M21.4806 6.90374L16.9342 8.12166"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M13.7709 5.09961L13.7709 18.966"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

@@ -17,7 +17,7 @@ function SmileyIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M9.21484 15.331C9.94941 15.7842 10.9268 16.0605 11.9996 16.0605C13.0725 16.0605 14.0499 15.7842 14.7844 15.331"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <circle cx="9.38157" cy="10.2851" r="1.08006" fill="currentColor" />
       <circle cx="14.6177" cy="10.2851" r="1.08006" fill="currentColor" />

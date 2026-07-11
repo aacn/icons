@@ -13,7 +13,7 @@ function MinusCircleIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M9.06714 12.0073L14.9469 12.0073"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <circle cx="11.9998" cy="12" r="7.21094" stroke="currentColor" />
     </svg>

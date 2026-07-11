@@ -13,12 +13,12 @@ function MicroscopeIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M14.3296 4.5293L13.0735 5.7854M14.7246 7.4365L15.9807 6.18039"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M9.38676 12.1411L8.48858 13.0393C8.20746 13.3204 7.75168 13.3204 7.47056 13.0393C7.18944 12.7582 7.18944 12.3024 7.47056 12.0213L8.36874 11.1231"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M13.9266 19.2447C16.7219 19.2447 18.9879 16.9787 18.9879 14.1834C18.9879 11.3881 16.7219 9.12207 13.9266 9.12207"
@@ -27,33 +27,33 @@ function MicroscopeIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M13.3908 6.10289L14.4072 7.11924C14.7977 7.50976 14.7977 8.14293 14.4072 8.53345L10.7993 12.1413C10.4088 12.5319 9.77561 12.5319 9.38509 12.1413L8.36874 11.125C7.97822 10.7345 7.97822 10.1013 8.36874 9.71078L11.9766 6.1029C12.3671 5.71237 13.0003 5.71237 13.3908 6.10289Z"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M5.82123 15.6152L11.8747 15.6152C12.3215 15.6152 12.6838 15.9774 12.6838 16.4243C12.6838 16.8712 12.3215 17.2335 11.8747 17.2335H5.82123C5.37435 17.2335 5.01208 16.8712 5.01208 16.4243C5.01208 15.9774 5.37435 15.6152 5.82123 15.6152Z"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M6.59328 20.0707H17.1753C17.5994 20.0707 17.9431 20.4145 17.9431 20.8385C17.9431 21.2626 17.5994 21.6064 17.1753 21.6064H6.59328C6.16922 21.6064 5.82545 21.2626 5.82545 20.8385C5.82545 20.4145 6.16922 20.0707 6.59328 20.0707Z"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M15.8532 3.0971L17.5153 4.75913C17.9039 5.14772 17.9038 5.77774 17.5153 6.16633C17.1267 6.55491 16.4967 6.55491 16.1081 6.16633L14.446 4.50429C14.0575 4.11571 14.0575 3.48569 14.446 3.0971C14.8346 2.70852 15.4646 2.70852 15.8532 3.0971Z"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M14.2618 19.9296C14.2618 18.473 12.9709 17.2921 11.3784 17.2921C9.786 17.2921 8.49507 18.473 8.49507 19.9296H14.2618Z"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M6.90039 17.292L8.42305 19.9294"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

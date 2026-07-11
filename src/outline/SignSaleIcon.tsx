@@ -13,25 +13,25 @@ function SignSaleIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M4.22502 10.4411C4.22502 11.0628 4.76286 11.5668 5.42632 11.5668C6.08978 11.5668 6.62762 11.0628 6.62762 10.4411C6.62762 9.9481 6.24958 9.53751 5.75829 9.49689L5.05952 9.43911C4.58599 9.39996 4.22162 9.00421 4.22162 8.52906C4.22162 7.90733 4.75946 7.40332 5.42292 7.40332C6.08638 7.40332 6.62421 7.90733 6.62421 8.52906"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M12.959 7.40332V9.46389V11.5245H14.4962"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M11.4013 11.5244L9.87563 7.58414C9.78767 7.35696 9.46621 7.35698 9.37828 7.58419L7.8534 11.5244"
         stroke="currentColor"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path d="M8.6012 9.86328H10.6993" stroke="currentColor" />
       <path
         d="M17.9039 7.40332H16.1778V9.42266M16.1778 9.42266V11.442H17.9039M16.1778 9.42266H17.3485"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M3.09209 14.0456C2.53981 14.0456 2.0921 13.5979 2.0921 13.0456L2.0921 5.46284C2.0921 4.91055 2.53982 4.46284 3.0921 4.46284L9.28471 4.46284L19.0334 4.46308C19.5857 4.46309 20.0334 4.9108 20.0334 5.46308L20.0334 13.0459C20.0334 13.5982 19.5857 14.0459 19.0334 14.0459L3.09209 14.0456Z"

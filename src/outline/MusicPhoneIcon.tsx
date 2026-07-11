@@ -32,20 +32,20 @@ function MusicPhoneIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M13.8741 11.0861V6.49756"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M17.0327 10.2438V5.65527"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M13.8754 6.49715L17.0174 5.65542"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <ellipse
         cx="18.67"
@@ -64,20 +64,20 @@ function MusicPhoneIcon(props: SVGProps<SVGSVGElement>) {
       <path
         d="M19.0821 12.9581V9.84766"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M21.2159 12.3878V9.27734"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M19.0783 9.84803L21.2082 9.27744"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M7.74463 9.49512C7.85573 9.55926 7.85573 9.72004 7.74463 9.78418L5.4585 11.1045C5.34744 11.1686 5.2086 11.0882 5.2085 10.96L5.2085 8.31934C5.20879 8.19128 5.34751 8.11171 5.4585 8.17578L7.74463 9.49512Z"
