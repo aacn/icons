@@ -1,4 +1,5 @@
 import path from 'node:path';
+import { readFileSync } from 'node:fs';
 
 import commonjs from '@rollup/plugin-commonjs';
 import json from '@rollup/plugin-json';
@@ -17,6 +18,41 @@ const external = [
   'react/jsx-runtime', // 👈 required for automatic JSX runtime
   'react/jsx-dev-runtime', // 👈 required for dev runtime
 ];
+
+const identifierSource = 'src/identifiers.ts';
+const iconIndexFiles = ['src/outline/index.ts', 'src/filled/index.ts', 'src/chars/index.ts'];
+
+function iconIdentifiers() {
+  const names = iconIndexFiles.flatMap((file) =>
+    Array.from(readFileSync(file, 'utf8').matchAll(/^export \{ (\w+) \}/gm), ([, name]) => name)
+  );
+
+  if (new Set(names).size !== names.length) {
+    throw new Error('Icon export names must be unique to generate identifiers.');
+  }
+
+  const code = `export const iconNames = ${JSON.stringify(names)};\nexport default iconNames;\n`;
+
+  return {
+    name: 'icon-identifiers',
+    transform(_, id) {
+      return id === path.resolve(identifierSource) ? { code, map: null } : null;
+    },
+  };
+}
+
+function identifierDeclarations() {
+  return {
+    name: 'icon-identifier-declarations',
+    generateBundle() {
+      this.emitFile({
+        type: 'asset',
+        fileName: 'identifiers.d.ts',
+        source: 'export declare const iconNames: readonly string[];\nexport default iconNames;\n',
+      });
+    },
+  };
+}
 
 const config = [
   {
@@ -58,6 +94,35 @@ const config = [
         file: pkg.module,
         format: 'esm',
         plugins: [flatDts()],
+        exports: 'named',
+      },
+    ],
+  },
+  {
+    input: identifierSource,
+    plugins: [
+      iconIdentifiers(),
+      swc({
+        jsc: {
+          parser: {
+            syntax: 'typescript',
+          },
+          target: 'es2019',
+        },
+      }),
+      prettier(),
+    ],
+    output: [
+      {
+        file: 'dist/identifiers.cjs',
+        format: 'cjs',
+        plugins: [identifierDeclarations()],
+        exports: 'named',
+      },
+      {
+        file: 'dist/identifiers.esm.js',
+        format: 'esm',
+        plugins: [identifierDeclarations()],
         exports: 'named',
       },
     ],
