@@ -4,6 +4,103 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [3.6.0] - 2026-07-13
+
+## Added
+
+### Outline
+
+- `AdaptiveCruiseControlIcon`
+- `AgentsIcon`
+- `AirConditioningIcon`
+- `AirbagIcon`
+- `AlarmIcon`
+- `AndIcon`
+- `AutomaticIcon`
+- `AwningIcon`
+- `BarsIcon`
+- `Bed3Icon`
+- `Bed2Icon`
+- `BeerIcon`
+- `BoxIcon`
+- `BoxesIcon`
+- `CarLockedIcon`
+- `CarTruck2Icon`
+- `CarUsedIcon`
+- `CatalysatorIcon`
+- `CdIcon`
+- `ChestIcon`
+- `ChestOpenIcon`
+- `CloudAppIcon`
+- `CoffeeIcon`
+- `CoinMedal1Icon`
+- `CoinMedalStarIcon`
+- `CommitIcon`
+- `ComunalIcon`
+- `ConversationIcon`
+- `CoinMedalCheckIcon`
+- `E10CheckIcon`
+- `EarthMapIcon`
+- `ElectricRoofIcon`
+- `FileCheckIcon`
+- `FileLockedIcon`
+- `FileMusicIcon`
+- `FilePreviewEyeIcon`
+- `FileUnlockedIcon`
+- `HailIcon`
+- `HatIcon`
+- `HeatedHandleIcon`
+- `HighRoofIcon`
+- `IceCreamIcon`
+- `KickstarterIcon`
+- `LightCurveIcon`
+- `LightFogBackIcon`
+- `LightFogIcon`
+- `MapTreasureIcon`
+- `MarkdownIcon`
+- `Medal10Icon`
+- `Medal11Icon`
+- `Medal1Icon`
+- `Medal2Icon`
+- `Medal3Icon`
+- `Medal4Icon`
+- `Medal51Icon`
+- `Medal5Icon`
+- `MovieCameraFilmIcon`
+- `NandIcon`
+- `NoIcon`
+- `NonSmokingIcon`
+- `NorIcon`
+- `OrIcon`
+- `PantsIcon`
+- `PartitionIcon`
+- `Permit2Icon`
+- `PermitIcon`
+- `PopsicleIcon`
+- `PullRequestIcon`
+- `RoofRailsIcon`
+- `ServiceLogbookIcon`
+- `ServosteeringWheel1Icon`
+- `ServosteeringWheelIcon`
+- `ShirtIcon`
+- `Suitcase2Icon`
+- `SuitcaseIcon`
+- `SunroofIcon`
+- `SunroofSettingsIcon`
+- `Suspension2Icon`
+- `TaxiIcon`
+- `TractionControlIcon`
+- `TrailerHitchIcon`
+- `TruckRampIcon`
+- `WcIcon`
+- `WeightIcon`
+- `WheelIcon`
+- `WindowElectricIcon`
+- `WindowIcon`
+- `XnorIcon`
+- `XorIcon`
+- `YesIcon`
+
 ## [3.5.1] - 2026-07-13
 
 ## Changed
