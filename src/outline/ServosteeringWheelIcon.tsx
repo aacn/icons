@@ -10,7 +10,7 @@ function ServosteeringWheelIcon(props: SVGProps<SVGSVGElement>) {
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
-      <g clip-path="url(#clip0_6730_4020)">
+      <g clipPath="url(#clip0_6730_4020)">
         <path
           d="M17.8655 12.0003C17.8655 15.2427 15.237 17.8711 11.9947 17.8711C8.75226 17.8711 6.12378 15.2427 6.12378 12.0003C6.12378 8.75787 8.75226 6.12939 11.9947 6.12939"
           stroke="currentColor"

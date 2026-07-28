@@ -10,7 +10,7 @@ function XnorIcon(props: SVGProps<SVGSVGElement>) {
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
-      <g clip-path="url(#clip0_6792_8882)">
+      <g clipPath="url(#clip0_6792_8882)">
         <path
           d="M4.30133 16.8317C5.61628 13.7446 5.61628 10.255 4.30133 7.16797"
           stroke="currentColor"

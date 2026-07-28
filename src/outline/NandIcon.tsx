@@ -10,7 +10,7 @@ function NandIcon(props: SVGProps<SVGSVGElement>) {
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
-      <g clip-path="url(#clip0_6792_8869)">
+      <g clipPath="url(#clip0_6792_8869)">
         <path
           d="M16.702 11.9998C16.702 14.6684 14.5387 16.8317 11.8702 16.8317H5.62861C5.48639 16.8317 5.37109 16.7164 5.37109 16.5742L5.37109 7.42549C5.37109 7.28327 5.48639 7.16797 5.62862 7.16797L11.8702 7.16797C14.5387 7.16797 16.702 9.33127 16.702 11.9998Z"
           stroke="currentColor"

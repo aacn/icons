@@ -10,7 +10,7 @@ function NorIcon(props: SVGProps<SVGSVGElement>) {
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
-      <g clip-path="url(#clip0_6792_8875)">
+      <g clipPath="url(#clip0_6792_8875)">
         <path
           d="M1.08533 14.3789H4.96375"
           stroke="currentColor"

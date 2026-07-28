@@ -10,7 +10,7 @@ function EarthMapIcon(props: SVGProps<SVGSVGElement>) {
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
-      <g clip-path="url(#clip0_6744_5013)">
+      <g clipPath="url(#clip0_6744_5013)">
         <rect
           x="1.38855"
           y="4.13477"
