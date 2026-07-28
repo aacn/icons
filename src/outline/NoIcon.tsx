@@ -10,7 +10,7 @@ function NoIcon(props: SVGProps<SVGSVGElement>) {
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
-      <g clip-path="url(#clip0_6792_8843)">
+      <g clipPath="url(#clip0_6792_8843)">
         <path
           d="M17.4287 11.9997L8.99338 18.9695C8.34129 19.5083 7.35641 19.0445 7.35641 18.1986L7.35641 5.80071C7.35641 4.95483 8.3413 4.49102 8.99338 5.02982L17.4287 11.9997Z"
           stroke="currentColor"

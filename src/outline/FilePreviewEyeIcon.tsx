@@ -10,7 +10,7 @@ function FilePreviewEyeIcon(props: SVGProps<SVGSVGElement>) {
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
-      <g clip-path="url(#clip0_6792_8821)">
+      <g clipPath="url(#clip0_6792_8821)">
         <path
           d="M11.6005 19.8226H6.19145C5.45509 19.8226 4.85815 19.2257 4.85815 18.4893V9.31031C4.85815 8.95738 4.99808 8.61886 5.24726 8.36893L9.0352 4.56966C9.28536 4.31875 9.62509 4.17773 9.9794 4.17773H17.808C18.5444 4.17773 19.1413 4.77467 19.1413 5.51103V12.3997"
           stroke="currentColor"

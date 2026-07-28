@@ -4,6 +4,197 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [3.7.0] - 2026-07-28
+
+## Fixed
+
+- Fixed invalid `clip-path` argument to proper React spelling of `clipPath`.
+
+### Renamed Icons
+
+- `outline/AlarmclockIcon` → `outline/AlarmClockIcon`
+
+## Added
+
+### Outline
+
+- `AlarmClockAddIcon`
+- `AlarmClockCheckIcon`
+- `AlarmClockNoIcon`
+- `AlarmClockRemoveIcon`
+- `AlarmClockSettingsIcon`
+- `AlarmClockSubtractIcon`
+- `AnchorIcon`
+- `ArmchairIcon`
+- `AssistantIcon`
+- `BerlinAlexIcon`
+- `BerlinBrandenburgerTorIcon`
+- `BirdIcon`
+- `CarSlopeIcon`
+- `CatIcon`
+- `ChurchIcon`
+- `CourtIcon`
+- `CrutchIcon`
+- `CutIcon`
+- `DabTunerIcon`
+- `DateAddIcon`
+- `DateAlertIcon`
+- `DateCheckedIcon`
+- `DateGroupMeetingIcon`
+- `DatePlaneTravelIcon`
+- `DateRefreshIcon`
+- `DateSettingsIcon`
+- `DateStarIcon`
+- `DateSubtractIcon`
+- `DateTrashIcon`
+- `DateUserIcon`
+- `DogIcon`
+- `EmailCheckIcon`
+- `EmailLockedIcon`
+- `EmailRefreshIcon`
+- `EmailStarIcon`
+- `EmailUnlockedIcon`
+- `EmailUserIcon`
+- `FactoryIcon`
+- `FemaleIcon`
+- `FileRefreshIcon`
+- `FileStarIcon`
+- `FileTrashIcon`
+- `FileUserIcon`
+- `FishingHookIcon`
+- `FolderAddIcon`
+- `FolderAlertIcon`
+- `FolderCheckedIcon`
+- `FolderLockedIcon`
+- `FolderRemoveIcon`
+- `FolderSearchIcon`
+- `FolderSubtractIcon`
+- `FolderTrashIcon`
+- `FolderUnlockedIcon`
+- `FolderUserIcon`
+- `FuelIcon`
+- `GearShiftIcon`
+- `HamburgElbphilharmonieIcon`
+- `HandClick2Icon`
+- `HandInteractIcon`
+- `HandPointingIcon`
+- `HelicopterIcon`
+- `ImageAddIcon`
+- `ImageCheckedIcon`
+- `ImageDownloadIcon`
+- `ImageNoIcon`
+- `ImageRefreshIcon`
+- `ImageSettingsIcon`
+- `ImageSubtractIcon`
+- `ImageTrashbinIcon`
+- `ImageUploadIcon`
+- `ImageUserIcon`
+- `IndiaTajmahalIcon`
+- `LaptopAlert2Icon`
+- `LaptopAlertIcon`
+- `LaptopDownloadIcon`
+- `LaptopLockedIcon`
+- `LaptopNoIcon`
+- `LaptopRefreshIcon`
+- `LaptopSecurityIcon`
+- `LaptopSettingsIcon`
+- `LaptopUnlockedIcon`
+- `LaptopUploadIcon`
+- `LaptopUserIcon`
+- `LinkedAddIcon`
+- `LinkedAlertIcon`
+- `LinkedCheckedIcon`
+- `LinkedLockedIcon`
+- `LinkedRemoveIcon`
+- `LinkedSubtractIcon`
+- `LinkedUnlockedIcon`
+- `LondonBigBenIcon`
+- `MagnetIcon`
+- `MailAlertIcon`
+- `MailTrashIcon`
+- `MaleIcon`
+- `MenIcon`
+- `MoneyChangeIcon`
+- `MoneyCheckedIcon`
+- `MoneyNoCashIcon`
+- `MotorHomeIcon`
+- `MunichFrauenkircheIcon`
+- `NewYorkStatueOfLibertyIcon`
+- `ParisEiffelTowerIcon`
+- `PenIcon`
+- `PeopleIncreaseIcon`
+- `RimsIcon`
+- `RiodejaneiroJesusStatueIcon`
+- `RoadIcon`
+- `RomeColosseumIcon`
+- `SecurityAlertIcon`
+- `SecurityChecked2Icon`
+- `SecurityEyeIcon`
+- `SecurityInfoIcon`
+- `SecurityLockedIcon`
+- `SecurityOffIcon`
+- `SecurityRefreshIcon`
+- `SecurityUnlockedIcon`
+- `SetSquareIcon`
+- `SharkIcon`
+- `SliderNoIcon`
+- `SliderYesIcon`
+- `SmartphoneAlert2Icon`
+- `SmartphoneAlertIcon`
+- `SmartphoneDownloadIcon`
+- `SmartphoneLockedIcon`
+- `SmartphoneNoIcon`
+- `SmartphoneRefreshIcon`
+- `SmartphoneSecurityIcon`
+- `SmartphoneUnlockedIcon`
+- `SmartphoneUploadIcon`
+- `SmartphoneUserIcon`
+- `SmileyNeutralIcon`
+- `SmileySadIcon`
+- `SolarPanelIcon`
+- `SortHighToLowIcon`
+- `SortLowToHighIcon`
+- `SpiderIcon`
+- `StudyIcon`
+- `SunriseSunsetIcon`
+- `SydneyOperaIcon`
+- `TextAddIcon`
+- `TextAlertIcon`
+- `TextCheckIcon`
+- `TextDownloadIcon`
+- `TextEyeIcon`
+- `TextNoIcon`
+- `TextRemoveIcon`
+- `TextSettingsIcon`
+- `TextStarIcon`
+- `TextSubtractIcon`
+- `TextTrashIcon`
+- `TextUploadIcon`
+- `TokyoSkytreeIcon`
+- `TokyoTowerIcon`
+- `TropicalIslandIcon`
+- `UserAlert2Icon`
+- `UserAlertIcon`
+- `UserCheckedIcon`
+- `UserIcon`
+- `UserInfoIcon`
+- `UserLockedIcon`
+- `UserNoIcon`
+- `UserPlusIcon`
+- `UserRemoveIcon`
+- `UserSecurityIcon`
+- `UserSettingIcon`
+- `UserStarIcon`
+- `UserSubtractIcon`
+- `UserTrashIcon`
+- `UserUnlockedIcon`
+- `UserWatchIcon`
+- `VideoCallIcon`
+- `WaleIcon`
+- `WebsiteBrowserIcon`
+- `WindTurbineIcon`
+- `WomanIcon`
+
 ## [3.6.0] - 2026-07-13
 
 ## Added
@@ -458,7 +649,7 @@ react naming instead. (e.g. `strokeLinecap`)
 ### Outline
 
 - `AccessibilityIcon`
-- `AlarmclockIcon`
+- `AlarmClockIcon`
 - `AppleIcon`
 - `ArrowDownIcon`
 - `ArrowIcon`

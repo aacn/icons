@@ -10,7 +10,7 @@ function XorIcon(props: SVGProps<SVGSVGElement>) {
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
-      <g clip-path="url(#clip0_6792_8864)">
+      <g clipPath="url(#clip0_6792_8864)">
         <path
           d="M5.37109 16.8317C6.68604 13.7446 6.68604 10.255 5.37109 7.16797"
           stroke="currentColor"
