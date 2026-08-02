@@ -1,6 +1,6 @@
 import type { SVGProps } from 'react';
 
-function GrandpaParentChildIcon(props: SVGProps<SVGSVGElement>) {
+function GitGrandpaParentChildIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       width="24"
@@ -37,4 +37,4 @@ function GrandpaParentChildIcon(props: SVGProps<SVGSVGElement>) {
   );
 }
 
-export { GrandpaParentChildIcon };
+export { GitGrandpaParentChildIcon };

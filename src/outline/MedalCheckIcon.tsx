@@ -1,6 +1,6 @@
 import type { SVGProps } from 'react';
 
-function Medal51Icon(props: SVGProps<SVGSVGElement>) {
+function MedalCheckIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       width="24"
@@ -36,4 +36,4 @@ function Medal51Icon(props: SVGProps<SVGSVGElement>) {
   );
 }
 
-export { Medal51Icon };
+export { MedalCheckIcon };
