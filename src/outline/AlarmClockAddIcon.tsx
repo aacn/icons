@@ -1,6 +1,6 @@
 import type { SVGProps } from 'react';
 
-function AlarmclockAddIcon(props: SVGProps<SVGSVGElement>) {
+function AlarmClockAddIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       width="24"
@@ -78,4 +78,4 @@ function AlarmclockAddIcon(props: SVGProps<SVGSVGElement>) {
   );
 }
 
-export { AlarmclockAddIcon };
+export { AlarmClockAddIcon };
