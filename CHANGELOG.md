@@ -87,12 +87,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Renamed Icons
 
-- `outline/AlarmClockAddIcon` → `outline/AlarmclockAddIcon`
-- `outline/AlarmClockCheckIcon` → `outline/AlarmclockCheckIcon`
-- `outline/AlarmClockNoIcon` → `outline/AlarmclockNoIcon`
-- `outline/AlarmClockRemoveIcon` → `outline/AlarmclockRemoveIcon`
-- `outline/AlarmClockSettingsIcon` → `outline/AlarmclockSettingsIcon`
-- `outline/AlarmClockSubtractIcon` → `outline/AlarmclockSubtractIcon`
+- `outline/AlarmClockAddIcon` → `outline/AlarmClockAddIcon`
+- `outline/AlarmClockCheckIcon` → `outline/AlarmClockCheckIcon`
+- `outline/AlarmClockNoIcon` → `outline/AlarmClockNoIcon`
+- `outline/AlarmClockRemoveIcon` → `outline/AlarmClockRemoveIcon`
+- `outline/AlarmClockSettingsIcon` → `outline/AlarmClockSettingsIcon`
+- `outline/AlarmClockSubtractIcon` → `outline/AlarmClockSubtractIcon`
 - `outline/GrandpaParentChildIcon` → `outline/GitGrandpaParentChildIcon`
 - `outline/Parent2ChildsIcon` → `outline/GitParent2ChildsIcon`
 - `outline/Parent3ChildsIcon` → `outline/GitParent3ChildsIcon`

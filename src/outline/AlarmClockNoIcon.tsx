@@ -1,6 +1,6 @@
 import type { SVGProps } from 'react';
 
-function AlarmclockRemoveIcon(props: SVGProps<SVGSVGElement>) {
+function AlarmClockNoIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       width="24"
@@ -16,7 +16,7 @@ function AlarmclockRemoveIcon(props: SVGProps<SVGSVGElement>) {
         strokeLinecap="round"
       />
       <path
-        d="M11.9833 13.7007L11.9833 9.10938"
+        d="M11.9833 13.6997L11.9833 9.2207"
         stroke="currentColor"
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -39,31 +39,27 @@ function AlarmclockRemoveIcon(props: SVGProps<SVGSVGElement>) {
         strokeLinecap="round"
         strokeLinejoin="round"
       />
+      <circle cx="16.1565" cy="18.1069" r="4.19287" stroke="currentColor" />
       <path
-        d="M14.9395 16.9385L17.4675 19.4665"
-        stroke="currentColor"
-        strokeLinecap="round"
-      />
-      <path
-        d="M14.9459 19.4668L17.474 16.9388"
-        stroke="currentColor"
-        strokeLinecap="round"
-      />
-      <circle cx="16.2022" cy="18.1991" r="4.38462" stroke="currentColor" />
-      <path
-        d="M7.81928 9.70319L7.02722 8.91113"
+        d="M13.2911 20.9724L19.0216 15.2422"
         stroke="currentColor"
         strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
-        d="M17.035 8.91108L16.2273 9.71875"
+        d="M7.75189 9.70319L6.95984 8.91113"
         stroke="currentColor"
         strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
-        d="M7.81915 18.1269L7.0271 18.9189"
+        d="M16.9676 8.91108L16.1599 9.71875"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M7.75177 18.1269L6.95972 18.9189"
         stroke="currentColor"
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -72,4 +68,4 @@ function AlarmclockRemoveIcon(props: SVGProps<SVGSVGElement>) {
   );
 }
 
-export { AlarmclockRemoveIcon };
+export { AlarmClockNoIcon };
