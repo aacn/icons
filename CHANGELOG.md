@@ -4,6 +4,101 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [3.8.0] - 2026-08-02
+
+## Added
+
+### Outline
+
+- `BacteriophageIcon`
+- `BirthdayCakeIcon`
+- `CameraAddIcon`
+- `CameraCheckIcon`
+- `CameraNoIcon`
+- `CameraRemoveIcon`
+- `CameraSettingsIcon`
+- `CameraSubtractIcon`
+- `CarbohydratesIcon`
+- `DiamondIcon`
+- `EggEasterIcon`
+- `EggIcon`
+- `FortIcon`
+- `Fuel102Icon`
+- `Fuel98Icon`
+- `FuelSuperPlusIcon`
+- `FuelstationIcon`
+- `FungiIcon`
+- `FunnelAddIcon`
+- `FunnelRemoveIcon`
+- `FunnelResetIcon`
+- `FunnelSettingsIcon`
+- `FunnelStarIcon`
+- `FunnelSubtractIcon`
+- `GroupAddIcon`
+- `GroupCheckIcon`
+- `GroupNoIcon`
+- `GroupRefreshIcon`
+- `GroupRemoveIcon`
+- `GroupSettingsIcon`
+- `GroupSubtractIcon`
+- `GroupWatchIcon`
+- `HeartBrokenIcon`
+- `LaddderIcon`
+- `LeaderboardIcon`
+- `LipidsIcon`
+- `NewYearIcon`
+- `PalmTreeIcon`
+- `PillIcon`
+- `PortLightningIcon`
+- `ProteinsIcon`
+- `RabbitIcon`
+- `SearchHistoryIcon`
+- `SnowmanIcon`
+- `Streetsign100Icon`
+- `Streetsign130Icon`
+- `StreetsignUnlimitedIcon`
+- `TaskAddIcon`
+- `TaskCheckIcon`
+- `TaskPlaneTravelIcon`
+- `TaskRemoveIcon`
+- `TaskSettingsIcon`
+- `TaskStarIcon`
+- `TaskSubtractIcon`
+- `TaskTrashIcon`
+- `TaskWatchIcon`
+- `ThinkingLeftIcon`
+- `ThinkingRightIcon`
+- `ToriiIcon`
+- `TreePineChristmasIcon`
+- `WeddingHeartIcon`
+- `WeddingIcon`
+
+## Changed
+
+### Outline
+
+- `AlarmClockIcon`
+- `Bed2Icon`
+- `DisabilityIcon`
+- `FamilyIcon`
+- `GroupIcon`
+- `MedalIcon`
+- `RaceIcon`
+
+### Renamed Icons
+
+- `outline/AlarmClockAddIcon` → `outline/AlarmclockAddIcon`
+- `outline/AlarmClockCheckIcon` → `outline/AlarmclockCheckIcon`
+- `outline/AlarmClockNoIcon` → `outline/AlarmclockNoIcon`
+- `outline/AlarmClockRemoveIcon` → `outline/AlarmclockRemoveIcon`
+- `outline/AlarmClockSettingsIcon` → `outline/AlarmclockSettingsIcon`
+- `outline/AlarmClockSubtractIcon` → `outline/AlarmclockSubtractIcon`
+- `outline/GrandpaParentChildIcon` → `outline/GitGrandpaParentChildIcon`
+- `outline/Parent2ChildsIcon` → `outline/GitParent2ChildsIcon`
+- `outline/Parent3ChildsIcon` → `outline/GitParent3ChildsIcon`
+- `outline/ParentIcon` → `outline/GitParentIcon`
+- `outline/Medal51Icon` → `outline/MedalCheckIcon`
+
 ## [3.7.0] - 2026-07-28
 
 ## Fixed

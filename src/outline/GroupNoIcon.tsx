@@ -1,6 +1,6 @@
 import type { SVGProps } from 'react';
 
-function GroupIcon(props: SVGProps<SVGSVGElement>) {
+function GroupNoIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       width="24"
@@ -16,21 +16,32 @@ function GroupIcon(props: SVGProps<SVGSVGElement>) {
         strokeLinecap="round"
       />
       <path
-        d="M18.1824 13.2085C18.1824 11.9432 17.1567 10.9175 15.8914 10.9175C14.6261 10.9175 13.6003 11.9432 13.6003 13.2085"
+        d="M13.6003 13.2085C13.6003 11.9432 14.6261 10.9175 15.8914 10.9175C16.4371 10.9175 16.9383 11.1083 17.3319 11.4269"
         stroke="currentColor"
         strokeLinecap="round"
       />
       <path
-        d="M15.3245 16.273C15.3245 14.4411 13.8395 12.9561 12.0076 12.9561C10.1757 12.9561 8.69067 14.4411 8.69067 16.273"
+        d="M8.69067 16.273C8.69067 14.4411 10.1757 12.9561 12.0076 12.9561C12.5186 12.9561 13.0027 13.0716 13.435 13.278"
         stroke="currentColor"
         strokeLinecap="round"
       />
       <circle cx="8.1105" cy="9.32204" r="1.59597" stroke="currentColor" />
       <circle cx="15.8937" cy="9.32204" r="1.59597" stroke="currentColor" />
       <circle cx="11.9911" cy="10.87" r="2.08727" stroke="currentColor" />
-      <circle cx="11.9998" cy="11.9994" r="8.36121" stroke="currentColor" />
+      <path
+        d="M20.361 11.9994C20.361 7.38162 16.6175 3.63818 11.9998 3.63818C7.38199 3.63818 3.63855 7.38162 3.63855 11.9994C3.63855 16.6172 7.38199 20.3606 11.9998 20.3606"
+        stroke="currentColor"
+        strokeLinecap="round"
+      />
+      <circle cx="17.8426" cy="18.0175" r="4.4076" stroke="currentColor" />
+      <path
+        d="M14.8305 21.0296L20.8544 15.0059"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
     </svg>
   );
 }
 
-export { GroupIcon };
+export { GroupNoIcon };

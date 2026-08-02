@@ -39,6 +39,30 @@ function AlarmClockIcon(props: SVGProps<SVGSVGElement>) {
         strokeLinejoin="round"
       />
       <path
+        d="M16.9837 18.8316L16.176 18.0239"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M7.76801 9.61578L6.97595 8.82373"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M16.9837 8.82368L16.176 9.63135"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M7.76788 18.0395L6.97583 18.8315"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
         d="M11.9832 13.6999L13.8654 15.582"
         stroke="currentColor"
         strokeLinecap="round"
@@ -51,25 +75,7 @@ function AlarmClockIcon(props: SVGProps<SVGSVGElement>) {
         strokeLinejoin="round"
       />
       <path
-        d="M8.21877 18.1724L7.51062 19.3921"
-        stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M15.8041 18.1724L16.5122 19.3921"
-        stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M6.61395 6.63943L8.11227 5.22476C8.30172 5.04589 8.31029 4.74732 8.13143 4.55787C7.23709 3.61065 5.74421 3.56778 4.79699 4.46211L4.54449 4.70051C3.59727 5.59485 3.55439 7.08773 4.44873 8.03495C4.6276 8.2244 4.92617 8.23297 5.11562 8.05411L6.61395 6.63943ZM6.61395 6.63943L7.76106 7.78654"
-        stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M17.3856 6.63943L15.8872 5.22476C15.6978 5.04589 15.6892 4.74732 15.8681 4.55787C16.7624 3.61065 18.2553 3.56778 19.2025 4.46211L19.455 4.70051C20.4022 5.59485 20.4451 7.08773 19.5508 8.03495C19.3719 8.2244 19.0733 8.23297 18.8839 8.05411L17.3856 6.63943ZM17.3856 6.63943L16.2385 7.78654"
+        d="M6.61383 6.63936L8.11216 5.22469C8.3016 5.04582 8.31018 4.74725 8.13131 4.5578C7.23697 3.61058 5.74409 3.56771 4.79687 4.46204L4.54437 4.70044C3.59715 5.59478 3.55428 7.08766 4.44862 8.03488C4.62748 8.22433 4.92606 8.2329 5.1155 8.05404L6.61383 6.63936ZM6.61383 6.63936L7.76094 7.78647M17.3854 6.63936L15.8871 5.22469C15.6977 5.04582 15.6891 4.74725 15.868 4.5578C16.7623 3.61058 18.2552 3.56771 19.2024 4.46204L19.4549 4.70044C20.4021 5.59478 20.445 7.08766 19.5507 8.03488C19.3718 8.22433 19.0732 8.2329 18.8838 8.05404L17.3854 6.63936ZM17.3854 6.63936L16.2383 7.78647"
         stroke="currentColor"
         strokeLinecap="round"
         strokeLinejoin="round"
