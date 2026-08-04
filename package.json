@@ -10,7 +10,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "3.8.0",
+  "version": "4.0.0",
   "license": "MIT",
   "private": false,
   "engines": {
@@ -25,6 +25,7 @@
   "module": "dist/index.esm.js",
   "typings": "dist/index.d.ts",
   "types": "dist/index.d.ts",
+  "sideEffects": false,
   "files": [
     "dist",
     "README.md"
@@ -39,11 +40,22 @@
       "types": "./dist/identifiers.d.ts",
       "import": "./dist/identifiers.esm.js",
       "require": "./dist/identifiers.cjs"
+    },
+    "./loader": {
+      "types": "./dist/loader.d.ts",
+      "import": "./dist/loader.esm.js",
+      "require": "./dist/loader.cjs"
+    },
+    "./icons/*": {
+      "types": "./dist/icons/*.d.ts",
+      "import": "./dist/icons/*.js",
+      "require": "./dist/icons/*.cjs"
     }
   },
   "type": "module",
   "scripts": {
     "build": "rollup -c rollup.config.js",
+    "test": "yarn build && node --test test/loader.test.mjs",
     "build:watch": "rollup -c -w",
     "install:frozen": "yarn install --frozen-lockfile",
     "prepare": "husky",
@@ -76,11 +88,12 @@
     "@rollup/plugin-node-resolve": "^14.0.0",
     "@swc/core": "^1.3.77",
     "@types/node": "^20",
-    "@types/react": "19.1.9",
-    "@types/react-dom": "19.1.7",
+    "@types/react": "^19.2",
+    "@types/react-dom": "^19.2",
     "husky": "^9.1.7",
     "lint-staged": "^16.1.2",
     "prettier": "^3.6.2",
+    "react": "^19.2",
     "rollup": "^4.26.0",
     "rollup-plugin-delete": "^2.1.0",
     "rollup-plugin-flat-dts": "^2.8.0",
