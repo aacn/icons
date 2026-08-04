@@ -646,7 +646,7 @@ is-fullwidth-code-point@^5.0.0:
   dependencies:
     get-east-asian-width "^1.0.0"
 
-is-glob@^4.0.1, is-glob@^4.0.3:
+is-glob@^4.0.1:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/is-glob/-/is-glob-4.0.3.tgz#64f61e42cbbb2eec2071a9dac0b28ba1e65d5084"
   integrity sha512-xelSayHH36ZgE7ZWhli7pW34hNbNl8Ojv5KVmkJD4hBdD3th8Tfk9vYasLM+mXWOZhFkgZfxhLSnrwRr4elSSg==
@@ -912,15 +912,6 @@ rollup-plugin-delete@^2.1.0:
   dependencies:
     del "^6.1.1"
 
-rollup-plugin-flat-dts@^2.8.0:
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-flat-dts/-/rollup-plugin-flat-dts-2.9.0.tgz#991998a0ba71f5bb1bbd3817897d1feae8235239"
-  integrity sha512-aWauYJbLGyCEQ9ksPfVw7jip/K5UdFTddnb3EvybYgajOEPLw6A6hNs1tGu2P3Q5CAgeUf6K5gJ4GwDBDkSyJA==
-  dependencies:
-    is-glob "^4.0.3"
-    micromatch "^4.0.8"
-    source-map "^0.7.4"
-
 rollup-plugin-inject@^3.0.0:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/rollup-plugin-inject/-/rollup-plugin-inject-3.0.2.tgz#e4233855bfba6c0c12a312fd6649dff9a13ee9f4"
@@ -1041,11 +1032,6 @@ slice-ansi@^7.1.0:
   dependencies:
     ansi-styles "^6.2.1"
     is-fullwidth-code-point "^5.0.0"
-
-source-map@^0.7.4:
-  version "0.7.6"
-  resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.7.6.tgz#a3658ab87e5b6429c8a1f3ba0083d4c61ca3ef02"
-  integrity sha512-i5uvt8C3ikiWeNZSVZNWcfZPItFQOsYTUAOkcUPGd8DqDy1uOUikjt5dG+uRlwyvR108Fb9DOd4GvXfT0N2/uQ==
 
 sourcemap-codec@^1.4.8:
   version "1.4.8"

@@ -74,6 +74,8 @@ test('the legacy root barrel remains functional', async (context) => {
   try {
     const root = await import('../dist/index.esm.js');
     assert.equal(typeof root.HeadsetIcon, 'function');
+    assert.equal(root.default.HeadsetIcon, root.HeadsetIcon);
+    assert.equal(root.Outline.HeadsetIcon, root.HeadsetIcon);
   } catch (error) {
     if (
       error?.code === 'ERR_MODULE_NOT_FOUND' &&
@@ -84,4 +86,33 @@ test('the legacy root barrel remains functional', async (context) => {
     }
     throw error;
   }
+});
+
+test('the ESM root re-exports individual icon modules', async () => {
+  const rootSource = await readFile(
+    new URL('../dist/index.esm.js', import.meta.url),
+    'utf8'
+  );
+
+  assert.match(
+    rootSource,
+    /export \{ default as HeadsetIcon \} from '\.\/icons\/HeadsetIcon\.js';/
+  );
+  assert.match(rootSource, /from '\.\/index\.legacy\.esm\.js';/);
+  assert.doesNotMatch(rootSource, /function HeadsetIcon/);
+  assert.doesNotMatch(rootSource, /react\/jsx-runtime/);
+});
+
+test('root declarations expose only the root API', async () => {
+  const rootDeclarations = await readFile(
+    new URL('../dist/index.d.ts', import.meta.url),
+    'utf8'
+  );
+
+  assert.match(
+    rootDeclarations,
+    /export \{ default as HeadsetIcon \} from '\.\/icons\/HeadsetIcon\.js';/
+  );
+  assert.doesNotMatch(rootDeclarations, /iconNames|getIconLoader|NativeIconId/);
+  assert.equal((rootDeclarations.match(/export default/g) ?? []).length, 1);
 });
