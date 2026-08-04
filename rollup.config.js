@@ -5,7 +5,6 @@ import commonjs from '@rollup/plugin-commonjs';
 import json from '@rollup/plugin-json';
 import { nodeResolve } from '@rollup/plugin-node-resolve';
 import del from 'rollup-plugin-delete';
-import flatDts from 'rollup-plugin-flat-dts';
 import nodePolyfills from 'rollup-plugin-node-polyfills';
 import prettier from 'rollup-plugin-prettier';
 import { swc } from 'rollup-plugin-swc3';
@@ -22,18 +21,19 @@ const external = [
 const identifierSource = 'src/identifiers.ts';
 const loaderSource = 'src/loader.ts';
 const iconIndexFiles = [
-  'src/outline/index.ts',
-  'src/filled/index.ts',
-  'src/chars/index.ts',
+  { category: 'Outline', file: 'src/outline/index.ts' },
+  { category: 'Filled', file: 'src/filled/index.ts' },
+  { category: 'Chars', file: 'src/chars/index.ts' },
 ];
 
 function getIconEntries() {
-  const entries = iconIndexFiles.flatMap((file) =>
+  const entries = iconIndexFiles.flatMap(({ category, file }) =>
     Array.from(
       readFileSync(file, 'utf8').matchAll(
         /^export \{ (\w+) \} from '\.\/([^']+)';$/gm
       ),
       ([, name, source]) => ({
+        category,
         name,
         sourceFile: path.resolve(path.dirname(file), `${source}.tsx`),
       })
@@ -68,6 +68,99 @@ function iconIdentifiers(entries) {
     name: 'icon-identifiers',
     transform(_, id) {
       return id === path.resolve(identifierSource) ? { code, map: null } : null;
+    },
+  };
+}
+
+function rootEsmBarrel(entries) {
+  const iconExports = entries
+    .map(
+      ({ name }) => `export { default as ${name} } from './icons/${name}.js';`
+    )
+    .join('\n');
+
+  const code = [
+    iconExports,
+    "export { default, Outline, Filled, Chars } from './index.legacy.esm.js';",
+    '',
+  ].join('\n');
+
+  return {
+    name: 'root-esm-barrel',
+    renderChunk() {
+      return { code, map: null };
+    },
+  };
+}
+
+function legacyEsmModule(entries) {
+  const imports = entries
+    .map(({ name }) => `import ${name} from './icons/${name}.js';`)
+    .join('\n');
+  const categories = iconIndexFiles
+    .map(({ category }) => {
+      const names = entries
+        .filter((entry) => entry.category === category)
+        .map(({ name }) => name)
+        .join(', ');
+      return `const ${category} = { ${names} };`;
+    })
+    .join('\n');
+  const categoryNames = iconIndexFiles.map(({ category }) => category);
+  const code = [
+    imports,
+    '',
+    categories,
+    '',
+    `const icons = { ${categoryNames.map((name) => `...${name}`).join(', ')} };`,
+    '',
+    `export { ${categoryNames.join(', ')}, icons as default };`,
+    '',
+  ].join('\n');
+
+  return {
+    name: 'legacy-esm-module',
+    renderChunk() {
+      return { code, map: null };
+    },
+  };
+}
+
+function rootDeclarations(entries) {
+  const iconExports = entries
+    .map(
+      ({ name }) => `export { default as ${name} } from './icons/${name}.js';`
+    )
+    .join('\n');
+  const categories = iconIndexFiles
+    .map(({ category }) => {
+      const properties = entries
+        .filter((entry) => entry.category === category)
+        .map(
+          ({ name }) =>
+            `  ${name}: typeof import('./icons/${name}.js').default;`
+        )
+        .join('\n');
+      return `export declare const ${category}: {\n${properties}\n};`;
+    })
+    .join('\n\n');
+
+  return {
+    name: 'root-declarations',
+    generateBundle() {
+      this.emitFile({
+        type: 'asset',
+        fileName: 'index.d.ts',
+        source: [
+          iconExports,
+          '',
+          categories,
+          '',
+          'declare const icons: typeof Outline & typeof Filled & typeof Chars;',
+          'export default icons;',
+          '',
+        ].join('\n'),
+      });
     },
   };
 }
@@ -158,7 +251,7 @@ function loaderDeclarations() {
         fileName: 'loader.d.ts',
         source: [
           "import type { JSX, SVGProps } from 'react';",
-          "import type { NativeIconId } from './icon-types';",
+          "import type { NativeIconId } from './icon-types.js';",
           '',
           'export type { NativeIconId };',
           '',
@@ -191,7 +284,7 @@ function identifierDeclarations(entries) {
         type: 'asset',
         fileName: 'identifiers.d.ts',
         source:
-          "import type { NativeIconId } from './icon-types';\nexport declare const iconNames: readonly NativeIconId[];\nexport default iconNames;\n",
+          "import type { NativeIconId } from './icon-types.js';\nexport declare const iconNames: readonly NativeIconId[];\nexport default iconNames;\n",
       });
       this.emitFile({
         type: 'asset',
@@ -237,12 +330,25 @@ const config = [
     ],
     output: [
       // Outputs the packaged lib in CommonJS format
-      { file: pkg.main, format: 'cjs', plugins: [flatDts()], exports: 'named' },
-      // Outputs the packaged lib in ES Module format
+      {
+        file: pkg.main,
+        format: 'cjs',
+        plugins: [rootDeclarations(iconEntries)],
+        exports: 'named',
+      },
+      // Preserves the previous ESM default and category namespace exports.
+      {
+        file: 'dist/index.legacy.esm.js',
+        format: 'esm',
+        plugins: [legacyEsmModule(iconEntries)],
+        exports: 'named',
+      },
+      // Keeps named root imports ergonomic while exposing per-icon module edges
+      // to consumer bundlers and Next.js package-import optimization.
       {
         file: pkg.module,
         format: 'esm',
-        plugins: [flatDts()],
+        plugins: [rootEsmBarrel(iconEntries)],
         exports: 'named',
       },
     ],

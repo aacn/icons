@@ -1,9 +1,9 @@
 # Native systems icons package
 This package contains components and types, which are used across native systems software projects.
 
-## Version 4.0
+## Version 4.1
 
-Version 4.0 adds independently importable icon modules and a CMS-friendly
+Version 4.1 adds independently importable icon modules and a CMS-friendly
 asynchronous loader while preserving the existing root exports. Existing named
 and CommonJS imports continue to work without migration. Applications that
 resolve icon names dynamically should use `@native-systems/icons/loader` to keep
@@ -59,16 +59,27 @@ const loader = isNativeIconId(cmsIconId) ? getIconLoader(cmsIconId) : null;
 const LazyIcon = loader ? React.lazy(loader) : null;
 ```
 
-Individual imports are also available when the icon is known at build time:
+Every icon is emitted as an individual file, while the ESM root re-exports those
+files so applications can keep concise named imports. Direct imports remain
+available when an explicit per-icon module path is preferred:
 
 ```ts
 import HeadsetIcon from '@native-systems/icons/icons/HeadsetIcon';
 ```
 
-The loader entry point (`@native-systems/icons/loader`) is separate from the
-legacy root barrel (`@native-systems/icons`). Importing the root barrel still
-supports existing named imports, but it intentionally includes the complete
-legacy icon set.
+Next.js applications can optimize named imports from the root entry point:
+
+```js
+// next.config.js
+module.exports = {
+  experimental: {
+    optimizePackageImports: ['@native-systems/icons'],
+  },
+};
+```
+
+The loader entry point (`@native-systems/icons/loader`) remains separate from
+the root barrel and should be used for asynchronous CMS-driven icon selection.
 
 ## Steps to deploy new version
 1. Update package version.

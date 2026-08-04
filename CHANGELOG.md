@@ -4,6 +4,27 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [4.1.0] - 2026-08-04
+
+## Added
+
+- Generated the ESM root as a per-icon re-export barrel so bundlers can follow
+  named imports to individual icon modules while preserving the existing root
+  import syntax.
+- Added Next.js import-optimization guidance for keeping named imports concise.
+
+## Changed
+
+- Preserved default and category namespace compatibility through the generated
+  legacy ESM aggregator.
+- Added strict generated declaration type-checking to the package test command.
+
+## Fixed
+
+- Fixed root declarations leaking the loader and React-free identifier APIs.
+- Fixed duplicate default declarations in `dist/index.d.ts`.
+- Fixed NodeNext declaration resolution for generated type imports.
+
 ## [4.0.0] - 2026-08-04
 
 ## Added
