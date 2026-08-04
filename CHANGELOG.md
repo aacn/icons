@@ -4,6 +4,32 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [4.0.0] - 2026-08-04
+
+## Added
+
+- Added `@native-systems/icons/loader` with `getIconLoader`, `loadIconById`,
+  `isNativeIconId`, and the corresponding public types for safely resolving
+  CMS-provided icon identifiers.
+- Added independently importable ESM and CommonJS modules, plus declarations,
+  for every icon under `@native-systems/icons/icons/*`.
+- Added a generated `NativeIconId` union shared by the loader and the typed
+  React-free `iconNames` collection.
+
+## Changed
+
+- Preserved icon module boundaries so dynamic imports produce separate icon
+  chunks instead of loading the complete root bundle.
+- Marked the package as side-effect-free to improve consumer tree shaking.
+- Updated React development dependencies to the React 19.2 release line.
+
+## Compatibility
+
+- Existing named imports from `@native-systems/icons` remain supported.
+- Existing CommonJS consumers remain supported.
+- The loader is exposed through its own subpath and is not re-exported from the
+  legacy root barrel.
+
 ## [3.8.0] - 2026-08-02
 
 ## Added
