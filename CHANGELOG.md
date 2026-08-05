@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [4.1.1] - 2026-08-05
+
+### Renamed Icons
+
+- `outline/CarTruck2Icon` → `outline/CarTruck1Icon`
+
+### Removed Icons
+
+- `outline/CarTruck1Icon`
+- `outline/Card1Icon`
+- `outline/ArrowDownTrayIcon`
+
 ## [4.1.0] - 2026-08-04
 
 ## Added
