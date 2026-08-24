@@ -10,7 +10,7 @@ function GroupWatchIcon(props: SVGProps<SVGSVGElement>) {
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
-      <g clip-path="url(#clip0_6858_3111)">
+      <g clipPath="url(#clip0_6858_3111)">
         <path
           d="M10.3991 13.2085C10.3991 11.9432 9.37337 10.9175 8.10806 10.9175C6.84275 10.9175 5.81702 11.9432 5.81702 13.2085"
           stroke="currentColor"
