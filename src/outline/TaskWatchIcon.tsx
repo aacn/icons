@@ -10,7 +10,7 @@ function TaskWatchIcon(props: SVGProps<SVGSVGElement>) {
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
-      <g clip-path="url(#clip0_6851_2951)">
+      <g clipPath="url(#clip0_6851_2951)">
         <path
           d="M16.1081 4.06445C17.7841 4.06445 19.1428 5.42317 19.1428 7.09923V11.458M7.89159 4.06445C6.21553 4.06445 4.85681 5.42317 4.85681 7.09923V17.4364C4.85681 19.1125 6.21552 20.4712 7.89158 20.4712H11.6677"
           stroke="currentColor"
