@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [4.1.2] - 2026-08-24
 
-### Fixed
+## Fixed
 
 - Replaced the react invalid DOM attribute `clip-path` with `clipPath`.
 
