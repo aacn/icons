@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [4.1.3] - 2026-10-02
+
+## Fixed
+
+- Replaced the react invalid DOM attribute `stroke-miterlimit` with `strokeMiterlimit`.
+- Replaced the react invalid DOM attribute `stroke-dasharray` with `strokeDasharray`.
+
 ## [4.1.2] - 2026-08-24
 
 ## Fixed

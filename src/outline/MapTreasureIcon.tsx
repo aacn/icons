@@ -14,7 +14,7 @@ function MapTreasureIcon(props: SVGProps<SVGSVGElement>) {
         d="M15.8111 12.8234C15.8111 12.8234 15.8683 9.90219 13.0419 9.01195C10.2155 8.12172 9.49697 13.7957 7.05959 12.8233C4.62221 11.8508 6.01913 7.99367 6.01913 7.99367"
         stroke="currentColor"
         strokeLinecap="round"
-        stroke-dasharray="0.67 2"
+        strokeDasharray="0.67 2"
       />
       <path
         d="M13.9734 14.4038L17.5004 17.9308"
